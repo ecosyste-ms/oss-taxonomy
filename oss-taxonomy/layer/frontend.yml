@@ -1,0 +1,18 @@
+name: frontend
+description: Software that runs in the browser or handles the user interface layer.
+examples:
+  - react
+  - vue
+  - angular
+related:
+  - backend
+  - full-stack
+aliases:
+  - client-side
+ecosystems:
+  - npm
+  - yarn
+tags:
+  - ui
+  - client
+  - javascript

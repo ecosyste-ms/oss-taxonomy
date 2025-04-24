@@ -1,0 +1,18 @@
+name: infrastructure
+description: Software for provisioning and managing infrastructure, including networking and systems.
+examples:
+  - terraform
+  - ansible
+  - kubernetes
+related:
+  - automation
+  - devops
+aliases:
+  - ops
+ecosystems:
+  - pypi
+  - apt
+tags:
+  - configuration
+  - orchestration
+  - infrastructure-as-code
