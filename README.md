@@ -29,6 +29,43 @@ You can use this taxonomy to:
 
 A combined JSON file is automatically generated (`combined.json`) for easy loading into apps.
 
+## 📘 Term Format
+
+Each `.yml` file in a facet folder defines a single **term**. Here's the recommended structure:
+
+```yaml
+name: web-development
+description: Software for building websites, web apps, and APIs.
+examples:
+  - react
+  - nextjs
+  - rails
+related:
+  - frontend
+  - backend
+aliases:
+  - webdev
+  - webdevelopment
+ecosystems:
+  - npm
+  - rubygems
+tags:
+  - html
+  - css
+  - javascript
+```
+
+### Key Descriptions
+
+- `name`: A unique identifier for the term.
+- `description`: A human-readable explanation of the term.
+- `examples`: A short list of well-known software projects that fit this term.
+- `related`: Other taxonomy terms that are conceptually connected.
+- `aliases`: Synonyms or common alternative names.
+- `ecosystems`: Related package managers or software ecosystems.
+- `tags`: Freeform tags for searching, filtering, or visualization.
+
+
 ## 🤝 Contributing
 
 We welcome contributions! To add or improve a term:
