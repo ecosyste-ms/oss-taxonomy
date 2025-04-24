@@ -1,0 +1,19 @@
+name: ci-cd
+description: Software for automating continuous integration and continuous deployment workflows.
+examples:
+  - jenkins
+  - circleci
+  - github-actions
+related:
+  - developer
+  - automation
+aliases:
+  - continuous-integration
+  - continuous-deployment
+ecosystems:
+  - npm
+  - pypi
+tags:
+  - automation
+  - deployment
+  - pipelines

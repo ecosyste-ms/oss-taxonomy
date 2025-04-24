@@ -1,0 +1,18 @@
+name: visualization
+description: Software for creating charts, graphs, and visual representations of data.
+examples:
+  - d3.js
+  - matplotlib
+  - plotly
+related:
+  - data-science
+  - analysis
+aliases:
+  - data-visualization
+ecosystems:
+  - npm
+  - pypi
+tags:
+  - charts
+  - graphs
+  - interactive
