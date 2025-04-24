@@ -1,0 +1,18 @@
+name: cli-tool
+description: Software that provides a command-line interface for interaction.
+examples:
+  - git
+  - wget
+  - curl
+related:
+  - library
+  - service
+aliases:
+  - command-line-tool
+ecosystems:
+  - npm
+  - pypi
+tags:
+  - terminal
+  - command-line
+  - utility

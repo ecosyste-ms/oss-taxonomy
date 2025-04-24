@@ -1,0 +1,18 @@
+name: framework
+description: Software that provides a structured foundation to build applications.
+examples:
+  - django
+  - react
+  - rails
+related:
+  - library
+  - sdk
+aliases:
+  - web-framework
+ecosystems:
+  - rubygems
+  - npm
+tags:
+  - mvc
+  - architecture
+  - backend
