@@ -1,0 +1,19 @@
+name: scientific-computing
+description: Software used in computational research and scientific modeling.
+examples:
+  - scipy
+  - matplotlib
+  - fortran
+related:
+  - data-science
+  - simulation
+aliases:
+  - computational-science
+  - scientific-software
+ecosystems:
+  - pypi
+  - conda
+tags:
+  - numerical
+  - research
+  - python

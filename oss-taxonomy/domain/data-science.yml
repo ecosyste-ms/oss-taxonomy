@@ -1,0 +1,19 @@
+name: data-science
+description: Software for analyzing, processing, and visualizing data.
+examples:
+  - pandas
+  - numpy
+  - jupyter
+related:
+  - scientific-computing
+  - machine-learning
+aliases:
+  - ds
+  - data-analysis
+ecosystems:
+  - pypi
+  - conda
+tags:
+  - statistics
+  - notebooks
+  - python

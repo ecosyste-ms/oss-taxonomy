@@ -1,0 +1,18 @@
+name: web-development
+description: Software for building websites, web apps, and APIs.
+examples:
+  - react
+  - nextjs
+  - rails
+related:
+  - frontend
+  - backend
+aliases:
+  - webdev
+ecosystems:
+  - npm
+  - rubygems
+tags:
+  - html
+  - css
+  - javascript
