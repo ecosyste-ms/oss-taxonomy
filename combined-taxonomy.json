@@ -1,0 +1,465 @@
+{
+  "audience": [
+    {
+      "name": "developer",
+      "description": "Software intended for developers and programmers.",
+      "examples": [
+        "vscode",
+        "jetbrains-ide",
+        "sublime-text"
+      ],
+      "related": [
+        "sysadmin",
+        "end-user"
+      ],
+      "aliases": [
+        "dev",
+        "programmer"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "code",
+        "development",
+        "productivity"
+      ]
+    },
+    {
+      "name": "researcher",
+      "description": "Software used by researchers for data analysis, simulations, and experiments.",
+      "examples": [
+        "jupyter",
+        "matlab",
+        "r"
+      ],
+      "related": [
+        "data-science",
+        "scientific-computing"
+      ],
+      "aliases": [
+        "scientist"
+      ],
+      "ecosystems": [
+        "conda",
+        "pypi"
+      ],
+      "tags": [
+        "academic",
+        "research",
+        "analysis"
+      ]
+    },
+    {
+      "name": "sysadmin",
+      "description": "Software for system administrators managing servers, networks, and infrastructure.",
+      "examples": [
+        "ansible",
+        "puppet",
+        "terraform"
+      ],
+      "related": [
+        "developer",
+        "infrastructure"
+      ],
+      "aliases": [
+        "system-administrator"
+      ],
+      "ecosystems": [
+        "pypi",
+        "apt"
+      ],
+      "tags": [
+        "automation",
+        "infrastructure",
+        "configuration"
+      ]
+    }
+  ],
+  "domain": [
+    {
+      "name": "data-science",
+      "description": "Software for analyzing, processing, and visualizing data.",
+      "examples": [
+        "pandas",
+        "numpy",
+        "jupyter"
+      ],
+      "related": [
+        "scientific-computing",
+        "machine-learning"
+      ],
+      "aliases": [
+        "ds",
+        "data-analysis"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "statistics",
+        "notebooks",
+        "python"
+      ]
+    },
+    {
+      "name": "scientific-computing",
+      "description": "Software used in computational research and scientific modeling.",
+      "examples": [
+        "scipy",
+        "matplotlib",
+        "fortran"
+      ],
+      "related": [
+        "data-science",
+        "simulation"
+      ],
+      "aliases": [
+        "computational-science",
+        "scientific-software"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "numerical",
+        "research",
+        "python"
+      ]
+    },
+    {
+      "name": "web-development",
+      "description": "Software for building websites, web apps, and APIs.",
+      "examples": [
+        "react",
+        "nextjs",
+        "rails"
+      ],
+      "related": [
+        "frontend",
+        "backend"
+      ],
+      "aliases": [
+        "webdev"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    }
+  ],
+  "function": [
+    {
+      "name": "ci-cd",
+      "description": "Software for automating continuous integration and continuous deployment workflows.",
+      "examples": [
+        "jenkins",
+        "circleci",
+        "github-actions"
+      ],
+      "related": [
+        "developer",
+        "automation"
+      ],
+      "aliases": [
+        "continuous-integration",
+        "continuous-deployment"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "automation",
+        "deployment",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "scraping",
+      "description": "Software for extracting data from websites or online sources.",
+      "examples": [
+        "beautifulsoup",
+        "scrapy",
+        "puppeteer"
+      ],
+      "related": [
+        "developer",
+        "data-science"
+      ],
+      "aliases": [
+        "web-scraping"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm"
+      ],
+      "tags": [
+        "extraction",
+        "data-mining",
+        "web"
+      ]
+    },
+    {
+      "name": "visualization",
+      "description": "Software for creating charts, graphs, and visual representations of data.",
+      "examples": [
+        "d3.js",
+        "matplotlib",
+        "plotly"
+      ],
+      "related": [
+        "data-science",
+        "analysis"
+      ],
+      "aliases": [
+        "data-visualization"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "charts",
+        "graphs",
+        "interactive"
+      ]
+    }
+  ],
+  "layer": [
+    {
+      "name": "backend",
+      "description": "Server-side software that handles business logic and database interactions.",
+      "examples": [
+        "node.js",
+        "django",
+        "ruby-on-rails"
+      ],
+      "related": [
+        "frontend",
+        "full-stack"
+      ],
+      "aliases": [
+        "server-side"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "server",
+        "api",
+        "database"
+      ]
+    },
+    {
+      "name": "frontend",
+      "description": "Software that runs in the browser or handles the user interface layer.",
+      "examples": [
+        "react",
+        "vue",
+        "angular"
+      ],
+      "related": [
+        "backend",
+        "full-stack"
+      ],
+      "aliases": [
+        "client-side"
+      ],
+      "ecosystems": [
+        "npm",
+        "yarn"
+      ],
+      "tags": [
+        "ui",
+        "client",
+        "javascript"
+      ]
+    },
+    {
+      "name": "infrastructure",
+      "description": "Software for provisioning and managing infrastructure, including networking and systems.",
+      "examples": [
+        "terraform",
+        "ansible",
+        "kubernetes"
+      ],
+      "related": [
+        "automation",
+        "devops"
+      ],
+      "aliases": [
+        "ops"
+      ],
+      "ecosystems": [
+        "pypi",
+        "apt"
+      ],
+      "tags": [
+        "configuration",
+        "orchestration",
+        "infrastructure-as-code"
+      ]
+    }
+  ],
+  "role": [
+    {
+      "name": "cli-tool",
+      "description": "Software that provides a command-line interface for interaction.",
+      "examples": [
+        "git",
+        "wget",
+        "curl"
+      ],
+      "related": [
+        "library",
+        "service"
+      ],
+      "aliases": [
+        "command-line-tool"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "terminal",
+        "command-line",
+        "utility"
+      ]
+    },
+    {
+      "name": "framework",
+      "description": "Software that provides a structured foundation to build applications.",
+      "examples": [
+        "django",
+        "react",
+        "rails"
+      ],
+      "related": [
+        "library",
+        "sdk"
+      ],
+      "aliases": [
+        "web-framework"
+      ],
+      "ecosystems": [
+        "rubygems",
+        "npm"
+      ],
+      "tags": [
+        "mvc",
+        "architecture",
+        "backend"
+      ]
+    },
+    {
+      "name": "sdk",
+      "description": "A software development kit that includes tools and libraries to build applications for a platform.",
+      "examples": [
+        "android-sdk",
+        "aws-sdk",
+        "google-cloud-sdk"
+      ],
+      "related": [
+        "library",
+        "plugin"
+      ],
+      "aliases": [
+        "software-development-kit"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "platform",
+        "development",
+        "tools"
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "name": "docker",
+      "description": "A platform for automating the deployment, scaling, and management of applications using containers.",
+      "examples": [
+        "docker-compose",
+        "kubernetes",
+        "docker-swarm"
+      ],
+      "related": [
+        "containerization",
+        "infrastructure"
+      ],
+      "aliases": [
+        "container-platform"
+      ],
+      "ecosystems": [
+        "dockerhub"
+      ],
+      "tags": [
+        "containers",
+        "virtualization",
+        "devops"
+      ]
+    },
+    {
+      "name": "react",
+      "description": "A JavaScript library for building user interfaces, primarily for single-page applications.",
+      "examples": [
+        "create-react-app",
+        "nextjs",
+        "gatsby"
+      ],
+      "related": [
+        "frontend",
+        "javascript"
+      ],
+      "aliases": [
+        "reactjs"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "ui",
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "rust",
+      "description": "A systems programming language focused on safety, speed, and concurrency.",
+      "examples": [
+        "rocket",
+        "actix",
+        "rust-analyzer"
+      ],
+      "related": [
+        "programming-language",
+        "backend"
+      ],
+      "aliases": [
+        "systems-language"
+      ],
+      "ecosystems": [
+        "crates.io"
+      ],
+      "tags": [
+        "memory-safety",
+        "concurrency",
+        "performance"
+      ]
+    }
+  ]
+}

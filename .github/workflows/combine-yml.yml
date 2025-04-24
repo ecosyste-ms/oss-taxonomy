@@ -1,0 +1,35 @@
+name: Combine YML Files into JSON
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  combine_yml_to_json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+
+      - name: Install dependencies with Bundler
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Run combine script
+        run: |
+          bundle exec ruby ./combine_yml_to_json.rb
+          
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Update combined-taxonomy.json'
+          add: 'combined-taxonomy.json'

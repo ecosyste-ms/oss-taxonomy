@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.11.1)
+    yaml (0.4.0)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  json
+  yaml
+
+CHECKSUMS
+  json (2.11.1) sha256=2ea33737cd5d58e3245ac62783dfdd554138c5425dbe23e4f7b5f362635f87b9
+  yaml (0.4.0) sha256=240e69d1e6ce3584d6085978719a0faa6218ae426e034d8f9b02fb54d3471942
+
+BUNDLED WITH
+   2.6.8

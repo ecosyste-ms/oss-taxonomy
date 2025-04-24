@@ -27,7 +27,7 @@ You can use this taxonomy to:
 - Create visualizations of the open-source landscape
 - Build recommendation engines
 
-A combined JSON file is automatically generated (`combined.json`) for easy loading into apps.
+A combined JSON file is automatically generated (`combined-taxonomy.json`) for easy loading into apps. This file is always up-to-date and reflects the latest taxonomy changes.
 
 ## 📘 Term Format
 
