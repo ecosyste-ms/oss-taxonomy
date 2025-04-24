@@ -1,0 +1,17 @@
+name: docker
+description: A platform for automating the deployment, scaling, and management of applications using containers.
+examples:
+  - docker-compose
+  - kubernetes
+  - docker-swarm
+related:
+  - containerization
+  - infrastructure
+aliases:
+  - container-platform
+ecosystems:
+  - dockerhub
+tags:
+  - containers
+  - virtualization
+  - devops

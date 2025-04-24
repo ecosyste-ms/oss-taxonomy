@@ -65,7 +65,6 @@ tags:
 - `ecosystems`: Related package managers or software ecosystems.
 - `tags`: Freeform tags for searching, filtering, or visualization.
 
-
 ## 🤝 Contributing
 
 We welcome contributions! To add or improve a term:

@@ -1,0 +1,17 @@
+name: react
+description: A JavaScript library for building user interfaces, primarily for single-page applications.
+examples:
+  - create-react-app
+  - nextjs
+  - gatsby
+related:
+  - frontend
+  - javascript
+aliases:
+  - reactjs
+ecosystems:
+  - npm
+tags:
+  - ui
+  - javascript
+  - frontend

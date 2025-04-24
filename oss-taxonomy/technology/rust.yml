@@ -1,0 +1,17 @@
+name: rust
+description: A systems programming language focused on safety, speed, and concurrency.
+examples:
+  - rocket
+  - actix
+  - rust-analyzer
+related:
+  - programming-language
+  - backend
+aliases:
+  - systems-language
+ecosystems:
+  - crates.io
+tags:
+  - memory-safety
+  - concurrency
+  - performance
