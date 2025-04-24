@@ -1,0 +1,30 @@
+name: Lint YML Files
+
+on:
+  pull_request:
+    paths:
+      - 'oss-taxonomy/**/*.yml'
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+
+      - name: Install dependencies with Bundler
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Run YML linting
+        run: |
+          bundle exec ruby ./lint_yml_files.rb
