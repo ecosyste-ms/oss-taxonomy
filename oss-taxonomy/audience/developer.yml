@@ -1,0 +1,19 @@
+name: developer
+description: Software intended for developers and programmers.
+examples:
+  - vscode
+  - jetbrains-ide
+  - sublime-text
+related:
+  - sysadmin
+  - end-user
+aliases:
+  - dev
+  - programmer
+ecosystems:
+  - npm
+  - rubygems
+tags:
+  - code
+  - development
+  - productivity
