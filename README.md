@@ -1,4 +1,4 @@
-# oss-taxonomy
+# OSS Taxonomy
 
 A structured, open-source taxonomy for classifying open source software projects.
 
@@ -8,12 +8,12 @@ This project defines a flexible and extensible classification system for open-so
 
 Each folder in this repository is a **facet**, containing YAML files that define individual **terms**.
 
-- [`domain/`](domain/) — The industry or field (e.g., `data-science`, `web-development`)
-- [`role/`](role/) — The role the software plays (e.g., `framework`, `cli-tool`)
-- [`technology/`](technology/) — Technologies used or supported (e.g., `rust`, `docker`)
-- [`audience/`](audience/) — Who the software is for (e.g., `developer`, `researcher`)
-- [`layer/`](layer/) — Where it sits in the stack (e.g., `frontend`, `infrastructure`)
-- [`function/`](function/) — What the software does (e.g., `visualization`, `ci-cd`)
+- [`domain`](oss-taxonomy/domain/) — The industry or field (e.g., `data-science`, `web-development`, `embedded-systems`, `scientific-computing`)
+- [`role`](oss-taxonomy/role/) — The role the software plays (e.g., `framework`, `cli-tool`, `library`, `plugin`)
+- [`technology`](oss-taxonomy/technology/) — Technologies used or supported (e.g., `rust`, `docker`, `react`, `graphql`)
+- [`audience`](oss-taxonomy/audience/) — Who the software is for (e.g., `developer`, `researcher`, `end-user`, `sysadmin`)
+- [`layer`](oss-taxonomy/layer/) — Where it sits in the stack (e.g., `frontend`, `infrastructure`, `backend`, `data-layer`)
+- [`function`](oss-taxonomy/function/) — What the software does (e.g., `visualization`, `ci-cd`, `scraping`, `deployment`)
 
 ## 🛠 Usage
 
