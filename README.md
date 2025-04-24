@@ -8,7 +8,7 @@ This project defines a flexible and extensible classification system for open-so
 
 Each folder in this repository is a **facet**, containing YAML files that define individual **terms**.
 
-- [Domain](oss-taxonomy/domain/) — The industry or field (e.g., `data-science`, `web-development`, `embedded-systems`, `scientific-computing`)
+- [Domain](oss-taxonomy/domain/) — The industry or field (e.g., `data-science`, `web-development`, `embedded-systems`)
 - [Role](oss-taxonomy/role/) — The role the software plays (e.g., `framework`, `cli-tool`, `library`, `plugin`)
 - [Technology](oss-taxonomy/technology/) — Technologies used or supported (e.g., `rust`, `docker`, `react`, `graphql`)
 - [Audience](oss-taxonomy/audience/) — Who the software is for (e.g., `developer`, `researcher`, `end-user`, `sysadmin`)
