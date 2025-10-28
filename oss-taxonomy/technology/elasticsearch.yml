@@ -1,0 +1,22 @@
+name: elasticsearch
+description: A distributed search and analytics engine built on Apache Lucene for full-text search and logging.
+examples:
+  - kibana
+  - logstash
+  - beats
+related:
+  - search
+  - database
+  - data-layer
+aliases:
+  - elastic
+  - es
+ecosystems:
+  - docker
+  - npm
+  - pypi
+tags:
+  - search
+  - analytics
+  - distributed
+  - full-text

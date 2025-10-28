@@ -1,0 +1,20 @@
+name: end-user
+description: Software designed for non-technical users and general consumers.
+examples:
+  - firefox
+  - obs-studio
+  - blender
+related:
+  - consumer
+  - desktop
+aliases:
+  - consumer
+  - general-user
+ecosystems:
+  - homebrew
+  - npm
+tags:
+  - end-user
+  - consumer
+  - desktop
+  - gui

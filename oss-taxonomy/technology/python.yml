@@ -1,0 +1,20 @@
+name: python
+description: A high-level, interpreted programming language known for readability and versatility across domains.
+examples:
+  - django
+  - flask
+  - pandas
+related:
+  - data-science
+  - machine-learning
+  - backend
+aliases:
+  - py
+ecosystems:
+  - pypi
+  - conda
+tags:
+  - programming-language
+  - scripting
+  - data-science
+  - backend

@@ -1,0 +1,23 @@
+name: cloud-computing
+description: Cloud-native applications, serverless frameworks, and cloud infrastructure tools.
+examples:
+  - aws-cdk
+  - serverless
+  - pulumi
+related:
+  - devops
+  - infrastructure
+  - serverless
+aliases:
+  - cloud-native
+  - serverless
+ecosystems:
+  - npm
+  - pypi
+  - go
+  - nuget
+tags:
+  - cloud
+  - serverless
+  - aws
+  - azure

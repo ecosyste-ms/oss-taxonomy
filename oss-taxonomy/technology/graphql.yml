@@ -1,0 +1,20 @@
+name: graphql
+description: A query language for APIs and runtime for executing queries with existing data.
+examples:
+  - apollo-server
+  - graphql-yoga
+  - relay
+related:
+  - api
+  - backend
+  - web-development
+aliases:
+  - graph-ql
+ecosystems:
+  - npm
+  - pypi
+tags:
+  - api
+  - query-language
+  - backend
+  - data

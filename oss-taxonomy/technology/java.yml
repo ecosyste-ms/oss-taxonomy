@@ -1,0 +1,18 @@
+name: java
+description: An object-oriented programming language designed for portability and used in enterprise applications.
+examples:
+  - spring-boot
+  - maven
+  - hibernate
+related:
+  - backend
+  - enterprise
+aliases:
+  - jvm
+ecosystems:
+  - maven
+tags:
+  - programming-language
+  - object-oriented
+  - enterprise
+  - jvm

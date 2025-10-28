@@ -1,0 +1,19 @@
+name: swift
+description: A powerful, modern programming language developed by Apple for iOS, macOS, and other Apple platforms.
+examples:
+  - vapor
+  - swiftui
+  - alamofire
+related:
+  - ios
+  - mobile-development
+aliases:
+  - swift-lang
+ecosystems:
+  - swiftpm
+  - cocoapods
+tags:
+  - programming-language
+  - apple
+  - ios
+  - mobile

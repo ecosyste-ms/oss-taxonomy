@@ -1,0 +1,21 @@
+name: editor
+description: Text editors and integrated development environments for writing and editing code.
+examples:
+  - vscode
+  - vim
+  - neovim
+related:
+  - ide
+  - developer-tools
+aliases:
+  - text-editor
+  - code-editor
+  - ide
+ecosystems:
+  - homebrew
+  - npm
+tags:
+  - editor
+  - ide
+  - development
+  - tools

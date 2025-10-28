@@ -1,0 +1,22 @@
+name: library
+description: Reusable code modules, packages, and utilities that provide specific functionality.
+examples:
+  - lodash
+  - pandas
+  - requests
+related:
+  - framework
+  - sdk
+aliases:
+  - package
+  - module
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - cargo
+  - maven
+tags:
+  - utilities
+  - reusable
+  - components

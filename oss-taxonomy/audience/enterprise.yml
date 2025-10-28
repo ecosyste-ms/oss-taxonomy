@@ -1,0 +1,23 @@
+name: enterprise
+description: Software for business organizations, corporate environments, and large-scale deployments.
+examples:
+  - gitlab
+  - kubernetes
+  - jenkins
+related:
+  - business
+  - corporate
+aliases:
+  - business
+  - corporate
+  - organization
+ecosystems:
+  - docker
+  - maven
+  - nuget
+  - npm
+tags:
+  - enterprise
+  - business
+  - corporate
+  - scalability

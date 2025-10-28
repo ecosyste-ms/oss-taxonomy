@@ -1,0 +1,22 @@
+name: networking
+description: Software for network infrastructure, protocols, routing, DNS, VPNs, and network management.
+examples:
+  - wireshark
+  - openvpn
+  - dnsmasq
+related:
+  - infrastructure
+  - security
+  - network-layer
+aliases:
+  - network-infrastructure
+  - network-protocols
+ecosystems:
+  - docker
+  - homebrew
+  - pypi
+tags:
+  - networking
+  - infrastructure
+  - protocols
+  - dns

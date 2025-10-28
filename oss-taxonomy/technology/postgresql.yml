@@ -1,0 +1,21 @@
+name: postgresql
+description: An advanced, open-source relational database with strong standards compliance and extensibility.
+examples:
+  - pgadmin
+  - postgis
+  - timescaledb
+related:
+  - database
+  - sql
+  - data-layer
+aliases:
+  - postgres
+  - psql
+ecosystems:
+  - docker
+  - homebrew
+tags:
+  - database
+  - sql
+  - relational
+  - rdbms

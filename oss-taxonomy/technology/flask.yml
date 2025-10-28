@@ -1,0 +1,19 @@
+name: flask
+description: A lightweight Python web framework that provides tools and libraries for building web applications.
+examples:
+  - flask-restful
+  - flask-sqlalchemy
+  - flask-login
+related:
+  - python
+  - backend
+  - web-development
+aliases:
+  - flask-framework
+ecosystems:
+  - pypi
+tags:
+  - backend
+  - framework
+  - python
+  - micro-framework

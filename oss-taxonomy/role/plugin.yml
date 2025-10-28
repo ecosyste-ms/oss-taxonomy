@@ -1,0 +1,23 @@
+name: plugin
+description: Extensions and add-ons that enhance or modify existing software functionality.
+examples:
+  - eslint-plugin-react
+  - webpack-bundle-analyzer
+  - prettier-plugin-tailwindcss
+related:
+  - extension
+  - addon
+aliases:
+  - extension
+  - addon
+  - module
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - openvsx
+tags:
+  - plugin
+  - extension
+  - addon
+  - integration

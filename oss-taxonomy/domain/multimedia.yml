@@ -1,0 +1,23 @@
+name: multimedia
+description: Software for audio, video, image processing, editing, streaming, and media manipulation.
+examples:
+  - ffmpeg
+  - obs-studio
+  - imagemagick
+related:
+  - graphics
+  - streaming
+  - content-creation
+aliases:
+  - media
+  - audio-video
+  - media-processing
+ecosystems:
+  - homebrew
+  - npm
+  - pypi
+tags:
+  - multimedia
+  - audio
+  - video
+  - graphics

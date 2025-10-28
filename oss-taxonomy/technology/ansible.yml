@@ -1,0 +1,19 @@
+name: ansible
+description: An open-source automation tool for configuration management, application deployment, and task automation.
+examples:
+  - ansible-playbooks
+  - ansible-galaxy
+  - ansible-tower
+related:
+  - automation
+  - devops
+  - infrastructure
+aliases:
+  - ansible-automation
+ecosystems:
+  - pypi
+tags:
+  - automation
+  - configuration-management
+  - devops
+  - orchestration

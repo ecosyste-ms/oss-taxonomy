@@ -1,0 +1,19 @@
+name: cpp
+description: A general-purpose programming language extending C with object-oriented features, used for high-performance applications.
+examples:
+  - boost
+  - qt
+  - opencv
+related:
+  - c
+  - systems-programming
+aliases:
+  - c++
+  - cplusplus
+ecosystems:
+  - vcpkg
+tags:
+  - programming-language
+  - systems
+  - performance
+  - object-oriented

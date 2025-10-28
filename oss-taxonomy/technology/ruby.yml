@@ -1,0 +1,18 @@
+name: ruby
+description: A dynamic, interpreted programming language focused on simplicity and productivity with elegant syntax.
+examples:
+  - rails
+  - jekyll
+  - sinatra
+related:
+  - web-development
+  - backend
+aliases:
+  - ruby-lang
+ecosystems:
+  - rubygems
+tags:
+  - programming-language
+  - scripting
+  - web
+  - dynamic

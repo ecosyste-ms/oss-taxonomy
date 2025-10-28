@@ -1,0 +1,23 @@
+name: data-scientist
+description: Tools and libraries for data analysis, statistical computing, and machine learning practitioners.
+examples:
+  - jupyter
+  - pandas
+  - r-studio
+related:
+  - researcher
+  - data-science
+  - machine-learning
+aliases:
+  - data-analyst
+  - ml-engineer
+ecosystems:
+  - pypi
+  - conda
+  - cran
+  - julia
+tags:
+  - data-analysis
+  - statistics
+  - machine-learning
+  - jupyter

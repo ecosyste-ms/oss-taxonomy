@@ -1,0 +1,20 @@
+name: vue
+description: A progressive JavaScript framework for building user interfaces with a gentle learning curve.
+examples:
+  - nuxt
+  - vuetify
+  - vue-router
+related:
+  - javascript
+  - frontend
+  - web-development
+aliases:
+  - vuejs
+  - vue-js
+ecosystems:
+  - npm
+tags:
+  - frontend
+  - framework
+  - javascript
+  - ui

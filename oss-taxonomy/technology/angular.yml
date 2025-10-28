@@ -1,0 +1,19 @@
+name: angular
+description: A TypeScript-based web application framework developed by Google for building dynamic single-page applications.
+examples:
+  - angular-cli
+  - material-angular
+  - ngrx
+related:
+  - typescript
+  - frontend
+  - web-development
+aliases:
+  - angularjs
+ecosystems:
+  - npm
+tags:
+  - frontend
+  - framework
+  - typescript
+  - spa

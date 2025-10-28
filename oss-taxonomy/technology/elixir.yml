@@ -1,0 +1,19 @@
+name: elixir
+description: A functional, concurrent programming language built on the Erlang VM, designed for building scalable and maintainable applications.
+examples:
+  - phoenix
+  - nerves
+  - ecto
+related:
+  - functional-programming
+  - backend
+  - web-development
+aliases:
+  - elixir-lang
+ecosystems:
+  - hex
+tags:
+  - programming-language
+  - functional
+  - concurrent
+  - erlang-vm

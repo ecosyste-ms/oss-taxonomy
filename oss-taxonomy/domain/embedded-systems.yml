@@ -1,0 +1,22 @@
+name: embedded-systems
+description: Software for IoT devices, microcontrollers, firmware, and hardware interfaces.
+examples:
+  - arduino
+  - platformio
+  - micropython
+related:
+  - iot
+  - hardware
+aliases:
+  - iot
+  - firmware
+  - microcontrollers
+ecosystems:
+  - pypi
+  - cargo
+  - homebrew
+tags:
+  - embedded
+  - hardware
+  - iot
+  - firmware

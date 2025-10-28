@@ -1,0 +1,19 @@
+name: csharp
+description: A modern, object-oriented programming language developed by Microsoft for the .NET framework.
+examples:
+  - aspnet-core
+  - unity
+  - xamarin
+related:
+  - dotnet
+  - backend
+aliases:
+  - c#
+  - c-sharp
+ecosystems:
+  - nuget
+tags:
+  - programming-language
+  - object-oriented
+  - microsoft
+  - dotnet

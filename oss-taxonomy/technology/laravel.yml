@@ -1,0 +1,19 @@
+name: laravel
+description: A PHP web framework with elegant syntax for building modern web applications with MVC architecture.
+examples:
+  - laravel-nova
+  - laravel-passport
+  - laravel-horizon
+related:
+  - php
+  - backend
+  - web-development
+aliases:
+  - laravel-framework
+ecosystems:
+  - packagist
+tags:
+  - backend
+  - framework
+  - php
+  - mvc

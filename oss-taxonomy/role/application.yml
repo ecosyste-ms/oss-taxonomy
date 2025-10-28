@@ -1,0 +1,21 @@
+name: application
+description: Standalone end-user applications for desktop, mobile, or web that serve a complete user-facing purpose.
+examples:
+  - vscode
+  - firefox
+  - blender
+related:
+  - desktop
+  - mobile
+  - end-user
+aliases:
+  - app
+  - standalone-application
+ecosystems:
+  - homebrew
+  - npm
+tags:
+  - application
+  - desktop
+  - mobile
+  - end-user

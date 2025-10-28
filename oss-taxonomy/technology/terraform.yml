@@ -1,0 +1,20 @@
+name: terraform
+description: An infrastructure as code tool for building, changing, and versioning infrastructure safely and efficiently.
+examples:
+  - terraform-aws-modules
+  - terragrunt
+  - terraform-provider-azurerm
+related:
+  - infrastructure
+  - devops
+  - cloud-computing
+aliases:
+  - tf
+ecosystems:
+  - go
+  - homebrew
+tags:
+  - infrastructure-as-code
+  - devops
+  - cloud
+  - provisioning

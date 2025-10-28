@@ -1,0 +1,22 @@
+name: caching
+description: Cache systems, in-memory data stores, and performance optimization tools.
+examples:
+  - redis
+  - memcached
+  - varnish
+related:
+  - data-layer
+  - performance
+aliases:
+  - cache
+  - in-memory
+ecosystems:
+  - docker
+  - npm
+  - pypi
+  - homebrew
+tags:
+  - cache
+  - performance
+  - in-memory
+  - speed

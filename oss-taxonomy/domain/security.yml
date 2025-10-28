@@ -1,0 +1,23 @@
+name: security
+description: Software for cybersecurity, penetration testing, encryption, and security analysis.
+examples:
+  - metasploit
+  - wireshark
+  - openssl
+related:
+  - authentication
+  - encryption
+aliases:
+  - cybersecurity
+  - infosec
+  - appsec
+ecosystems:
+  - pypi
+  - rubygems
+  - cargo
+  - npm
+tags:
+  - security
+  - encryption
+  - pentesting
+  - vulnerability

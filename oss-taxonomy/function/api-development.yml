@@ -1,0 +1,23 @@
+name: api-development
+description: Frameworks and tools for building, documenting, and serving APIs.
+examples:
+  - fastapi
+  - express
+  - graphql
+related:
+  - backend
+  - web-development
+aliases:
+  - api
+  - rest
+  - graphql
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - go
+tags:
+  - api
+  - rest
+  - graphql
+  - http

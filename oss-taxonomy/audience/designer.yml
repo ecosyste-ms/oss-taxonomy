@@ -1,0 +1,21 @@
+name: designer
+description: Tools for UI/UX designers, graphic designers, and creative professionals.
+examples:
+  - inkscape
+  - gimp
+  - figma-plugins
+related:
+  - frontend
+  - creative
+aliases:
+  - ui-designer
+  - ux-designer
+  - graphic-designer
+ecosystems:
+  - npm
+  - homebrew
+tags:
+  - design
+  - ui
+  - ux
+  - graphics

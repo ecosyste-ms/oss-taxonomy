@@ -1,0 +1,21 @@
+name: networking
+description: Software for network protocols, routing, DNS, firewalls, and network management.
+examples:
+  - wireshark
+  - netcat
+  - iptables
+related:
+  - network-layer
+  - infrastructure
+  - security
+aliases:
+  - network-management
+  - network-tools
+ecosystems:
+  - homebrew
+  - pypi
+tags:
+  - networking
+  - protocols
+  - routing
+  - firewall

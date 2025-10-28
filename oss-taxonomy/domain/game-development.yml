@@ -1,0 +1,22 @@
+name: game-development
+description: Game engines, libraries, and tools for creating video games and interactive experiences.
+examples:
+  - godot
+  - pygame
+  - unity
+related:
+  - graphics
+  - 3d-rendering
+aliases:
+  - gamedev
+  - game-engine
+ecosystems:
+  - pypi
+  - npm
+  - nuget
+  - cargo
+tags:
+  - games
+  - graphics
+  - engine
+  - rendering

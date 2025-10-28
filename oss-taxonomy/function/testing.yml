@@ -1,0 +1,22 @@
+name: testing
+description: Software for writing, running, and managing automated tests and quality assurance.
+examples:
+  - jest
+  - pytest
+  - selenium
+related:
+  - testing-framework
+  - quality-assurance
+aliases:
+  - test-automation
+  - qa
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - maven
+tags:
+  - testing
+  - qa
+  - automation
+  - unit-test

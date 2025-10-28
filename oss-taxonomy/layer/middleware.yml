@@ -1,0 +1,22 @@
+name: middleware
+description: Message brokers, service buses, and integration layers between systems.
+examples:
+  - rabbitmq
+  - kafka
+  - redis
+related:
+  - backend
+  - integration
+aliases:
+  - message-broker
+  - integration-layer
+ecosystems:
+  - docker
+  - npm
+  - pypi
+  - go
+tags:
+  - messaging
+  - integration
+  - queue
+  - pub-sub

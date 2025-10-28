@@ -1,0 +1,23 @@
+name: devops
+description: Tools for automation, continuous integration, deployment, and operations management.
+examples:
+  - ansible
+  - terraform
+  - jenkins
+related:
+  - ci-cd
+  - infrastructure
+  - deployment
+aliases:
+  - dev-ops
+  - site-reliability
+ecosystems:
+  - pypi
+  - rubygems
+  - go
+  - docker
+tags:
+  - automation
+  - deployment
+  - operations
+  - infrastructure-as-code

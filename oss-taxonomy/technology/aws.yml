@@ -1,0 +1,20 @@
+name: aws
+description: Amazon Web Services, a comprehensive cloud computing platform offering compute, storage, and services.
+examples:
+  - aws-sdk
+  - aws-cli
+  - aws-cdk
+related:
+  - cloud-computing
+  - infrastructure
+aliases:
+  - amazon-web-services
+ecosystems:
+  - npm
+  - pypi
+  - go
+tags:
+  - cloud
+  - infrastructure
+  - platform
+  - amazon

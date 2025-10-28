@@ -1,0 +1,20 @@
+name: mysql
+description: An open-source relational database management system known for reliability and ease of use.
+examples:
+  - mysql-workbench
+  - percona
+  - mariadb
+related:
+  - database
+  - sql
+  - data-layer
+aliases:
+  - mysql-server
+ecosystems:
+  - docker
+  - homebrew
+tags:
+  - database
+  - sql
+  - relational
+  - rdbms

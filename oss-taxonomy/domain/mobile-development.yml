@@ -1,0 +1,23 @@
+name: mobile-development
+description: Software for building mobile applications for iOS, Android, and cross-platform systems.
+examples:
+  - react-native
+  - flutter
+  - kotlin
+related:
+  - frontend
+  - cross-platform
+aliases:
+  - mobile
+  - mobile-apps
+ecosystems:
+  - npm
+  - pub
+  - cocoapods
+  - swiftpm
+  - maven
+tags:
+  - ios
+  - android
+  - mobile
+  - apps

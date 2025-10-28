@@ -1,0 +1,19 @@
+name: typescript
+description: A typed superset of JavaScript that compiles to plain JavaScript, adding static type checking.
+examples:
+  - angular
+  - nestjs
+  - typescript-compiler
+related:
+  - javascript
+  - nodejs
+  - web-development
+aliases:
+  - ts
+ecosystems:
+  - npm
+tags:
+  - programming-language
+  - typed
+  - web
+  - frontend

@@ -1,0 +1,19 @@
+name: svelte
+description: A modern JavaScript framework that compiles components into efficient vanilla JavaScript at build time.
+examples:
+  - sveltekit
+  - svelte-material-ui
+  - svelte-native
+related:
+  - javascript
+  - frontend
+  - web-development
+aliases:
+  - sveltejs
+ecosystems:
+  - npm
+tags:
+  - frontend
+  - framework
+  - compiler
+  - javascript

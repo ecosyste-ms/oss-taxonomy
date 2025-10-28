@@ -1,0 +1,22 @@
+name: package-manager
+description: Tools for managing software dependencies, packages, and library installations.
+examples:
+  - npm
+  - pip
+  - cargo
+related:
+  - dependency-management
+  - build-tool
+aliases:
+  - dependency-manager
+  - package-installer
+ecosystems:
+  - npm
+  - pypi
+  - cargo
+  - homebrew
+tags:
+  - dependencies
+  - packages
+  - installation
+  - management

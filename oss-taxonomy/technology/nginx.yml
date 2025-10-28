@@ -1,0 +1,20 @@
+name: nginx
+description: A high-performance web server, reverse proxy, and load balancer for handling HTTP and HTTPS traffic.
+examples:
+  - nginx-proxy
+  - openresty
+  - nginx-config
+related:
+  - web-server
+  - reverse-proxy
+  - infrastructure
+aliases:
+  - nginx-server
+ecosystems:
+  - docker
+  - homebrew
+tags:
+  - web-server
+  - proxy
+  - load-balancer
+  - infrastructure

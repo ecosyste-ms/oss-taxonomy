@@ -1,0 +1,20 @@
+name: spring-boot
+description: A Java-based framework for building production-ready Spring applications with minimal configuration.
+examples:
+  - spring-data
+  - spring-security
+  - spring-cloud
+related:
+  - java
+  - backend
+  - enterprise
+aliases:
+  - springboot
+  - spring
+ecosystems:
+  - maven
+tags:
+  - backend
+  - framework
+  - java
+  - enterprise

@@ -1,0 +1,22 @@
+name: desktop-development
+description: Frameworks and tools for building native and cross-platform desktop applications.
+examples:
+  - electron
+  - tauri
+  - qt
+related:
+  - cross-platform
+  - native
+aliases:
+  - desktop-apps
+  - gui
+ecosystems:
+  - npm
+  - cargo
+  - pypi
+  - nuget
+tags:
+  - desktop
+  - gui
+  - native
+  - cross-platform

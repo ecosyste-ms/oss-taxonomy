@@ -1,0 +1,23 @@
+name: build-tool
+description: Build systems, task runners, and tools for compiling and bundling applications.
+examples:
+  - webpack
+  - gradle
+  - make
+related:
+  - compiler
+  - bundler
+aliases:
+  - build-system
+  - bundler
+  - task-runner
+ecosystems:
+  - npm
+  - maven
+  - cargo
+  - homebrew
+tags:
+  - build
+  - compilation
+  - bundling
+  - automation

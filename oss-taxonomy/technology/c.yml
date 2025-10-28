@@ -1,0 +1,18 @@
+name: c
+description: A foundational systems programming language known for efficiency and close-to-hardware control.
+examples:
+  - linux-kernel
+  - git
+  - redis
+related:
+  - cpp
+  - systems-programming
+aliases:
+  - c-lang
+ecosystems:
+  - homebrew
+tags:
+  - programming-language
+  - systems
+  - low-level
+  - performance

@@ -1,0 +1,21 @@
+name: server
+description: HTTP servers, web servers, and service daemons that handle network requests.
+examples:
+  - nginx
+  - apache
+  - caddy
+related:
+  - backend
+  - infrastructure
+aliases:
+  - web-server
+  - http-server
+ecosystems:
+  - docker
+  - homebrew
+  - npm
+tags:
+  - server
+  - http
+  - web
+  - daemon

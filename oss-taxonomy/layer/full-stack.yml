@@ -1,0 +1,22 @@
+name: full-stack
+description: Frameworks and applications that span multiple layers from frontend to backend.
+examples:
+  - nextjs
+  - meteor
+  - laravel
+related:
+  - frontend
+  - backend
+  - framework
+aliases:
+  - fullstack
+  - monolithic
+ecosystems:
+  - npm
+  - packagist
+  - rubygems
+tags:
+  - fullstack
+  - integrated
+  - end-to-end
+  - monolith

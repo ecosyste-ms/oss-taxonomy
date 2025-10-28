@@ -1,0 +1,20 @@
+name: html
+description: The standard markup language for creating web pages and web applications.
+examples:
+  - html5-boilerplate
+  - emmet
+  - pug
+related:
+  - css
+  - javascript
+  - web-development
+aliases:
+  - html5
+  - hypertext-markup-language
+ecosystems:
+  - npm
+tags:
+  - markup
+  - web
+  - frontend
+  - standard

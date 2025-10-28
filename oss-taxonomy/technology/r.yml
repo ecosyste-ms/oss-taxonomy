@@ -1,0 +1,20 @@
+name: r
+description: A programming language and environment for statistical computing, data analysis, and visualization.
+examples:
+  - ggplot2
+  - shiny
+  - dplyr
+related:
+  - data-science
+  - statistics
+  - scientific-computing
+aliases:
+  - r-lang
+  - r-project
+ecosystems:
+  - cran
+tags:
+  - programming-language
+  - statistics
+  - data-science
+  - visualization

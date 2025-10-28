@@ -1,0 +1,20 @@
+name: rails
+description: A Ruby web framework following convention over configuration, designed for building database-backed web applications.
+examples:
+  - activerecord
+  - actioncable
+  - devise
+related:
+  - ruby
+  - backend
+  - web-development
+aliases:
+  - ruby-on-rails
+  - ror
+ecosystems:
+  - rubygems
+tags:
+  - backend
+  - framework
+  - ruby
+  - mvc

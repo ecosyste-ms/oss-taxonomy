@@ -1,0 +1,18 @@
+name: php
+description: A server-side scripting language designed for web development and general-purpose programming.
+examples:
+  - laravel
+  - symfony
+  - wordpress
+related:
+  - web-development
+  - backend
+aliases:
+  - php-lang
+ecosystems:
+  - packagist
+tags:
+  - programming-language
+  - web
+  - scripting
+  - backend

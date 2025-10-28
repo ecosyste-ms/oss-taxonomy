@@ -1,0 +1,22 @@
+name: containerization
+description: Container runtimes, image building, and container management tools.
+examples:
+  - docker
+  - podman
+  - containerd
+related:
+  - deployment
+  - infrastructure
+  - orchestrator
+aliases:
+  - containers
+  - docker
+ecosystems:
+  - docker
+  - go
+  - homebrew
+tags:
+  - containers
+  - docker
+  - images
+  - runtime

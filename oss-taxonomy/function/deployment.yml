@@ -1,0 +1,23 @@
+name: deployment
+description: Tools for deploying, shipping, and releasing software to production environments.
+examples:
+  - docker
+  - kubernetes
+  - terraform
+related:
+  - ci-cd
+  - devops
+  - infrastructure
+aliases:
+  - release
+  - shipping
+ecosystems:
+  - docker
+  - go
+  - pypi
+  - npm
+tags:
+  - deployment
+  - release
+  - production
+  - shipping

@@ -1,0 +1,21 @@
+name: kubernetes
+description: An open-source container orchestration platform for automating deployment, scaling, and management of applications.
+examples:
+  - kubectl
+  - helm
+  - minikube
+related:
+  - docker
+  - orchestration
+  - devops
+aliases:
+  - k8s
+ecosystems:
+  - docker
+  - go
+  - homebrew
+tags:
+  - orchestration
+  - containers
+  - cloud-native
+  - devops

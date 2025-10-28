@@ -1,0 +1,22 @@
+name: testing-framework
+description: Frameworks and tools for writing, running, and managing automated tests.
+examples:
+  - jest
+  - pytest
+  - cypress
+related:
+  - testing
+  - quality-assurance
+aliases:
+  - test-framework
+  - test-runner
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - maven
+tags:
+  - testing
+  - quality
+  - automation
+  - tdd

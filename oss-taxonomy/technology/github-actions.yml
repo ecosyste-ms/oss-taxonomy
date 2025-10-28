@@ -1,0 +1,20 @@
+name: github-actions
+description: A CI/CD platform integrated with GitHub for automating workflows, builds, tests, and deployments.
+examples:
+  - actions-toolkit
+  - setup-node
+  - upload-artifact
+related:
+  - ci-cd
+  - devops
+  - github
+aliases:
+  - gha
+  - actions
+ecosystems:
+  - actions
+tags:
+  - ci-cd
+  - automation
+  - github
+  - workflows

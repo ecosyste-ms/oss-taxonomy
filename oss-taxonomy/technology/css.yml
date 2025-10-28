@@ -1,0 +1,20 @@
+name: css
+description: A stylesheet language used for describing the presentation and styling of web pages.
+examples:
+  - normalize-css
+  - animate-css
+  - pure-css
+related:
+  - html
+  - sass
+  - web-development
+aliases:
+  - css3
+  - cascading-style-sheets
+ecosystems:
+  - npm
+tags:
+  - styling
+  - web
+  - frontend
+  - design

@@ -1,0 +1,21 @@
+name: hardware
+description: Software that interfaces directly with hardware devices and peripherals.
+examples:
+  - arduino
+  - raspberry-pi
+  - drivers
+related:
+  - embedded-systems
+  - firmware
+aliases:
+  - device-layer
+  - firmware
+ecosystems:
+  - pypi
+  - cargo
+  - homebrew
+tags:
+  - hardware
+  - devices
+  - firmware
+  - drivers

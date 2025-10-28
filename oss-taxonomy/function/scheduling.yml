@@ -1,0 +1,22 @@
+name: scheduling
+description: Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals.
+examples:
+  - cron
+  - celery
+  - node-schedule
+related:
+  - automation
+  - background-jobs
+aliases:
+  - task-scheduling
+  - cron-jobs
+  - job-scheduler
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+tags:
+  - scheduling
+  - cron
+  - jobs
+  - timer

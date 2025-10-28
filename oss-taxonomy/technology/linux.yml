@@ -1,0 +1,20 @@
+name: linux
+description: An open-source Unix-like operating system kernel and family of operating systems.
+examples:
+  - ubuntu
+  - debian
+  - arch-linux
+related:
+  - operating-system
+  - unix
+aliases:
+  - linux-os
+  - gnu-linux
+ecosystems:
+  - docker
+  - homebrew
+tags:
+  - operating-system
+  - kernel
+  - unix
+  - open-source

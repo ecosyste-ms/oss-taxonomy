@@ -1,0 +1,19 @@
+name: tailwindcss
+description: A utility-first CSS framework for rapidly building custom user interfaces with composable classes.
+examples:
+  - tailwind-ui
+  - daisyui
+  - headlessui
+related:
+  - css
+  - frontend
+  - web-development
+aliases:
+  - tailwind
+ecosystems:
+  - npm
+tags:
+  - css
+  - framework
+  - utility-first
+  - ui

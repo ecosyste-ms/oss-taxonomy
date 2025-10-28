@@ -1,0 +1,21 @@
+name: platform
+description: Foundational services, runtime environments, and platforms that other software runs on.
+examples:
+  - kubernetes
+  - aws-lambda
+  - heroku
+related:
+  - infrastructure
+  - operating-system
+aliases:
+  - runtime-platform
+  - platform-as-a-service
+ecosystems:
+  - docker
+  - go
+  - homebrew
+tags:
+  - platform
+  - paas
+  - runtime
+  - foundation

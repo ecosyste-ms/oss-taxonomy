@@ -1,0 +1,23 @@
+name: machine-learning
+description: Frameworks and tools for machine learning, deep learning, and artificial intelligence.
+examples:
+  - tensorflow
+  - pytorch
+  - scikit-learn
+related:
+  - data-science
+  - artificial-intelligence
+aliases:
+  - ml
+  - deep-learning
+  - ai
+ecosystems:
+  - pypi
+  - conda
+  - julia
+  - npm
+tags:
+  - neural-networks
+  - training
+  - inference
+  - ai

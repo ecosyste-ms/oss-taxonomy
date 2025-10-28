@@ -1,0 +1,19 @@
+name: jenkins
+description: An open-source automation server for building, testing, and deploying software with continuous integration.
+examples:
+  - jenkins-plugins
+  - jenkinsfile
+  - blue-ocean
+related:
+  - ci-cd
+  - devops
+  - automation
+aliases:
+  - jenkins-ci
+ecosystems:
+  - docker
+tags:
+  - ci-cd
+  - automation
+  - continuous-integration
+  - devops

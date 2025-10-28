@@ -1,0 +1,21 @@
+name: data-layer
+description: Database systems, caching, storage engines, and data persistence solutions.
+examples:
+  - postgresql
+  - redis
+  - elasticsearch
+related:
+  - database
+  - backend
+aliases:
+  - persistence-layer
+  - storage-layer
+ecosystems:
+  - docker
+  - homebrew
+  - pypi
+tags:
+  - database
+  - storage
+  - persistence
+  - cache

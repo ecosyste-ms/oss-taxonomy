@@ -1,0 +1,21 @@
+name: redis
+description: An in-memory data structure store used as a database, cache, message broker, and streaming engine.
+examples:
+  - redis-cli
+  - redis-commander
+  - ioredis
+related:
+  - cache
+  - database
+  - data-layer
+aliases:
+  - redis-server
+ecosystems:
+  - docker
+  - npm
+  - pypi
+tags:
+  - cache
+  - database
+  - in-memory
+  - key-value

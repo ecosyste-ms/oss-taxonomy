@@ -1,0 +1,20 @@
+name: operating-system
+description: OS-level software, system utilities, and kernel-space applications.
+examples:
+  - linux-kernel
+  - systemd
+  - docker
+related:
+  - infrastructure
+  - system-tools
+aliases:
+  - os
+  - system-level
+ecosystems:
+  - docker
+  - homebrew
+tags:
+  - operating-system
+  - kernel
+  - system
+  - linux

@@ -1,0 +1,23 @@
+name: blockchain
+description: Software for blockchain development, cryptocurrency, smart contracts, and web3 applications.
+examples:
+  - hardhat
+  - ethers
+  - solidity
+related:
+  - cryptocurrency
+  - web3
+aliases:
+  - crypto
+  - web3
+  - distributed-ledger
+ecosystems:
+  - npm
+  - pypi
+  - cargo
+  - go
+tags:
+  - blockchain
+  - ethereum
+  - smart-contracts
+  - defi

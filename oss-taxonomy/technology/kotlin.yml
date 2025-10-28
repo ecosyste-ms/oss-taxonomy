@@ -1,0 +1,19 @@
+name: kotlin
+description: A modern, statically typed programming language that runs on the JVM, officially supported for Android development.
+examples:
+  - ktor
+  - android-apps
+  - spring-kotlin
+related:
+  - java
+  - android
+  - mobile-development
+aliases:
+  - kotlin-lang
+ecosystems:
+  - maven
+tags:
+  - programming-language
+  - jvm
+  - android
+  - mobile

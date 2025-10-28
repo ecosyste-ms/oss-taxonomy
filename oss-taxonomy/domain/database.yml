@@ -1,0 +1,22 @@
+name: database
+description: Database management systems, ORMs, query builders, and data storage solutions.
+examples:
+  - postgresql
+  - mongodb
+  - redis
+related:
+  - data-layer
+  - backend
+aliases:
+  - data-storage
+  - dbms
+ecosystems:
+  - docker
+  - homebrew
+  - npm
+  - pypi
+tags:
+  - database
+  - sql
+  - nosql
+  - storage

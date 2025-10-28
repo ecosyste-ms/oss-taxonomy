@@ -1,0 +1,22 @@
+name: hobbyist
+description: Software for makers, tinkerers, DIY enthusiasts, and personal projects.
+examples:
+  - home-assistant
+  - octoprint
+  - arduino
+related:
+  - maker
+  - diy
+aliases:
+  - maker
+  - tinkerer
+  - diy
+ecosystems:
+  - pypi
+  - npm
+  - homebrew
+tags:
+  - hobby
+  - maker
+  - diy
+  - personal

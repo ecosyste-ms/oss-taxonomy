@@ -1,0 +1,20 @@
+name: nextjs
+description: A React framework for building full-stack web applications with server-side rendering and static generation.
+examples:
+  - vercel
+  - next-auth
+  - next-pwa
+related:
+  - react
+  - javascript
+  - full-stack
+aliases:
+  - next
+  - next-js
+ecosystems:
+  - npm
+tags:
+  - framework
+  - react
+  - ssr
+  - full-stack

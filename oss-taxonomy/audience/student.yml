@@ -1,0 +1,21 @@
+name: student
+description: Educational software and learning tools for students and educational contexts.
+examples:
+  - scratch
+  - jupyter
+  - code-playground
+related:
+  - education
+  - learning
+aliases:
+  - learner
+  - education
+ecosystems:
+  - pypi
+  - npm
+  - homebrew
+tags:
+  - education
+  - learning
+  - tutorial
+  - academic

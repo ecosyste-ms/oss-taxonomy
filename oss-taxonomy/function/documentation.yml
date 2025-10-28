@@ -1,0 +1,21 @@
+name: documentation
+description: Documentation generators, static site generators for docs, and API documentation tools.
+examples:
+  - sphinx
+  - mkdocs
+  - docusaurus
+related:
+  - content-generation
+  - developer-tools
+aliases:
+  - docs
+  - doc-generation
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+tags:
+  - documentation
+  - docs
+  - api-docs
+  - static-site

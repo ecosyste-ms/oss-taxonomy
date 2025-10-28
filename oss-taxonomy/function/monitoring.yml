@@ -1,0 +1,22 @@
+name: monitoring
+description: Observability platforms, metrics collection, and system monitoring tools.
+examples:
+  - prometheus
+  - grafana
+  - datadog-agent
+related:
+  - observability
+  - logging
+aliases:
+  - observability
+  - metrics
+ecosystems:
+  - docker
+  - go
+  - pypi
+  - npm
+tags:
+  - monitoring
+  - metrics
+  - observability
+  - alerting

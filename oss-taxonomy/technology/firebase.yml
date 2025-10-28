@@ -1,0 +1,20 @@
+name: firebase
+description: Google's mobile and web application development platform with backend services and SDKs.
+examples:
+  - firebase-auth
+  - firestore
+  - firebase-functions
+related:
+  - backend-as-a-service
+  - cloud
+  - mobile-development
+aliases:
+  - firebase-platform
+ecosystems:
+  - npm
+  - pypi
+tags:
+  - baas
+  - cloud
+  - backend
+  - google

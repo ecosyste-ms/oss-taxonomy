@@ -1,0 +1,21 @@
+name: mongodb
+description: A document-oriented NoSQL database designed for scalability and flexibility with JSON-like documents.
+examples:
+  - mongoose
+  - mongodb-compass
+  - mongodb-atlas
+related:
+  - database
+  - nosql
+  - data-layer
+aliases:
+  - mongo
+ecosystems:
+  - npm
+  - pypi
+  - docker
+tags:
+  - database
+  - nosql
+  - document-store
+  - json

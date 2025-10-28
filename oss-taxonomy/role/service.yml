@@ -1,0 +1,22 @@
+name: service
+description: Self-contained running applications, daemons, and API services that operate independently.
+examples:
+  - postgresql
+  - redis
+  - elasticsearch
+related:
+  - server
+  - daemon
+aliases:
+  - daemon
+  - background-service
+ecosystems:
+  - docker
+  - homebrew
+  - pypi
+  - go
+tags:
+  - service
+  - daemon
+  - api
+  - background

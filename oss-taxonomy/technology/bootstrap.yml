@@ -1,0 +1,19 @@
+name: bootstrap
+description: A popular CSS framework for building responsive and mobile-first websites with pre-designed components.
+examples:
+  - bootstrap-icons
+  - react-bootstrap
+  - ng-bootstrap
+related:
+  - css
+  - frontend
+  - web-development
+aliases:
+  - bootstrap-css
+ecosystems:
+  - npm
+tags:
+  - css
+  - framework
+  - responsive
+  - ui

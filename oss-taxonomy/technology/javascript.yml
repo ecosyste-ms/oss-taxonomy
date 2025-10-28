@@ -1,0 +1,20 @@
+name: javascript
+description: A versatile programming language for web development, used for both frontend and backend applications.
+examples:
+  - react
+  - express
+  - vue
+related:
+  - nodejs
+  - typescript
+  - web-development
+aliases:
+  - js
+  - ecmascript
+ecosystems:
+  - npm
+tags:
+  - programming-language
+  - web
+  - scripting
+  - frontend

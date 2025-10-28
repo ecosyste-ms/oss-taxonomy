@@ -1,0 +1,21 @@
+name: network-layer
+description: Load balancers, reverse proxies, API gateways, and networking infrastructure.
+examples:
+  - nginx
+  - haproxy
+  - envoy
+related:
+  - infrastructure
+  - server
+aliases:
+  - networking
+  - proxy-layer
+ecosystems:
+  - docker
+  - homebrew
+  - go
+tags:
+  - networking
+  - proxy
+  - load-balancer
+  - gateway

@@ -1,0 +1,21 @@
+name: templating
+description: Template engines for generating dynamic content by combining templates with data.
+examples:
+  - jinja2
+  - handlebars
+  - mustache
+related:
+  - web-development
+  - rendering
+aliases:
+  - template-engine
+  - template-rendering
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+tags:
+  - templates
+  - rendering
+  - dynamic-content
+  - views

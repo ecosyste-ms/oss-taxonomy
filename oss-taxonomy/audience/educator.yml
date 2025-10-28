@@ -1,0 +1,22 @@
+name: educator
+description: Teachers, trainers, and instructors using software for educational purposes and teaching.
+examples:
+  - moodle
+  - canvas-lms
+  - scratch
+related:
+  - student
+  - education
+aliases:
+  - teacher
+  - instructor
+  - trainer
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+tags:
+  - education
+  - teaching
+  - training
+  - classroom

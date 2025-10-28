@@ -1,0 +1,19 @@
+name: vite
+description: A fast build tool and development server for modern web projects with native ES modules support.
+examples:
+  - vite-plugin-vue
+  - vite-plugin-react
+  - vitest
+related:
+  - build-tool
+  - webpack
+  - frontend
+aliases:
+  - vitejs
+ecosystems:
+  - npm
+tags:
+  - build-tool
+  - bundler
+  - development
+  - frontend

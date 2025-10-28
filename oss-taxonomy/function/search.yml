@@ -1,0 +1,22 @@
+name: search
+description: Search engines, full-text search, and indexing solutions.
+examples:
+  - elasticsearch
+  - meilisearch
+  - typesense
+related:
+  - database
+  - indexing
+aliases:
+  - search-engine
+  - full-text-search
+ecosystems:
+  - docker
+  - pypi
+  - cargo
+  - npm
+tags:
+  - search
+  - indexing
+  - full-text
+  - query

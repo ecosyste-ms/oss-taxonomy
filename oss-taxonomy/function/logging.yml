@@ -1,0 +1,22 @@
+name: logging
+description: Log collection, aggregation, parsing, and management systems.
+examples:
+  - logstash
+  - fluentd
+  - winston
+related:
+  - monitoring
+  - observability
+aliases:
+  - log-management
+  - log-aggregation
+ecosystems:
+  - docker
+  - npm
+  - pypi
+  - rubygems
+tags:
+  - logging
+  - logs
+  - aggregation
+  - observability

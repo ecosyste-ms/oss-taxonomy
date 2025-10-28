@@ -1,0 +1,19 @@
+name: fastapi
+description: A modern, fast Python web framework for building APIs with automatic documentation and type hints.
+examples:
+  - uvicorn
+  - pydantic
+  - sqlmodel
+related:
+  - python
+  - backend
+  - api-development
+aliases:
+  - fast-api
+ecosystems:
+  - pypi
+tags:
+  - backend
+  - framework
+  - python
+  - api

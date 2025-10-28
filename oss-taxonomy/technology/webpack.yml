@@ -1,0 +1,19 @@
+name: webpack
+description: A module bundler for JavaScript applications that packages code and assets for deployment.
+examples:
+  - webpack-cli
+  - webpack-dev-server
+  - html-webpack-plugin
+related:
+  - build-tool
+  - vite
+  - javascript
+aliases:
+  - webpack-bundler
+ecosystems:
+  - npm
+tags:
+  - bundler
+  - build-tool
+  - javascript
+  - module-loader

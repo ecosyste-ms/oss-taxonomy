@@ -1,0 +1,19 @@
+name: dart
+description: A client-optimized programming language for building multi-platform applications, primarily used with Flutter.
+examples:
+  - flutter
+  - aqueduct
+  - angel
+related:
+  - flutter
+  - mobile-development
+  - web-development
+aliases:
+  - dart-lang
+ecosystems:
+  - pub
+tags:
+  - programming-language
+  - mobile
+  - web
+  - cross-platform

@@ -1,0 +1,22 @@
+name: parsing
+description: Libraries and tools for parsing and processing structured data formats like JSON, XML, CSV, and YAML.
+examples:
+  - json-parser
+  - xml-parser
+  - csv-parser
+related:
+  - data-processing
+  - serialization
+aliases:
+  - data-parsing
+  - parser
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - cargo
+tags:
+  - parsing
+  - data
+  - serialization
+  - formats

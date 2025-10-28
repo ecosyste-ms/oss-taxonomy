@@ -1,0 +1,23 @@
+name: content-management
+description: Content management systems, wikis, blogs, and platforms for creating and managing digital content.
+examples:
+  - wordpress
+  - ghost
+  - strapi
+related:
+  - web-development
+  - publishing
+  - cms
+aliases:
+  - cms
+  - content-publishing
+  - blogging
+ecosystems:
+  - npm
+  - packagist
+  - rubygems
+tags:
+  - cms
+  - content
+  - publishing
+  - blogging

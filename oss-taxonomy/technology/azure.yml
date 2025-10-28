@@ -1,0 +1,21 @@
+name: azure
+description: Microsoft's cloud computing platform providing services for building, deploying, and managing applications.
+examples:
+  - azure-sdk
+  - azure-functions
+  - azure-cli
+related:
+  - cloud-computing
+  - infrastructure
+aliases:
+  - microsoft-azure
+  - azure-cloud
+ecosystems:
+  - npm
+  - pypi
+  - nuget
+tags:
+  - cloud
+  - infrastructure
+  - platform
+  - microsoft

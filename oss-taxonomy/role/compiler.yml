@@ -1,0 +1,21 @@
+name: compiler
+description: Language compilers, transpilers, and code transformation tools.
+examples:
+  - gcc
+  - babel
+  - typescript
+related:
+  - transpiler
+  - build-tool
+aliases:
+  - transpiler
+  - code-transformer
+ecosystems:
+  - npm
+  - homebrew
+  - cargo
+tags:
+  - compiler
+  - transpiler
+  - transformation
+  - build

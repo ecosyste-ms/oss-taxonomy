@@ -1,0 +1,19 @@
+name: flutter
+description: Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+examples:
+  - flutter-widgets
+  - flutter-bloc
+  - provider
+related:
+  - dart
+  - mobile-development
+  - cross-platform
+aliases:
+  - flutter-sdk
+ecosystems:
+  - pub
+tags:
+  - mobile
+  - cross-platform
+  - ui
+  - google

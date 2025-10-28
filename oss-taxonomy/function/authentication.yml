@@ -1,0 +1,23 @@
+name: authentication
+description: Identity management, access control, and authentication services.
+examples:
+  - oauth2-proxy
+  - keycloak
+  - authelia
+related:
+  - security
+  - authorization
+aliases:
+  - auth
+  - identity
+  - access-control
+ecosystems:
+  - docker
+  - npm
+  - pypi
+  - go
+tags:
+  - authentication
+  - identity
+  - oauth
+  - sso

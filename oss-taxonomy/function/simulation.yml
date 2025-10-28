@@ -1,0 +1,21 @@
+name: simulation
+description: Software for modeling systems, processes, and phenomena over time for analysis and prediction.
+examples:
+  - simpy
+  - mesa
+  - netlogo
+related:
+  - scientific-computing
+  - modeling
+aliases:
+  - modeling
+  - simulation-engine
+ecosystems:
+  - pypi
+  - julia
+  - cran
+tags:
+  - simulation
+  - modeling
+  - analysis
+  - prediction

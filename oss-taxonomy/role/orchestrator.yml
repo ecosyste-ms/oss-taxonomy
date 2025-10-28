@@ -1,0 +1,21 @@
+name: orchestrator
+description: Container orchestration and service management platforms for distributed systems.
+examples:
+  - kubernetes
+  - docker-swarm
+  - nomad
+related:
+  - containerization
+  - infrastructure
+aliases:
+  - container-orchestration
+  - cluster-management
+ecosystems:
+  - docker
+  - go
+  - homebrew
+tags:
+  - orchestration
+  - containers
+  - kubernetes
+  - distributed

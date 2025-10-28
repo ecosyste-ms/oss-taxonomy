@@ -1,0 +1,22 @@
+name: messaging
+description: Message queues, pub-sub systems, and asynchronous communication platforms.
+examples:
+  - rabbitmq
+  - kafka
+  - redis
+related:
+  - middleware
+  - integration
+aliases:
+  - message-queue
+  - pub-sub
+ecosystems:
+  - docker
+  - npm
+  - pypi
+  - go
+tags:
+  - messaging
+  - queue
+  - pub-sub
+  - async

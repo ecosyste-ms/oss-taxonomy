@@ -1,0 +1,18 @@
+name: jquery
+description: A fast, small JavaScript library that simplifies HTML document traversal and manipulation.
+examples:
+  - jquery-ui
+  - jquery-mobile
+  - datatables
+related:
+  - javascript
+  - frontend
+aliases:
+  - jq
+ecosystems:
+  - npm
+tags:
+  - library
+  - javascript
+  - dom
+  - frontend

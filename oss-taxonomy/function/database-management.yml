@@ -1,0 +1,21 @@
+name: database-management
+description: Database administration tools, GUI clients, and database operation utilities.
+examples:
+  - adminer
+  - pgadmin
+  - mongodb-compass
+related:
+  - database
+  - data-layer
+aliases:
+  - db-admin
+  - database-tools
+ecosystems:
+  - docker
+  - npm
+  - pypi
+tags:
+  - database
+  - admin
+  - management
+  - gui

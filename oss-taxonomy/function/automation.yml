@@ -1,0 +1,22 @@
+name: automation
+description: Tools for automating repetitive tasks, workflows, and processes across systems.
+examples:
+  - ansible
+  - puppet
+  - chef
+related:
+  - ci-cd
+  - devops
+  - scripting
+aliases:
+  - task-automation
+  - workflow-automation
+ecosystems:
+  - pypi
+  - npm
+  - rubygems
+tags:
+  - automation
+  - workflows
+  - tasks
+  - orchestration

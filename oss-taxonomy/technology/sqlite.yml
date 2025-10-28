@@ -1,0 +1,21 @@
+name: sqlite
+description: A lightweight, embedded SQL database engine that requires no separate server process or configuration.
+examples:
+  - sqlite-browser
+  - sqlalchemy
+  - better-sqlite3
+related:
+  - database
+  - sql
+  - embedded
+aliases:
+  - sqlite3
+ecosystems:
+  - homebrew
+  - npm
+  - pypi
+tags:
+  - database
+  - sql
+  - embedded
+  - lightweight

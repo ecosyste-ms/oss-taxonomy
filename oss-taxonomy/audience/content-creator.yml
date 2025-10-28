@@ -1,0 +1,22 @@
+name: content-creator
+description: Tools for bloggers, streamers, video creators, and digital content producers.
+examples:
+  - obs-studio
+  - hugo
+  - ghost
+related:
+  - media
+  - publishing
+aliases:
+  - creator
+  - streamer
+  - blogger
+ecosystems:
+  - npm
+  - rubygems
+  - homebrew
+tags:
+  - content
+  - streaming
+  - blogging
+  - media

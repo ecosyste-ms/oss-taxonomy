@@ -1,0 +1,20 @@
+name: database-system
+description: Complete database management systems for storing, querying, and managing data.
+examples:
+  - postgresql
+  - mysql
+  - sqlite
+related:
+  - database
+  - data-layer
+aliases:
+  - dbms
+  - data-store
+ecosystems:
+  - docker
+  - homebrew
+tags:
+  - database
+  - persistence
+  - storage
+  - sql

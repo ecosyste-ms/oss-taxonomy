@@ -1,0 +1,19 @@
+name: django
+description: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+examples:
+  - django-rest-framework
+  - django-cms
+  - wagtail
+related:
+  - python
+  - backend
+  - web-development
+aliases:
+  - django-framework
+ecosystems:
+  - pypi
+tags:
+  - backend
+  - framework
+  - python
+  - mvc
