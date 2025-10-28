@@ -274,8 +274,8 @@
   <footer>
     <p>
       View on <a href="https://github.com/ecosyste-ms/oss-taxonomy" target="_blank">GitHub</a> |
-      <a href="../combined-taxonomy.json">JSON Data</a> |
-      <a href="../schema.json">JSON Schema</a>
+      <a href="./combined-taxonomy.json">JSON Data</a> |
+      <a href="./schema.json">JSON Schema</a>
     </p>
     <p style="margin-top: 10px;">
       CC0 1.0 Universal - Public Domain Dedication
@@ -286,7 +286,7 @@
     let taxonomy = {};
 
     // Load taxonomy data
-    fetch('../combined-taxonomy.json')
+    fetch('./combined-taxonomy.json')
       .then(response => response.json())
       .then(data => {
         taxonomy = data;
