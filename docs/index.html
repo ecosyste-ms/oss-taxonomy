@@ -436,8 +436,9 @@
         let visibleTermCount = 0;
 
         if (searchTerm === '') {
-          // Reset: show all terms
+          // Reset: show all facets and terms
           facets.forEach(facet => {
+            facet.style.display = '';
             facet.querySelectorAll('.term').forEach(term => {
               term.style.display = '';
             });
@@ -448,16 +449,25 @@
 
         facets.forEach(facet => {
           const terms = facet.querySelectorAll('.term');
+          let facetHasVisibleTerms = false;
 
           terms.forEach(term => {
             const searchableContent = term.getAttribute('data-searchable');
             if (searchableContent.includes(searchTerm)) {
               term.style.display = '';
               visibleTermCount++;
+              facetHasVisibleTerms = true;
             } else {
               term.style.display = 'none';
             }
           });
+
+          // Hide facet if no terms match
+          if (facetHasVisibleTerms) {
+            facet.style.display = '';
+          } else {
+            facet.style.display = 'none';
+          }
         });
 
         // Show "no results" if nothing found
