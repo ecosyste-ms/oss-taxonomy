@@ -14,4 +14,11 @@ end
 
 File.write('combined-taxonomy.json', JSON.pretty_generate(combined))
 
+# Copy to docs folder for GitHub Pages
+require 'fileutils'
+FileUtils.mkdir_p('docs')
+FileUtils.cp('combined-taxonomy.json', 'docs/combined-taxonomy.json')
+FileUtils.cp('schema.json', 'docs/schema.json') if File.exist?('schema.json')
+
 puts "✅ Combined JSON written to combined-taxonomy.json"
+puts "✅ Files copied to docs/ for GitHub Pages"

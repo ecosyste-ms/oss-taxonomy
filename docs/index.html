@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSS Taxonomy - Open Source Software Classification</title>
+  <meta name="description" content="A structured, open-source taxonomy for classifying open source software projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --purple: #7878EF;
+      --purple-light: #BBBBFF;
+      --purple-dark: #5C5CCF;
+      --green: #45E56E;
+      --green-light: #87F5AA;
+      --green-dark: #2EAF6B;
+      --black: #1D1D28;
+      --white: #FFFFFF;
+      --grey: #DCDCE0;
+      --grey-light: #F5F5FF;
+      --grey-dark: #4C4C61;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: var(--black);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: var(--grey-light);
+    }
+
+    header {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: var(--purple);
+      font-weight: 900;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      color: var(--grey-dark);
+      margin-bottom: 20px;
+    }
+
+    .stats {
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      font-size: 0.9em;
+      color: var(--grey-dark);
+    }
+
+    .stat strong {
+      font-size: 1.8em;
+      display: block;
+      color: var(--purple);
+      font-weight: 700;
+    }
+
+    .search-box {
+      margin-bottom: 30px;
+      background: var(--white);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    #search {
+      width: 100%;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: 2px solid var(--grey);
+      border-radius: 24px;
+      transition: border-color 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+
+    #search:focus {
+      outline: none;
+      border-color: var(--purple);
+    }
+
+    .facet {
+      background: var(--white);
+      margin-bottom: 20px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .facet-header {
+      background: var(--purple);
+      color: var(--white);
+      padding: 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+    }
+
+    .facet-header:hover {
+      background: var(--purple-dark);
+    }
+
+    .facet-title {
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+
+    .facet-count {
+      background: rgba(255,255,255,0.2);
+      padding: 4px 12px;
+      border-radius: 24px;
+      font-size: 0.9em;
+    }
+
+    .facet-content {
+      padding: 20px;
+      display: none;
+    }
+
+    .facet.active .facet-content {
+      display: block;
+    }
+
+    .term {
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--grey);
+    }
+
+    .term:last-child {
+      border-bottom: none;
+    }
+
+    .term-name {
+      font-size: 1.3em;
+      font-weight: 700;
+      color: var(--purple);
+      font-family: 'Monaco', 'Courier New', monospace;
+      margin-bottom: 8px;
+    }
+
+    .term-description {
+      color: var(--grey-dark);
+      margin-bottom: 12px;
+    }
+
+    .term-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 12px;
+      font-size: 0.9em;
+    }
+
+    .term-meta-item {
+      color: var(--grey-dark);
+    }
+
+    .term-meta-label {
+      font-weight: 700;
+      color: var(--black);
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--grey);
+      color: var(--black);
+      padding: 3px 10px;
+      border-radius: 24px;
+      margin-right: 6px;
+      margin-bottom: 4px;
+      font-size: 0.85em;
+    }
+
+    .ecosystem-tag {
+      display: inline-block;
+      background: var(--green-light);
+      color: var(--green-dark);
+      padding: 3px 10px;
+      border-radius: 24px;
+      margin-right: 6px;
+      margin-bottom: 4px;
+      font-size: 0.85em;
+      font-weight: 700;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      color: var(--grey-dark);
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: var(--purple);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 40px;
+      color: var(--grey-dark);
+      display: none;
+      background: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: var(--grey-dark);
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+      .stats {
+        gap: 15px;
+      }
+      .stat strong {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OSS Taxonomy</h1>
+    <p class="subtitle">A structured, open-source taxonomy for classifying open source software projects</p>
+    <div class="stats" id="stats">
+      <div class="loading">Loading taxonomy data...</div>
+    </div>
+  </header>
+
+  <div class="search-box" style="display: none;" id="searchBox">
+    <input type="text" id="search" placeholder="Search terms, descriptions, examples, tags..." autocomplete="off">
+  </div>
+
+  <div class="no-results" id="noResults">
+    No terms found matching your search.
+  </div>
+
+  <div id="facets"></div>
+
+  <footer>
+    <p>
+      View on <a href="https://github.com/ecosyste-ms/oss-taxonomy" target="_blank">GitHub</a> |
+      <a href="../combined-taxonomy.json">JSON Data</a> |
+      <a href="../schema.json">JSON Schema</a>
+    </p>
+    <p style="margin-top: 10px;">
+      CC0 1.0 Universal - Public Domain Dedication
+    </p>
+  </footer>
+
+  <script>
+    let taxonomy = {};
+
+    // Load taxonomy data
+    fetch('../combined-taxonomy.json')
+      .then(response => response.json())
+      .then(data => {
+        taxonomy = data;
+        renderTaxonomy();
+        setupSearch();
+      })
+      .catch(error => {
+        document.getElementById('stats').innerHTML = '<div class="loading" style="color: #DE5858;">Error loading taxonomy data</div>';
+        console.error('Error loading taxonomy:', error);
+      });
+
+    function renderTaxonomy() {
+      // Calculate stats
+      const facetNames = Object.keys(taxonomy);
+      const totalTerms = facetNames.reduce((sum, facet) => sum + taxonomy[facet].length, 0);
+
+      // Render stats
+      const statsHTML = `
+        <div class="stat"><strong>${facetNames.length}</strong> Facets</div>
+        <div class="stat"><strong>${totalTerms}</strong> Total Terms</div>
+        ${facetNames.map(facet => `
+          <div class="stat"><strong>${taxonomy[facet].length}</strong> ${capitalize(facet)}</div>
+        `).join('')}
+      `;
+      document.getElementById('stats').innerHTML = statsHTML;
+
+      // Show search box
+      document.getElementById('searchBox').style.display = 'block';
+
+      // Render facets
+      const facetsHTML = facetNames.map(facetName => {
+        const terms = taxonomy[facetName].sort((a, b) => a.name.localeCompare(b.name));
+
+        return `
+          <div class="facet" data-facet="${facetName}">
+            <div class="facet-header" onclick="toggleFacet(this)">
+              <span class="facet-title">${capitalize(facetName)}</span>
+              <span class="facet-count">${terms.length} terms</span>
+            </div>
+            <div class="facet-content">
+              ${terms.map(term => renderTerm(term)).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('facets').innerHTML = facetsHTML;
+
+      // Expand first facet
+      document.querySelector('.facet').classList.add('active');
+    }
+
+    function renderTerm(term) {
+      const searchableContent = [
+        term.name,
+        term.description,
+        term.examples?.join(' '),
+        term.tags?.join(' '),
+        term.aliases?.join(' ')
+      ].filter(Boolean).join(' ').toLowerCase();
+
+      return `
+        <div class="term" data-term-name="${term.name}" data-searchable="${searchableContent}">
+          <div class="term-name">${term.name}</div>
+          <div class="term-description">${term.description}</div>
+
+          ${term.examples?.length ? `
+            <div class="term-meta-item">
+              <span class="term-meta-label">Examples:</span> ${term.examples.join(', ')}
+            </div>
+          ` : ''}
+
+          <div class="term-meta">
+            ${term.ecosystems?.length ? `
+              <div class="term-meta-item">
+                <span class="term-meta-label">Ecosystems:</span><br>
+                ${term.ecosystems.map(eco => `<span class="ecosystem-tag">${eco}</span>`).join('')}
+              </div>
+            ` : ''}
+
+            ${term.tags?.length ? `
+              <div class="term-meta-item">
+                <span class="term-meta-label">Tags:</span><br>
+                ${term.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+              </div>
+            ` : ''}
+
+            ${term.related?.length ? `
+              <div class="term-meta-item">
+                <span class="term-meta-label">Related:</span> ${term.related.join(', ')}
+              </div>
+            ` : ''}
+
+            ${term.aliases?.length ? `
+              <div class="term-meta-item">
+                <span class="term-meta-label">Aliases:</span> ${term.aliases.join(', ')}
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    }
+
+    function setupSearch() {
+      const searchInput = document.getElementById('search');
+      const noResults = document.getElementById('noResults');
+
+      searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase();
+        const facets = document.querySelectorAll('.facet');
+        let visibleTermCount = 0;
+
+        if (searchTerm === '') {
+          // Reset: close all facets, show all terms
+          facets.forEach(facet => {
+            facet.classList.remove('active');
+            facet.querySelectorAll('.term').forEach(term => {
+              term.style.display = '';
+            });
+          });
+          document.querySelector('.facet').classList.add('active');
+          noResults.style.display = 'none';
+          return;
+        }
+
+        facets.forEach(facet => {
+          const terms = facet.querySelectorAll('.term');
+          let facetHasVisibleTerms = false;
+
+          terms.forEach(term => {
+            const searchableContent = term.getAttribute('data-searchable');
+            if (searchableContent.includes(searchTerm)) {
+              term.style.display = '';
+              facetHasVisibleTerms = true;
+              visibleTermCount++;
+            } else {
+              term.style.display = 'none';
+            }
+          });
+
+          // Open facet if it has matching terms
+          if (facetHasVisibleTerms) {
+            facet.classList.add('active');
+          } else {
+            facet.classList.remove('active');
+          }
+        });
+
+        // Show "no results" if nothing found
+        noResults.style.display = visibleTermCount === 0 ? 'block' : 'none';
+      });
+    }
+
+    function toggleFacet(header) {
+      const facet = header.parentElement;
+      facet.classList.toggle('active');
+    }
+
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+  </script>
+</body>
+</html>

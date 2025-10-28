@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ecosyste-ms/oss-taxonomy/schema.json",
+  "title": "OSS Taxonomy Schema",
+  "description": "Schema for the OSS Taxonomy combined JSON file, defining facets and terms for classifying open source software",
+  "type": "object",
+  "properties": {
+    "domain": {
+      "type": "array",
+      "description": "Terms describing the industry or field the software is designed for",
+      "items": {
+        "$ref": "#/definitions/term"
+      }
+    },
+    "role": {
+      "type": "array",
+      "description": "Terms describing the function or responsibility the software has in a system or workflow",
+      "items": {
+        "$ref": "#/definitions/term"
+      }
+    },
+    "technology": {
+      "type": "array",
+      "description": "Terms describing specific technologies, languages, or frameworks used or supported by the software",
+      "items": {
+        "$ref": "#/definitions/term"
+      }
+    },
+    "audience": {
+      "type": "array",
+      "description": "Terms defining who the software is for — the primary users or target audience",
+      "items": {
+        "$ref": "#/definitions/term"
+      }
+    },
+    "layer": {
+      "type": "array",
+      "description": "Terms describing where in the software stack the project sits or operates",
+      "items": {
+        "$ref": "#/definitions/term"
+      }
+    },
+    "function": {
+      "type": "array",
+      "description": "Terms describing what the software does — its primary capabilities or use cases",
+      "items": {
+        "$ref": "#/definitions/term"
+      }
+    }
+  },
+  "required": [
+    "domain",
+    "role",
+    "technology",
+    "audience",
+    "layer",
+    "function"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "term": {
+      "type": "object",
+      "description": "A single taxonomy term within a facet",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Unique identifier for the term (kebab-case)",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Human-readable explanation of the term",
+          "minLength": 1
+        },
+        "examples": {
+          "type": "array",
+          "description": "Well-known software projects that fit this term",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "related": {
+          "type": "array",
+          "description": "Other taxonomy terms that are conceptually connected",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "description": "Synonyms or common alternative names for this term",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ecosystems": {
+          "type": "array",
+          "description": "Related package managers or software ecosystems (from packages.ecosyste.ms)",
+          "items": {
+            "type": "string",
+            "enum": [
+              "npm",
+              "go",
+              "docker",
+              "nuget",
+              "pypi",
+              "maven",
+              "packagist",
+              "cargo",
+              "rubygems",
+              "cocoapods",
+              "pub",
+              "bower",
+              "cpan",
+              "alpine",
+              "actions",
+              "cran",
+              "clojars",
+              "conda",
+              "hex",
+              "hackage",
+              "julia",
+              "swiftpm",
+              "spack",
+              "homebrew",
+              "puppet",
+              "openvsx",
+              "deno",
+              "elm",
+              "racket",
+              "vcpkg",
+              "bioconductor",
+              "carthage",
+              "postmarketos",
+              "elpa",
+              "adelie"
+            ]
+          }
+        },
+        "tags": {
+          "type": "array",
+          "description": "Freeform tags for searching, filtering, or visualization",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "name",
+        "description"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

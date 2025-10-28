@@ -1,0 +1,3598 @@
+{
+  "audience": [
+    {
+      "name": "content-creator",
+      "description": "Tools for bloggers, streamers, video creators, and digital content producers.",
+      "examples": [
+        "obs-studio",
+        "hugo",
+        "ghost"
+      ],
+      "related": [
+        "media",
+        "publishing"
+      ],
+      "aliases": [
+        "creator",
+        "streamer",
+        "blogger"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems",
+        "homebrew"
+      ],
+      "tags": [
+        "content",
+        "streaming",
+        "blogging",
+        "media"
+      ]
+    },
+    {
+      "name": "data-scientist",
+      "description": "Tools and libraries for data analysis, statistical computing, and machine learning practitioners.",
+      "examples": [
+        "jupyter",
+        "pandas",
+        "r-studio"
+      ],
+      "related": [
+        "researcher",
+        "data-science",
+        "machine-learning"
+      ],
+      "aliases": [
+        "data-analyst",
+        "ml-engineer"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda",
+        "cran",
+        "julia"
+      ],
+      "tags": [
+        "data-analysis",
+        "statistics",
+        "machine-learning",
+        "jupyter"
+      ]
+    },
+    {
+      "name": "designer",
+      "description": "Tools for UI/UX designers, graphic designers, and creative professionals.",
+      "examples": [
+        "inkscape",
+        "gimp",
+        "figma-plugins"
+      ],
+      "related": [
+        "frontend",
+        "creative"
+      ],
+      "aliases": [
+        "ui-designer",
+        "ux-designer",
+        "graphic-designer"
+      ],
+      "ecosystems": [
+        "npm",
+        "homebrew"
+      ],
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "graphics"
+      ]
+    },
+    {
+      "name": "developer",
+      "description": "Software intended for developers and programmers.",
+      "examples": [
+        "vscode",
+        "jetbrains-ide",
+        "sublime-text"
+      ],
+      "related": [
+        "sysadmin",
+        "end-user"
+      ],
+      "aliases": [
+        "dev",
+        "programmer"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "code",
+        "development",
+        "productivity"
+      ]
+    },
+    {
+      "name": "educator",
+      "description": "Teachers, trainers, and instructors using software for educational purposes and teaching.",
+      "examples": [
+        "moodle",
+        "canvas-lms",
+        "scratch"
+      ],
+      "related": [
+        "student",
+        "education"
+      ],
+      "aliases": [
+        "teacher",
+        "instructor",
+        "trainer"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "education",
+        "teaching",
+        "training",
+        "classroom"
+      ]
+    },
+    {
+      "name": "end-user",
+      "description": "Software designed for non-technical users and general consumers.",
+      "examples": [
+        "firefox",
+        "obs-studio",
+        "blender"
+      ],
+      "related": [
+        "consumer",
+        "desktop"
+      ],
+      "aliases": [
+        "consumer",
+        "general-user"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "npm"
+      ],
+      "tags": [
+        "end-user",
+        "consumer",
+        "desktop",
+        "gui"
+      ]
+    },
+    {
+      "name": "enterprise",
+      "description": "Software for business organizations, corporate environments, and large-scale deployments.",
+      "examples": [
+        "gitlab",
+        "kubernetes",
+        "jenkins"
+      ],
+      "related": [
+        "business",
+        "corporate"
+      ],
+      "aliases": [
+        "business",
+        "corporate",
+        "organization"
+      ],
+      "ecosystems": [
+        "docker",
+        "maven",
+        "nuget",
+        "npm"
+      ],
+      "tags": [
+        "enterprise",
+        "business",
+        "corporate",
+        "scalability"
+      ]
+    },
+    {
+      "name": "hobbyist",
+      "description": "Software for makers, tinkerers, DIY enthusiasts, and personal projects.",
+      "examples": [
+        "home-assistant",
+        "octoprint",
+        "arduino"
+      ],
+      "related": [
+        "maker",
+        "diy"
+      ],
+      "aliases": [
+        "maker",
+        "tinkerer",
+        "diy"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "homebrew"
+      ],
+      "tags": [
+        "hobby",
+        "maker",
+        "diy",
+        "personal"
+      ]
+    },
+    {
+      "name": "researcher",
+      "description": "Software used by researchers for data analysis, simulations, and experiments.",
+      "examples": [
+        "jupyter",
+        "matlab",
+        "r"
+      ],
+      "related": [
+        "data-science",
+        "scientific-computing"
+      ],
+      "aliases": [
+        "scientist"
+      ],
+      "ecosystems": [
+        "conda",
+        "pypi"
+      ],
+      "tags": [
+        "academic",
+        "research",
+        "analysis"
+      ]
+    },
+    {
+      "name": "student",
+      "description": "Educational software and learning tools for students and educational contexts.",
+      "examples": [
+        "scratch",
+        "jupyter",
+        "code-playground"
+      ],
+      "related": [
+        "education",
+        "learning"
+      ],
+      "aliases": [
+        "learner",
+        "education"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "homebrew"
+      ],
+      "tags": [
+        "education",
+        "learning",
+        "tutorial",
+        "academic"
+      ]
+    },
+    {
+      "name": "sysadmin",
+      "description": "Software for system administrators managing servers, networks, and infrastructure.",
+      "examples": [
+        "ansible",
+        "puppet",
+        "terraform"
+      ],
+      "related": [
+        "developer",
+        "infrastructure"
+      ],
+      "aliases": [
+        "system-administrator"
+      ],
+      "ecosystems": [
+        "pypi",
+        "apt"
+      ],
+      "tags": [
+        "automation",
+        "infrastructure",
+        "configuration"
+      ]
+    }
+  ],
+  "domain": [
+    {
+      "name": "blockchain",
+      "description": "Software for blockchain development, cryptocurrency, smart contracts, and web3 applications.",
+      "examples": [
+        "hardhat",
+        "ethers",
+        "solidity"
+      ],
+      "related": [
+        "cryptocurrency",
+        "web3"
+      ],
+      "aliases": [
+        "crypto",
+        "web3",
+        "distributed-ledger"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "cargo",
+        "go"
+      ],
+      "tags": [
+        "blockchain",
+        "ethereum",
+        "smart-contracts",
+        "defi"
+      ]
+    },
+    {
+      "name": "cloud-computing",
+      "description": "Cloud-native applications, serverless frameworks, and cloud infrastructure tools.",
+      "examples": [
+        "aws-cdk",
+        "serverless",
+        "pulumi"
+      ],
+      "related": [
+        "devops",
+        "infrastructure",
+        "serverless"
+      ],
+      "aliases": [
+        "cloud-native",
+        "serverless"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "go",
+        "nuget"
+      ],
+      "tags": [
+        "cloud",
+        "serverless",
+        "aws",
+        "azure"
+      ]
+    },
+    {
+      "name": "content-management",
+      "description": "Content management systems, wikis, blogs, and platforms for creating and managing digital content.",
+      "examples": [
+        "wordpress",
+        "ghost",
+        "strapi"
+      ],
+      "related": [
+        "web-development",
+        "publishing",
+        "cms"
+      ],
+      "aliases": [
+        "cms",
+        "content-publishing",
+        "blogging"
+      ],
+      "ecosystems": [
+        "npm",
+        "packagist",
+        "rubygems"
+      ],
+      "tags": [
+        "cms",
+        "content",
+        "publishing",
+        "blogging"
+      ]
+    },
+    {
+      "name": "data-science",
+      "description": "Software for analyzing, processing, and visualizing data.",
+      "examples": [
+        "pandas",
+        "numpy",
+        "jupyter"
+      ],
+      "related": [
+        "scientific-computing",
+        "machine-learning"
+      ],
+      "aliases": [
+        "ds",
+        "data-analysis"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "statistics",
+        "notebooks",
+        "python"
+      ]
+    },
+    {
+      "name": "database",
+      "description": "Database management systems, ORMs, query builders, and data storage solutions.",
+      "examples": [
+        "postgresql",
+        "mongodb",
+        "redis"
+      ],
+      "related": [
+        "data-layer",
+        "backend"
+      ],
+      "aliases": [
+        "data-storage",
+        "dbms"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "nosql",
+        "storage"
+      ]
+    },
+    {
+      "name": "desktop-development",
+      "description": "Frameworks and tools for building native and cross-platform desktop applications.",
+      "examples": [
+        "electron",
+        "tauri",
+        "qt"
+      ],
+      "related": [
+        "cross-platform",
+        "native"
+      ],
+      "aliases": [
+        "desktop-apps",
+        "gui"
+      ],
+      "ecosystems": [
+        "npm",
+        "cargo",
+        "pypi",
+        "nuget"
+      ],
+      "tags": [
+        "desktop",
+        "gui",
+        "native",
+        "cross-platform"
+      ]
+    },
+    {
+      "name": "devops",
+      "description": "Tools for automation, continuous integration, deployment, and operations management.",
+      "examples": [
+        "ansible",
+        "terraform",
+        "jenkins"
+      ],
+      "related": [
+        "ci-cd",
+        "infrastructure",
+        "deployment"
+      ],
+      "aliases": [
+        "dev-ops",
+        "site-reliability"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems",
+        "go",
+        "docker"
+      ],
+      "tags": [
+        "automation",
+        "deployment",
+        "operations",
+        "infrastructure-as-code"
+      ]
+    },
+    {
+      "name": "embedded-systems",
+      "description": "Software for IoT devices, microcontrollers, firmware, and hardware interfaces.",
+      "examples": [
+        "arduino",
+        "platformio",
+        "micropython"
+      ],
+      "related": [
+        "iot",
+        "hardware"
+      ],
+      "aliases": [
+        "iot",
+        "firmware",
+        "microcontrollers"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "embedded",
+        "hardware",
+        "iot",
+        "firmware"
+      ]
+    },
+    {
+      "name": "game-development",
+      "description": "Game engines, libraries, and tools for creating video games and interactive experiences.",
+      "examples": [
+        "godot",
+        "pygame",
+        "unity"
+      ],
+      "related": [
+        "graphics",
+        "3d-rendering"
+      ],
+      "aliases": [
+        "gamedev",
+        "game-engine"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "nuget",
+        "cargo"
+      ],
+      "tags": [
+        "games",
+        "graphics",
+        "engine",
+        "rendering"
+      ]
+    },
+    {
+      "name": "machine-learning",
+      "description": "Frameworks and tools for machine learning, deep learning, and artificial intelligence.",
+      "examples": [
+        "tensorflow",
+        "pytorch",
+        "scikit-learn"
+      ],
+      "related": [
+        "data-science",
+        "artificial-intelligence"
+      ],
+      "aliases": [
+        "ml",
+        "deep-learning",
+        "ai"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda",
+        "julia",
+        "npm"
+      ],
+      "tags": [
+        "neural-networks",
+        "training",
+        "inference",
+        "ai"
+      ]
+    },
+    {
+      "name": "mobile-development",
+      "description": "Software for building mobile applications for iOS, Android, and cross-platform systems.",
+      "examples": [
+        "react-native",
+        "flutter",
+        "kotlin"
+      ],
+      "related": [
+        "frontend",
+        "cross-platform"
+      ],
+      "aliases": [
+        "mobile",
+        "mobile-apps"
+      ],
+      "ecosystems": [
+        "npm",
+        "pub",
+        "cocoapods",
+        "swiftpm",
+        "maven"
+      ],
+      "tags": [
+        "ios",
+        "android",
+        "mobile",
+        "apps"
+      ]
+    },
+    {
+      "name": "multimedia",
+      "description": "Software for audio, video, image processing, editing, streaming, and media manipulation.",
+      "examples": [
+        "ffmpeg",
+        "obs-studio",
+        "imagemagick"
+      ],
+      "related": [
+        "graphics",
+        "streaming",
+        "content-creation"
+      ],
+      "aliases": [
+        "media",
+        "audio-video",
+        "media-processing"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "multimedia",
+        "audio",
+        "video",
+        "graphics"
+      ]
+    },
+    {
+      "name": "networking",
+      "description": "Software for network infrastructure, protocols, routing, DNS, VPNs, and network management.",
+      "examples": [
+        "wireshark",
+        "openvpn",
+        "dnsmasq"
+      ],
+      "related": [
+        "infrastructure",
+        "security",
+        "network-layer"
+      ],
+      "aliases": [
+        "network-infrastructure",
+        "network-protocols"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew",
+        "pypi"
+      ],
+      "tags": [
+        "networking",
+        "infrastructure",
+        "protocols",
+        "dns"
+      ]
+    },
+    {
+      "name": "scientific-computing",
+      "description": "Software used in computational research and scientific modeling.",
+      "examples": [
+        "scipy",
+        "matplotlib",
+        "fortran"
+      ],
+      "related": [
+        "data-science",
+        "simulation"
+      ],
+      "aliases": [
+        "computational-science",
+        "scientific-software"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "numerical",
+        "research",
+        "python"
+      ]
+    },
+    {
+      "name": "security",
+      "description": "Software for cybersecurity, penetration testing, encryption, and security analysis.",
+      "examples": [
+        "metasploit",
+        "wireshark",
+        "openssl"
+      ],
+      "related": [
+        "authentication",
+        "encryption"
+      ],
+      "aliases": [
+        "cybersecurity",
+        "infosec",
+        "appsec"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems",
+        "cargo",
+        "npm"
+      ],
+      "tags": [
+        "security",
+        "encryption",
+        "pentesting",
+        "vulnerability"
+      ]
+    },
+    {
+      "name": "web-development",
+      "description": "Software for building websites, web apps, and APIs.",
+      "examples": [
+        "react",
+        "nextjs",
+        "rails"
+      ],
+      "related": [
+        "frontend",
+        "backend"
+      ],
+      "aliases": [
+        "webdev"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    }
+  ],
+  "function": [
+    {
+      "name": "api-development",
+      "description": "Frameworks and tools for building, documenting, and serving APIs.",
+      "examples": [
+        "fastapi",
+        "express",
+        "graphql"
+      ],
+      "related": [
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "api",
+        "rest",
+        "graphql"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "go"
+      ],
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "http"
+      ]
+    },
+    {
+      "name": "authentication",
+      "description": "Identity management, access control, and authentication services.",
+      "examples": [
+        "oauth2-proxy",
+        "keycloak",
+        "authelia"
+      ],
+      "related": [
+        "security",
+        "authorization"
+      ],
+      "aliases": [
+        "auth",
+        "identity",
+        "access-control"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "authentication",
+        "identity",
+        "oauth",
+        "sso"
+      ]
+    },
+    {
+      "name": "automation",
+      "description": "Tools for automating repetitive tasks, workflows, and processes across systems.",
+      "examples": [
+        "ansible",
+        "puppet",
+        "chef"
+      ],
+      "related": [
+        "ci-cd",
+        "devops",
+        "scripting"
+      ],
+      "aliases": [
+        "task-automation",
+        "workflow-automation"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "automation",
+        "workflows",
+        "tasks",
+        "orchestration"
+      ]
+    },
+    {
+      "name": "caching",
+      "description": "Cache systems, in-memory data stores, and performance optimization tools.",
+      "examples": [
+        "redis",
+        "memcached",
+        "varnish"
+      ],
+      "related": [
+        "data-layer",
+        "performance"
+      ],
+      "aliases": [
+        "cache",
+        "in-memory"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi",
+        "homebrew"
+      ],
+      "tags": [
+        "cache",
+        "performance",
+        "in-memory",
+        "speed"
+      ]
+    },
+    {
+      "name": "ci-cd",
+      "description": "Software for automating continuous integration and continuous deployment workflows.",
+      "examples": [
+        "jenkins",
+        "circleci",
+        "github-actions"
+      ],
+      "related": [
+        "developer",
+        "automation"
+      ],
+      "aliases": [
+        "continuous-integration",
+        "continuous-deployment"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "automation",
+        "deployment",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "containerization",
+      "description": "Container runtimes, image building, and container management tools.",
+      "examples": [
+        "docker",
+        "podman",
+        "containerd"
+      ],
+      "related": [
+        "deployment",
+        "infrastructure",
+        "orchestrator"
+      ],
+      "aliases": [
+        "containers",
+        "docker"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "homebrew"
+      ],
+      "tags": [
+        "containers",
+        "docker",
+        "images",
+        "runtime"
+      ]
+    },
+    {
+      "name": "database-management",
+      "description": "Database administration tools, GUI clients, and database operation utilities.",
+      "examples": [
+        "adminer",
+        "pgadmin",
+        "mongodb-compass"
+      ],
+      "related": [
+        "database",
+        "data-layer"
+      ],
+      "aliases": [
+        "db-admin",
+        "database-tools"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "database",
+        "admin",
+        "management",
+        "gui"
+      ]
+    },
+    {
+      "name": "deployment",
+      "description": "Tools for deploying, shipping, and releasing software to production environments.",
+      "examples": [
+        "docker",
+        "kubernetes",
+        "terraform"
+      ],
+      "related": [
+        "ci-cd",
+        "devops",
+        "infrastructure"
+      ],
+      "aliases": [
+        "release",
+        "shipping"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "pypi",
+        "npm"
+      ],
+      "tags": [
+        "deployment",
+        "release",
+        "production",
+        "shipping"
+      ]
+    },
+    {
+      "name": "documentation",
+      "description": "Documentation generators, static site generators for docs, and API documentation tools.",
+      "examples": [
+        "sphinx",
+        "mkdocs",
+        "docusaurus"
+      ],
+      "related": [
+        "content-generation",
+        "developer-tools"
+      ],
+      "aliases": [
+        "docs",
+        "doc-generation"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "documentation",
+        "docs",
+        "api-docs",
+        "static-site"
+      ]
+    },
+    {
+      "name": "logging",
+      "description": "Log collection, aggregation, parsing, and management systems.",
+      "examples": [
+        "logstash",
+        "fluentd",
+        "winston"
+      ],
+      "related": [
+        "monitoring",
+        "observability"
+      ],
+      "aliases": [
+        "log-management",
+        "log-aggregation"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "logging",
+        "logs",
+        "aggregation",
+        "observability"
+      ]
+    },
+    {
+      "name": "messaging",
+      "description": "Message queues, pub-sub systems, and asynchronous communication platforms.",
+      "examples": [
+        "rabbitmq",
+        "kafka",
+        "redis"
+      ],
+      "related": [
+        "middleware",
+        "integration"
+      ],
+      "aliases": [
+        "message-queue",
+        "pub-sub"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "messaging",
+        "queue",
+        "pub-sub",
+        "async"
+      ]
+    },
+    {
+      "name": "monitoring",
+      "description": "Observability platforms, metrics collection, and system monitoring tools.",
+      "examples": [
+        "prometheus",
+        "grafana",
+        "datadog-agent"
+      ],
+      "related": [
+        "observability",
+        "logging"
+      ],
+      "aliases": [
+        "observability",
+        "metrics"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "pypi",
+        "npm"
+      ],
+      "tags": [
+        "monitoring",
+        "metrics",
+        "observability",
+        "alerting"
+      ]
+    },
+    {
+      "name": "networking",
+      "description": "Software for network protocols, routing, DNS, firewalls, and network management.",
+      "examples": [
+        "wireshark",
+        "netcat",
+        "iptables"
+      ],
+      "related": [
+        "network-layer",
+        "infrastructure",
+        "security"
+      ],
+      "aliases": [
+        "network-management",
+        "network-tools"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "pypi"
+      ],
+      "tags": [
+        "networking",
+        "protocols",
+        "routing",
+        "firewall"
+      ]
+    },
+    {
+      "name": "parsing",
+      "description": "Libraries and tools for parsing and processing structured data formats like JSON, XML, CSV, and YAML.",
+      "examples": [
+        "json-parser",
+        "xml-parser",
+        "csv-parser"
+      ],
+      "related": [
+        "data-processing",
+        "serialization"
+      ],
+      "aliases": [
+        "data-parsing",
+        "parser"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "cargo"
+      ],
+      "tags": [
+        "parsing",
+        "data",
+        "serialization",
+        "formats"
+      ]
+    },
+    {
+      "name": "scheduling",
+      "description": "Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals.",
+      "examples": [
+        "cron",
+        "celery",
+        "node-schedule"
+      ],
+      "related": [
+        "automation",
+        "background-jobs"
+      ],
+      "aliases": [
+        "task-scheduling",
+        "cron-jobs",
+        "job-scheduler"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "scheduling",
+        "cron",
+        "jobs",
+        "timer"
+      ]
+    },
+    {
+      "name": "scraping",
+      "description": "Software for extracting data from websites or online sources.",
+      "examples": [
+        "beautifulsoup",
+        "scrapy",
+        "puppeteer"
+      ],
+      "related": [
+        "developer",
+        "data-science"
+      ],
+      "aliases": [
+        "web-scraping"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm"
+      ],
+      "tags": [
+        "extraction",
+        "data-mining",
+        "web"
+      ]
+    },
+    {
+      "name": "search",
+      "description": "Search engines, full-text search, and indexing solutions.",
+      "examples": [
+        "elasticsearch",
+        "meilisearch",
+        "typesense"
+      ],
+      "related": [
+        "database",
+        "indexing"
+      ],
+      "aliases": [
+        "search-engine",
+        "full-text-search"
+      ],
+      "ecosystems": [
+        "docker",
+        "pypi",
+        "cargo",
+        "npm"
+      ],
+      "tags": [
+        "search",
+        "indexing",
+        "full-text",
+        "query"
+      ]
+    },
+    {
+      "name": "simulation",
+      "description": "Software for modeling systems, processes, and phenomena over time for analysis and prediction.",
+      "examples": [
+        "simpy",
+        "mesa",
+        "netlogo"
+      ],
+      "related": [
+        "scientific-computing",
+        "modeling"
+      ],
+      "aliases": [
+        "modeling",
+        "simulation-engine"
+      ],
+      "ecosystems": [
+        "pypi",
+        "julia",
+        "cran"
+      ],
+      "tags": [
+        "simulation",
+        "modeling",
+        "analysis",
+        "prediction"
+      ]
+    },
+    {
+      "name": "templating",
+      "description": "Template engines for generating dynamic content by combining templates with data.",
+      "examples": [
+        "jinja2",
+        "handlebars",
+        "mustache"
+      ],
+      "related": [
+        "web-development",
+        "rendering"
+      ],
+      "aliases": [
+        "template-engine",
+        "template-rendering"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "templates",
+        "rendering",
+        "dynamic-content",
+        "views"
+      ]
+    },
+    {
+      "name": "testing",
+      "description": "Software for writing, running, and managing automated tests and quality assurance.",
+      "examples": [
+        "jest",
+        "pytest",
+        "selenium"
+      ],
+      "related": [
+        "testing-framework",
+        "quality-assurance"
+      ],
+      "aliases": [
+        "test-automation",
+        "qa"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "maven"
+      ],
+      "tags": [
+        "testing",
+        "qa",
+        "automation",
+        "unit-test"
+      ]
+    },
+    {
+      "name": "visualization",
+      "description": "Software for creating charts, graphs, and visual representations of data.",
+      "examples": [
+        "d3.js",
+        "matplotlib",
+        "plotly"
+      ],
+      "related": [
+        "data-science",
+        "analysis"
+      ],
+      "aliases": [
+        "data-visualization"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "charts",
+        "graphs",
+        "interactive"
+      ]
+    }
+  ],
+  "layer": [
+    {
+      "name": "backend",
+      "description": "Server-side software that handles business logic and database interactions.",
+      "examples": [
+        "node.js",
+        "django",
+        "ruby-on-rails"
+      ],
+      "related": [
+        "frontend",
+        "full-stack"
+      ],
+      "aliases": [
+        "server-side"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "server",
+        "api",
+        "database"
+      ]
+    },
+    {
+      "name": "data-layer",
+      "description": "Database systems, caching, storage engines, and data persistence solutions.",
+      "examples": [
+        "postgresql",
+        "redis",
+        "elasticsearch"
+      ],
+      "related": [
+        "database",
+        "backend"
+      ],
+      "aliases": [
+        "persistence-layer",
+        "storage-layer"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew",
+        "pypi"
+      ],
+      "tags": [
+        "database",
+        "storage",
+        "persistence",
+        "cache"
+      ]
+    },
+    {
+      "name": "frontend",
+      "description": "Software that runs in the browser or handles the user interface layer.",
+      "examples": [
+        "react",
+        "vue",
+        "angular"
+      ],
+      "related": [
+        "backend",
+        "full-stack"
+      ],
+      "aliases": [
+        "client-side"
+      ],
+      "ecosystems": [
+        "npm",
+        "yarn"
+      ],
+      "tags": [
+        "ui",
+        "client",
+        "javascript"
+      ]
+    },
+    {
+      "name": "full-stack",
+      "description": "Frameworks and applications that span multiple layers from frontend to backend.",
+      "examples": [
+        "nextjs",
+        "meteor",
+        "laravel"
+      ],
+      "related": [
+        "frontend",
+        "backend",
+        "framework"
+      ],
+      "aliases": [
+        "fullstack",
+        "monolithic"
+      ],
+      "ecosystems": [
+        "npm",
+        "packagist",
+        "rubygems"
+      ],
+      "tags": [
+        "fullstack",
+        "integrated",
+        "end-to-end",
+        "monolith"
+      ]
+    },
+    {
+      "name": "hardware",
+      "description": "Software that interfaces directly with hardware devices and peripherals.",
+      "examples": [
+        "arduino",
+        "raspberry-pi",
+        "drivers"
+      ],
+      "related": [
+        "embedded-systems",
+        "firmware"
+      ],
+      "aliases": [
+        "device-layer",
+        "firmware"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "hardware",
+        "devices",
+        "firmware",
+        "drivers"
+      ]
+    },
+    {
+      "name": "infrastructure",
+      "description": "Software for provisioning and managing infrastructure, including networking and systems.",
+      "examples": [
+        "terraform",
+        "ansible",
+        "kubernetes"
+      ],
+      "related": [
+        "automation",
+        "devops"
+      ],
+      "aliases": [
+        "ops"
+      ],
+      "ecosystems": [
+        "pypi",
+        "apt"
+      ],
+      "tags": [
+        "configuration",
+        "orchestration",
+        "infrastructure-as-code"
+      ]
+    },
+    {
+      "name": "middleware",
+      "description": "Message brokers, service buses, and integration layers between systems.",
+      "examples": [
+        "rabbitmq",
+        "kafka",
+        "redis"
+      ],
+      "related": [
+        "backend",
+        "integration"
+      ],
+      "aliases": [
+        "message-broker",
+        "integration-layer"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "messaging",
+        "integration",
+        "queue",
+        "pub-sub"
+      ]
+    },
+    {
+      "name": "network-layer",
+      "description": "Load balancers, reverse proxies, API gateways, and networking infrastructure.",
+      "examples": [
+        "nginx",
+        "haproxy",
+        "envoy"
+      ],
+      "related": [
+        "infrastructure",
+        "server"
+      ],
+      "aliases": [
+        "networking",
+        "proxy-layer"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew",
+        "go"
+      ],
+      "tags": [
+        "networking",
+        "proxy",
+        "load-balancer",
+        "gateway"
+      ]
+    },
+    {
+      "name": "operating-system",
+      "description": "OS-level software, system utilities, and kernel-space applications.",
+      "examples": [
+        "linux-kernel",
+        "systemd",
+        "docker"
+      ],
+      "related": [
+        "infrastructure",
+        "system-tools"
+      ],
+      "aliases": [
+        "os",
+        "system-level"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "operating-system",
+        "kernel",
+        "system",
+        "linux"
+      ]
+    },
+    {
+      "name": "platform",
+      "description": "Foundational services, runtime environments, and platforms that other software runs on.",
+      "examples": [
+        "kubernetes",
+        "aws-lambda",
+        "heroku"
+      ],
+      "related": [
+        "infrastructure",
+        "operating-system"
+      ],
+      "aliases": [
+        "runtime-platform",
+        "platform-as-a-service"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "homebrew"
+      ],
+      "tags": [
+        "platform",
+        "paas",
+        "runtime",
+        "foundation"
+      ]
+    }
+  ],
+  "role": [
+    {
+      "name": "application",
+      "description": "Standalone end-user applications for desktop, mobile, or web that serve a complete user-facing purpose.",
+      "examples": [
+        "vscode",
+        "firefox",
+        "blender"
+      ],
+      "related": [
+        "desktop",
+        "mobile",
+        "end-user"
+      ],
+      "aliases": [
+        "app",
+        "standalone-application"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "npm"
+      ],
+      "tags": [
+        "application",
+        "desktop",
+        "mobile",
+        "end-user"
+      ]
+    },
+    {
+      "name": "build-tool",
+      "description": "Build systems, task runners, and tools for compiling and bundling applications.",
+      "examples": [
+        "webpack",
+        "gradle",
+        "make"
+      ],
+      "related": [
+        "compiler",
+        "bundler"
+      ],
+      "aliases": [
+        "build-system",
+        "bundler",
+        "task-runner"
+      ],
+      "ecosystems": [
+        "npm",
+        "maven",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "build",
+        "compilation",
+        "bundling",
+        "automation"
+      ]
+    },
+    {
+      "name": "cli-tool",
+      "description": "Software that provides a command-line interface for interaction.",
+      "examples": [
+        "git",
+        "wget",
+        "curl"
+      ],
+      "related": [
+        "library",
+        "service"
+      ],
+      "aliases": [
+        "command-line-tool"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "terminal",
+        "command-line",
+        "utility"
+      ]
+    },
+    {
+      "name": "compiler",
+      "description": "Language compilers, transpilers, and code transformation tools.",
+      "examples": [
+        "gcc",
+        "babel",
+        "typescript"
+      ],
+      "related": [
+        "transpiler",
+        "build-tool"
+      ],
+      "aliases": [
+        "transpiler",
+        "code-transformer"
+      ],
+      "ecosystems": [
+        "npm",
+        "homebrew",
+        "cargo"
+      ],
+      "tags": [
+        "compiler",
+        "transpiler",
+        "transformation",
+        "build"
+      ]
+    },
+    {
+      "name": "database-system",
+      "description": "Complete database management systems for storing, querying, and managing data.",
+      "examples": [
+        "postgresql",
+        "mysql",
+        "sqlite"
+      ],
+      "related": [
+        "database",
+        "data-layer"
+      ],
+      "aliases": [
+        "dbms",
+        "data-store"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "database",
+        "persistence",
+        "storage",
+        "sql"
+      ]
+    },
+    {
+      "name": "editor",
+      "description": "Text editors and integrated development environments for writing and editing code.",
+      "examples": [
+        "vscode",
+        "vim",
+        "neovim"
+      ],
+      "related": [
+        "ide",
+        "developer-tools"
+      ],
+      "aliases": [
+        "text-editor",
+        "code-editor",
+        "ide"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "npm"
+      ],
+      "tags": [
+        "editor",
+        "ide",
+        "development",
+        "tools"
+      ]
+    },
+    {
+      "name": "framework",
+      "description": "Software that provides a structured foundation to build applications.",
+      "examples": [
+        "django",
+        "react",
+        "rails"
+      ],
+      "related": [
+        "library",
+        "sdk"
+      ],
+      "aliases": [
+        "web-framework"
+      ],
+      "ecosystems": [
+        "rubygems",
+        "npm"
+      ],
+      "tags": [
+        "mvc",
+        "architecture",
+        "backend"
+      ]
+    },
+    {
+      "name": "library",
+      "description": "Reusable code modules, packages, and utilities that provide specific functionality.",
+      "examples": [
+        "lodash",
+        "pandas",
+        "requests"
+      ],
+      "related": [
+        "framework",
+        "sdk"
+      ],
+      "aliases": [
+        "package",
+        "module"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "cargo",
+        "maven"
+      ],
+      "tags": [
+        "utilities",
+        "reusable",
+        "components"
+      ]
+    },
+    {
+      "name": "orchestrator",
+      "description": "Container orchestration and service management platforms for distributed systems.",
+      "examples": [
+        "kubernetes",
+        "docker-swarm",
+        "nomad"
+      ],
+      "related": [
+        "containerization",
+        "infrastructure"
+      ],
+      "aliases": [
+        "container-orchestration",
+        "cluster-management"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "homebrew"
+      ],
+      "tags": [
+        "orchestration",
+        "containers",
+        "kubernetes",
+        "distributed"
+      ]
+    },
+    {
+      "name": "package-manager",
+      "description": "Tools for managing software dependencies, packages, and library installations.",
+      "examples": [
+        "npm",
+        "pip",
+        "cargo"
+      ],
+      "related": [
+        "dependency-management",
+        "build-tool"
+      ],
+      "aliases": [
+        "dependency-manager",
+        "package-installer"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "dependencies",
+        "packages",
+        "installation",
+        "management"
+      ]
+    },
+    {
+      "name": "plugin",
+      "description": "Extensions and add-ons that enhance or modify existing software functionality.",
+      "examples": [
+        "eslint-plugin-react",
+        "webpack-bundle-analyzer",
+        "prettier-plugin-tailwindcss"
+      ],
+      "related": [
+        "extension",
+        "addon"
+      ],
+      "aliases": [
+        "extension",
+        "addon",
+        "module"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "openvsx"
+      ],
+      "tags": [
+        "plugin",
+        "extension",
+        "addon",
+        "integration"
+      ]
+    },
+    {
+      "name": "sdk",
+      "description": "A software development kit that includes tools and libraries to build applications for a platform.",
+      "examples": [
+        "android-sdk",
+        "aws-sdk",
+        "google-cloud-sdk"
+      ],
+      "related": [
+        "library",
+        "plugin"
+      ],
+      "aliases": [
+        "software-development-kit"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "platform",
+        "development",
+        "tools"
+      ]
+    },
+    {
+      "name": "server",
+      "description": "HTTP servers, web servers, and service daemons that handle network requests.",
+      "examples": [
+        "nginx",
+        "apache",
+        "caddy"
+      ],
+      "related": [
+        "backend",
+        "infrastructure"
+      ],
+      "aliases": [
+        "web-server",
+        "http-server"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew",
+        "npm"
+      ],
+      "tags": [
+        "server",
+        "http",
+        "web",
+        "daemon"
+      ]
+    },
+    {
+      "name": "service",
+      "description": "Self-contained running applications, daemons, and API services that operate independently.",
+      "examples": [
+        "postgresql",
+        "redis",
+        "elasticsearch"
+      ],
+      "related": [
+        "server",
+        "daemon"
+      ],
+      "aliases": [
+        "daemon",
+        "background-service"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "service",
+        "daemon",
+        "api",
+        "background"
+      ]
+    },
+    {
+      "name": "testing-framework",
+      "description": "Frameworks and tools for writing, running, and managing automated tests.",
+      "examples": [
+        "jest",
+        "pytest",
+        "cypress"
+      ],
+      "related": [
+        "testing",
+        "quality-assurance"
+      ],
+      "aliases": [
+        "test-framework",
+        "test-runner"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "maven"
+      ],
+      "tags": [
+        "testing",
+        "quality",
+        "automation",
+        "tdd"
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "name": "angular",
+      "description": "A TypeScript-based web application framework developed by Google for building dynamic single-page applications.",
+      "examples": [
+        "angular-cli",
+        "material-angular",
+        "ngrx"
+      ],
+      "related": [
+        "typescript",
+        "frontend",
+        "web-development"
+      ],
+      "aliases": [
+        "angularjs"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "frontend",
+        "framework",
+        "typescript",
+        "spa"
+      ]
+    },
+    {
+      "name": "ansible",
+      "description": "An open-source automation tool for configuration management, application deployment, and task automation.",
+      "examples": [
+        "ansible-playbooks",
+        "ansible-galaxy",
+        "ansible-tower"
+      ],
+      "related": [
+        "automation",
+        "devops",
+        "infrastructure"
+      ],
+      "aliases": [
+        "ansible-automation"
+      ],
+      "ecosystems": [
+        "pypi"
+      ],
+      "tags": [
+        "automation",
+        "configuration-management",
+        "devops",
+        "orchestration"
+      ]
+    },
+    {
+      "name": "aws",
+      "description": "Amazon Web Services, a comprehensive cloud computing platform offering compute, storage, and services.",
+      "examples": [
+        "aws-sdk",
+        "aws-cli",
+        "aws-cdk"
+      ],
+      "related": [
+        "cloud-computing",
+        "infrastructure"
+      ],
+      "aliases": [
+        "amazon-web-services"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "platform",
+        "amazon"
+      ]
+    },
+    {
+      "name": "azure",
+      "description": "Microsoft's cloud computing platform providing services for building, deploying, and managing applications.",
+      "examples": [
+        "azure-sdk",
+        "azure-functions",
+        "azure-cli"
+      ],
+      "related": [
+        "cloud-computing",
+        "infrastructure"
+      ],
+      "aliases": [
+        "microsoft-azure",
+        "azure-cloud"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "nuget"
+      ],
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "platform",
+        "microsoft"
+      ]
+    },
+    {
+      "name": "bootstrap",
+      "description": "A popular CSS framework for building responsive and mobile-first websites with pre-designed components.",
+      "examples": [
+        "bootstrap-icons",
+        "react-bootstrap",
+        "ng-bootstrap"
+      ],
+      "related": [
+        "css",
+        "frontend",
+        "web-development"
+      ],
+      "aliases": [
+        "bootstrap-css"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "css",
+        "framework",
+        "responsive",
+        "ui"
+      ]
+    },
+    {
+      "name": "c",
+      "description": "A foundational systems programming language known for efficiency and close-to-hardware control.",
+      "examples": [
+        "linux-kernel",
+        "git",
+        "redis"
+      ],
+      "related": [
+        "cpp",
+        "systems-programming"
+      ],
+      "aliases": [
+        "c-lang"
+      ],
+      "ecosystems": [
+        "homebrew"
+      ],
+      "tags": [
+        "programming-language",
+        "systems",
+        "low-level",
+        "performance"
+      ]
+    },
+    {
+      "name": "cpp",
+      "description": "A general-purpose programming language extending C with object-oriented features, used for high-performance applications.",
+      "examples": [
+        "boost",
+        "qt",
+        "opencv"
+      ],
+      "related": [
+        "c",
+        "systems-programming"
+      ],
+      "aliases": [
+        "c++",
+        "cplusplus"
+      ],
+      "ecosystems": [
+        "vcpkg"
+      ],
+      "tags": [
+        "programming-language",
+        "systems",
+        "performance",
+        "object-oriented"
+      ]
+    },
+    {
+      "name": "csharp",
+      "description": "A modern, object-oriented programming language developed by Microsoft for the .NET framework.",
+      "examples": [
+        "aspnet-core",
+        "unity",
+        "xamarin"
+      ],
+      "related": [
+        "dotnet",
+        "backend"
+      ],
+      "aliases": [
+        "c#",
+        "c-sharp"
+      ],
+      "ecosystems": [
+        "nuget"
+      ],
+      "tags": [
+        "programming-language",
+        "object-oriented",
+        "microsoft",
+        "dotnet"
+      ]
+    },
+    {
+      "name": "css",
+      "description": "A stylesheet language used for describing the presentation and styling of web pages.",
+      "examples": [
+        "normalize-css",
+        "animate-css",
+        "pure-css"
+      ],
+      "related": [
+        "html",
+        "sass",
+        "web-development"
+      ],
+      "aliases": [
+        "css3",
+        "cascading-style-sheets"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "styling",
+        "web",
+        "frontend",
+        "design"
+      ]
+    },
+    {
+      "name": "dart",
+      "description": "A client-optimized programming language for building multi-platform applications, primarily used with Flutter.",
+      "examples": [
+        "flutter",
+        "aqueduct",
+        "angel"
+      ],
+      "related": [
+        "flutter",
+        "mobile-development",
+        "web-development"
+      ],
+      "aliases": [
+        "dart-lang"
+      ],
+      "ecosystems": [
+        "pub"
+      ],
+      "tags": [
+        "programming-language",
+        "mobile",
+        "web",
+        "cross-platform"
+      ]
+    },
+    {
+      "name": "django",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "examples": [
+        "django-rest-framework",
+        "django-cms",
+        "wagtail"
+      ],
+      "related": [
+        "python",
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "django-framework"
+      ],
+      "ecosystems": [
+        "pypi"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "python",
+        "mvc"
+      ]
+    },
+    {
+      "name": "docker",
+      "description": "A platform for automating the deployment, scaling, and management of applications using containers.",
+      "examples": [
+        "docker-compose",
+        "kubernetes",
+        "docker-swarm"
+      ],
+      "related": [
+        "containerization",
+        "infrastructure"
+      ],
+      "aliases": [
+        "container-platform"
+      ],
+      "ecosystems": [
+        "dockerhub"
+      ],
+      "tags": [
+        "containers",
+        "virtualization",
+        "devops"
+      ]
+    },
+    {
+      "name": "elasticsearch",
+      "description": "A distributed search and analytics engine built on Apache Lucene for full-text search and logging.",
+      "examples": [
+        "kibana",
+        "logstash",
+        "beats"
+      ],
+      "related": [
+        "search",
+        "database",
+        "data-layer"
+      ],
+      "aliases": [
+        "elastic",
+        "es"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "search",
+        "analytics",
+        "distributed",
+        "full-text"
+      ]
+    },
+    {
+      "name": "elixir",
+      "description": "A functional, concurrent programming language built on the Erlang VM, designed for building scalable and maintainable applications.",
+      "examples": [
+        "phoenix",
+        "nerves",
+        "ecto"
+      ],
+      "related": [
+        "functional-programming",
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "elixir-lang"
+      ],
+      "ecosystems": [
+        "hex"
+      ],
+      "tags": [
+        "programming-language",
+        "functional",
+        "concurrent",
+        "erlang-vm"
+      ]
+    },
+    {
+      "name": "express",
+      "description": "A minimal and flexible Node.js web application framework for building web and mobile applications.",
+      "examples": [
+        "express-generator",
+        "helmet",
+        "morgan"
+      ],
+      "related": [
+        "nodejs",
+        "javascript",
+        "backend"
+      ],
+      "aliases": [
+        "expressjs",
+        "express-js"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "nodejs",
+        "api"
+      ]
+    },
+    {
+      "name": "fastapi",
+      "description": "A modern, fast Python web framework for building APIs with automatic documentation and type hints.",
+      "examples": [
+        "uvicorn",
+        "pydantic",
+        "sqlmodel"
+      ],
+      "related": [
+        "python",
+        "backend",
+        "api-development"
+      ],
+      "aliases": [
+        "fast-api"
+      ],
+      "ecosystems": [
+        "pypi"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "python",
+        "api"
+      ]
+    },
+    {
+      "name": "firebase",
+      "description": "Google's mobile and web application development platform with backend services and SDKs.",
+      "examples": [
+        "firebase-auth",
+        "firestore",
+        "firebase-functions"
+      ],
+      "related": [
+        "backend-as-a-service",
+        "cloud",
+        "mobile-development"
+      ],
+      "aliases": [
+        "firebase-platform"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "baas",
+        "cloud",
+        "backend",
+        "google"
+      ]
+    },
+    {
+      "name": "flask",
+      "description": "A lightweight Python web framework that provides tools and libraries for building web applications.",
+      "examples": [
+        "flask-restful",
+        "flask-sqlalchemy",
+        "flask-login"
+      ],
+      "related": [
+        "python",
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "flask-framework"
+      ],
+      "ecosystems": [
+        "pypi"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "python",
+        "micro-framework"
+      ]
+    },
+    {
+      "name": "flutter",
+      "description": "Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "examples": [
+        "flutter-widgets",
+        "flutter-bloc",
+        "provider"
+      ],
+      "related": [
+        "dart",
+        "mobile-development",
+        "cross-platform"
+      ],
+      "aliases": [
+        "flutter-sdk"
+      ],
+      "ecosystems": [
+        "pub"
+      ],
+      "tags": [
+        "mobile",
+        "cross-platform",
+        "ui",
+        "google"
+      ]
+    },
+    {
+      "name": "git",
+      "description": "A distributed version control system for tracking changes in source code during software development.",
+      "examples": [
+        "github",
+        "gitlab",
+        "gitflow"
+      ],
+      "related": [
+        "version-control",
+        "developer-tools"
+      ],
+      "aliases": [
+        "git-scm"
+      ],
+      "ecosystems": [
+        "homebrew"
+      ],
+      "tags": [
+        "version-control",
+        "scm",
+        "collaboration",
+        "developer-tools"
+      ]
+    },
+    {
+      "name": "github-actions",
+      "description": "A CI/CD platform integrated with GitHub for automating workflows, builds, tests, and deployments.",
+      "examples": [
+        "actions-toolkit",
+        "setup-node",
+        "upload-artifact"
+      ],
+      "related": [
+        "ci-cd",
+        "devops",
+        "github"
+      ],
+      "aliases": [
+        "gha",
+        "actions"
+      ],
+      "ecosystems": [
+        "actions"
+      ],
+      "tags": [
+        "ci-cd",
+        "automation",
+        "github",
+        "workflows"
+      ]
+    },
+    {
+      "name": "go",
+      "description": "A statically typed, compiled programming language designed for simplicity and efficient concurrent programming.",
+      "examples": [
+        "kubernetes",
+        "docker",
+        "terraform"
+      ],
+      "related": [
+        "backend",
+        "cloud-computing"
+      ],
+      "aliases": [
+        "golang"
+      ],
+      "ecosystems": [
+        "go"
+      ],
+      "tags": [
+        "programming-language",
+        "compiled",
+        "concurrency",
+        "cloud"
+      ]
+    },
+    {
+      "name": "graphql",
+      "description": "A query language for APIs and runtime for executing queries with existing data.",
+      "examples": [
+        "apollo-server",
+        "graphql-yoga",
+        "relay"
+      ],
+      "related": [
+        "api",
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "graph-ql"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "api",
+        "query-language",
+        "backend",
+        "data"
+      ]
+    },
+    {
+      "name": "html",
+      "description": "The standard markup language for creating web pages and web applications.",
+      "examples": [
+        "html5-boilerplate",
+        "emmet",
+        "pug"
+      ],
+      "related": [
+        "css",
+        "javascript",
+        "web-development"
+      ],
+      "aliases": [
+        "html5",
+        "hypertext-markup-language"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "markup",
+        "web",
+        "frontend",
+        "standard"
+      ]
+    },
+    {
+      "name": "java",
+      "description": "An object-oriented programming language designed for portability and used in enterprise applications.",
+      "examples": [
+        "spring-boot",
+        "maven",
+        "hibernate"
+      ],
+      "related": [
+        "backend",
+        "enterprise"
+      ],
+      "aliases": [
+        "jvm"
+      ],
+      "ecosystems": [
+        "maven"
+      ],
+      "tags": [
+        "programming-language",
+        "object-oriented",
+        "enterprise",
+        "jvm"
+      ]
+    },
+    {
+      "name": "javascript",
+      "description": "A versatile programming language for web development, used for both frontend and backend applications.",
+      "examples": [
+        "react",
+        "express",
+        "vue"
+      ],
+      "related": [
+        "nodejs",
+        "typescript",
+        "web-development"
+      ],
+      "aliases": [
+        "js",
+        "ecmascript"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "programming-language",
+        "web",
+        "scripting",
+        "frontend"
+      ]
+    },
+    {
+      "name": "jenkins",
+      "description": "An open-source automation server for building, testing, and deploying software with continuous integration.",
+      "examples": [
+        "jenkins-plugins",
+        "jenkinsfile",
+        "blue-ocean"
+      ],
+      "related": [
+        "ci-cd",
+        "devops",
+        "automation"
+      ],
+      "aliases": [
+        "jenkins-ci"
+      ],
+      "ecosystems": [
+        "docker"
+      ],
+      "tags": [
+        "ci-cd",
+        "automation",
+        "continuous-integration",
+        "devops"
+      ]
+    },
+    {
+      "name": "jquery",
+      "description": "A fast, small JavaScript library that simplifies HTML document traversal and manipulation.",
+      "examples": [
+        "jquery-ui",
+        "jquery-mobile",
+        "datatables"
+      ],
+      "related": [
+        "javascript",
+        "frontend"
+      ],
+      "aliases": [
+        "jq"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "library",
+        "javascript",
+        "dom",
+        "frontend"
+      ]
+    },
+    {
+      "name": "kotlin",
+      "description": "A modern, statically typed programming language that runs on the JVM, officially supported for Android development.",
+      "examples": [
+        "ktor",
+        "android-apps",
+        "spring-kotlin"
+      ],
+      "related": [
+        "java",
+        "android",
+        "mobile-development"
+      ],
+      "aliases": [
+        "kotlin-lang"
+      ],
+      "ecosystems": [
+        "maven"
+      ],
+      "tags": [
+        "programming-language",
+        "jvm",
+        "android",
+        "mobile"
+      ]
+    },
+    {
+      "name": "kubernetes",
+      "description": "An open-source container orchestration platform for automating deployment, scaling, and management of applications.",
+      "examples": [
+        "kubectl",
+        "helm",
+        "minikube"
+      ],
+      "related": [
+        "docker",
+        "orchestration",
+        "devops"
+      ],
+      "aliases": [
+        "k8s"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "homebrew"
+      ],
+      "tags": [
+        "orchestration",
+        "containers",
+        "cloud-native",
+        "devops"
+      ]
+    },
+    {
+      "name": "laravel",
+      "description": "A PHP web framework with elegant syntax for building modern web applications with MVC architecture.",
+      "examples": [
+        "laravel-nova",
+        "laravel-passport",
+        "laravel-horizon"
+      ],
+      "related": [
+        "php",
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "laravel-framework"
+      ],
+      "ecosystems": [
+        "packagist"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "php",
+        "mvc"
+      ]
+    },
+    {
+      "name": "linux",
+      "description": "An open-source Unix-like operating system kernel and family of operating systems.",
+      "examples": [
+        "ubuntu",
+        "debian",
+        "arch-linux"
+      ],
+      "related": [
+        "operating-system",
+        "unix"
+      ],
+      "aliases": [
+        "linux-os",
+        "gnu-linux"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "operating-system",
+        "kernel",
+        "unix",
+        "open-source"
+      ]
+    },
+    {
+      "name": "mongodb",
+      "description": "A document-oriented NoSQL database designed for scalability and flexibility with JSON-like documents.",
+      "examples": [
+        "mongoose",
+        "mongodb-compass",
+        "mongodb-atlas"
+      ],
+      "related": [
+        "database",
+        "nosql",
+        "data-layer"
+      ],
+      "aliases": [
+        "mongo"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "docker"
+      ],
+      "tags": [
+        "database",
+        "nosql",
+        "document-store",
+        "json"
+      ]
+    },
+    {
+      "name": "mysql",
+      "description": "An open-source relational database management system known for reliability and ease of use.",
+      "examples": [
+        "mysql-workbench",
+        "percona",
+        "mariadb"
+      ],
+      "related": [
+        "database",
+        "sql",
+        "data-layer"
+      ],
+      "aliases": [
+        "mysql-server"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "relational",
+        "rdbms"
+      ]
+    },
+    {
+      "name": "nextjs",
+      "description": "A React framework for building full-stack web applications with server-side rendering and static generation.",
+      "examples": [
+        "vercel",
+        "next-auth",
+        "next-pwa"
+      ],
+      "related": [
+        "react",
+        "javascript",
+        "full-stack"
+      ],
+      "aliases": [
+        "next",
+        "next-js"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "framework",
+        "react",
+        "ssr",
+        "full-stack"
+      ]
+    },
+    {
+      "name": "nginx",
+      "description": "A high-performance web server, reverse proxy, and load balancer for handling HTTP and HTTPS traffic.",
+      "examples": [
+        "nginx-proxy",
+        "openresty",
+        "nginx-config"
+      ],
+      "related": [
+        "web-server",
+        "reverse-proxy",
+        "infrastructure"
+      ],
+      "aliases": [
+        "nginx-server"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "web-server",
+        "proxy",
+        "load-balancer",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "nodejs",
+      "description": "A JavaScript runtime built on Chrome's V8 engine for building scalable server-side applications.",
+      "examples": [
+        "express",
+        "nestjs",
+        "npm"
+      ],
+      "related": [
+        "javascript",
+        "backend",
+        "runtime"
+      ],
+      "aliases": [
+        "node",
+        "node-js"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "runtime",
+        "javascript",
+        "backend",
+        "server-side"
+      ]
+    },
+    {
+      "name": "php",
+      "description": "A server-side scripting language designed for web development and general-purpose programming.",
+      "examples": [
+        "laravel",
+        "symfony",
+        "wordpress"
+      ],
+      "related": [
+        "web-development",
+        "backend"
+      ],
+      "aliases": [
+        "php-lang"
+      ],
+      "ecosystems": [
+        "packagist"
+      ],
+      "tags": [
+        "programming-language",
+        "web",
+        "scripting",
+        "backend"
+      ]
+    },
+    {
+      "name": "postgresql",
+      "description": "An advanced, open-source relational database with strong standards compliance and extensibility.",
+      "examples": [
+        "pgadmin",
+        "postgis",
+        "timescaledb"
+      ],
+      "related": [
+        "database",
+        "sql",
+        "data-layer"
+      ],
+      "aliases": [
+        "postgres",
+        "psql"
+      ],
+      "ecosystems": [
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "relational",
+        "rdbms"
+      ]
+    },
+    {
+      "name": "python",
+      "description": "A high-level, interpreted programming language known for readability and versatility across domains.",
+      "examples": [
+        "django",
+        "flask",
+        "pandas"
+      ],
+      "related": [
+        "data-science",
+        "machine-learning",
+        "backend"
+      ],
+      "aliases": [
+        "py"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "programming-language",
+        "scripting",
+        "data-science",
+        "backend"
+      ]
+    },
+    {
+      "name": "r",
+      "description": "A programming language and environment for statistical computing, data analysis, and visualization.",
+      "examples": [
+        "ggplot2",
+        "shiny",
+        "dplyr"
+      ],
+      "related": [
+        "data-science",
+        "statistics",
+        "scientific-computing"
+      ],
+      "aliases": [
+        "r-lang",
+        "r-project"
+      ],
+      "ecosystems": [
+        "cran"
+      ],
+      "tags": [
+        "programming-language",
+        "statistics",
+        "data-science",
+        "visualization"
+      ]
+    },
+    {
+      "name": "rails",
+      "description": "A Ruby web framework following convention over configuration, designed for building database-backed web applications.",
+      "examples": [
+        "activerecord",
+        "actioncable",
+        "devise"
+      ],
+      "related": [
+        "ruby",
+        "backend",
+        "web-development"
+      ],
+      "aliases": [
+        "ruby-on-rails",
+        "ror"
+      ],
+      "ecosystems": [
+        "rubygems"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "ruby",
+        "mvc"
+      ]
+    },
+    {
+      "name": "react",
+      "description": "A JavaScript library for building user interfaces, primarily for single-page applications.",
+      "examples": [
+        "create-react-app",
+        "nextjs",
+        "gatsby"
+      ],
+      "related": [
+        "frontend",
+        "javascript"
+      ],
+      "aliases": [
+        "reactjs"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "ui",
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "redis",
+      "description": "An in-memory data structure store used as a database, cache, message broker, and streaming engine.",
+      "examples": [
+        "redis-cli",
+        "redis-commander",
+        "ioredis"
+      ],
+      "related": [
+        "cache",
+        "database",
+        "data-layer"
+      ],
+      "aliases": [
+        "redis-server"
+      ],
+      "ecosystems": [
+        "docker",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "cache",
+        "database",
+        "in-memory",
+        "key-value"
+      ]
+    },
+    {
+      "name": "ruby",
+      "description": "A dynamic, interpreted programming language focused on simplicity and productivity with elegant syntax.",
+      "examples": [
+        "rails",
+        "jekyll",
+        "sinatra"
+      ],
+      "related": [
+        "web-development",
+        "backend"
+      ],
+      "aliases": [
+        "ruby-lang"
+      ],
+      "ecosystems": [
+        "rubygems"
+      ],
+      "tags": [
+        "programming-language",
+        "scripting",
+        "web",
+        "dynamic"
+      ]
+    },
+    {
+      "name": "rust",
+      "description": "A systems programming language focused on safety, speed, and concurrency.",
+      "examples": [
+        "rocket",
+        "actix",
+        "rust-analyzer"
+      ],
+      "related": [
+        "programming-language",
+        "backend"
+      ],
+      "aliases": [
+        "systems-language"
+      ],
+      "ecosystems": [
+        "crates.io"
+      ],
+      "tags": [
+        "memory-safety",
+        "concurrency",
+        "performance"
+      ]
+    },
+    {
+      "name": "sass",
+      "description": "A CSS preprocessor that extends CSS with variables, nesting, mixins, and other powerful features.",
+      "examples": [
+        "compass",
+        "bourbon",
+        "susy"
+      ],
+      "related": [
+        "css",
+        "frontend",
+        "web-development"
+      ],
+      "aliases": [
+        "scss"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "css",
+        "preprocessor",
+        "styling",
+        "frontend"
+      ]
+    },
+    {
+      "name": "scala",
+      "description": "A functional and object-oriented programming language running on the JVM, popular in data engineering and distributed systems.",
+      "examples": [
+        "spark",
+        "akka",
+        "play-framework"
+      ],
+      "related": [
+        "java",
+        "functional-programming",
+        "data-engineering"
+      ],
+      "aliases": [
+        "scala-lang"
+      ],
+      "ecosystems": [
+        "maven"
+      ],
+      "tags": [
+        "programming-language",
+        "functional",
+        "jvm",
+        "data-engineering"
+      ]
+    },
+    {
+      "name": "spring-boot",
+      "description": "A Java-based framework for building production-ready Spring applications with minimal configuration.",
+      "examples": [
+        "spring-data",
+        "spring-security",
+        "spring-cloud"
+      ],
+      "related": [
+        "java",
+        "backend",
+        "enterprise"
+      ],
+      "aliases": [
+        "springboot",
+        "spring"
+      ],
+      "ecosystems": [
+        "maven"
+      ],
+      "tags": [
+        "backend",
+        "framework",
+        "java",
+        "enterprise"
+      ]
+    },
+    {
+      "name": "sqlite",
+      "description": "A lightweight, embedded SQL database engine that requires no separate server process or configuration.",
+      "examples": [
+        "sqlite-browser",
+        "sqlalchemy",
+        "better-sqlite3"
+      ],
+      "related": [
+        "database",
+        "sql",
+        "embedded"
+      ],
+      "aliases": [
+        "sqlite3"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "database",
+        "sql",
+        "embedded",
+        "lightweight"
+      ]
+    },
+    {
+      "name": "svelte",
+      "description": "A modern JavaScript framework that compiles components into efficient vanilla JavaScript at build time.",
+      "examples": [
+        "sveltekit",
+        "svelte-material-ui",
+        "svelte-native"
+      ],
+      "related": [
+        "javascript",
+        "frontend",
+        "web-development"
+      ],
+      "aliases": [
+        "sveltejs"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "frontend",
+        "framework",
+        "compiler",
+        "javascript"
+      ]
+    },
+    {
+      "name": "swift",
+      "description": "A powerful, modern programming language developed by Apple for iOS, macOS, and other Apple platforms.",
+      "examples": [
+        "vapor",
+        "swiftui",
+        "alamofire"
+      ],
+      "related": [
+        "ios",
+        "mobile-development"
+      ],
+      "aliases": [
+        "swift-lang"
+      ],
+      "ecosystems": [
+        "swiftpm",
+        "cocoapods"
+      ],
+      "tags": [
+        "programming-language",
+        "apple",
+        "ios",
+        "mobile"
+      ]
+    },
+    {
+      "name": "tailwindcss",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces with composable classes.",
+      "examples": [
+        "tailwind-ui",
+        "daisyui",
+        "headlessui"
+      ],
+      "related": [
+        "css",
+        "frontend",
+        "web-development"
+      ],
+      "aliases": [
+        "tailwind"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "css",
+        "framework",
+        "utility-first",
+        "ui"
+      ]
+    },
+    {
+      "name": "terraform",
+      "description": "An infrastructure as code tool for building, changing, and versioning infrastructure safely and efficiently.",
+      "examples": [
+        "terraform-aws-modules",
+        "terragrunt",
+        "terraform-provider-azurerm"
+      ],
+      "related": [
+        "infrastructure",
+        "devops",
+        "cloud-computing"
+      ],
+      "aliases": [
+        "tf"
+      ],
+      "ecosystems": [
+        "go",
+        "homebrew"
+      ],
+      "tags": [
+        "infrastructure-as-code",
+        "devops",
+        "cloud",
+        "provisioning"
+      ]
+    },
+    {
+      "name": "typescript",
+      "description": "A typed superset of JavaScript that compiles to plain JavaScript, adding static type checking.",
+      "examples": [
+        "angular",
+        "nestjs",
+        "typescript-compiler"
+      ],
+      "related": [
+        "javascript",
+        "nodejs",
+        "web-development"
+      ],
+      "aliases": [
+        "ts"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "programming-language",
+        "typed",
+        "web",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vite",
+      "description": "A fast build tool and development server for modern web projects with native ES modules support.",
+      "examples": [
+        "vite-plugin-vue",
+        "vite-plugin-react",
+        "vitest"
+      ],
+      "related": [
+        "build-tool",
+        "webpack",
+        "frontend"
+      ],
+      "aliases": [
+        "vitejs"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "build-tool",
+        "bundler",
+        "development",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vue",
+      "description": "A progressive JavaScript framework for building user interfaces with a gentle learning curve.",
+      "examples": [
+        "nuxt",
+        "vuetify",
+        "vue-router"
+      ],
+      "related": [
+        "javascript",
+        "frontend",
+        "web-development"
+      ],
+      "aliases": [
+        "vuejs",
+        "vue-js"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "frontend",
+        "framework",
+        "javascript",
+        "ui"
+      ]
+    },
+    {
+      "name": "webpack",
+      "description": "A module bundler for JavaScript applications that packages code and assets for deployment.",
+      "examples": [
+        "webpack-cli",
+        "webpack-dev-server",
+        "html-webpack-plugin"
+      ],
+      "related": [
+        "build-tool",
+        "vite",
+        "javascript"
+      ],
+      "aliases": [
+        "webpack-bundler"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "bundler",
+        "build-tool",
+        "javascript",
+        "module-loader"
+      ]
+    }
+  ]
+}
