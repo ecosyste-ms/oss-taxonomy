@@ -25,7 +25,7 @@ Instead of forcing software into a single category, the taxonomy allows projects
 
 This multi-faceted approach creates a rich, queryable classification that enables powerful discovery, analysis, and recommendation features.
 
-## 📂 Structure
+## Structure
 
 Each folder in this repository is a **facet**, containing YAML files that define individual **terms**.
 
@@ -42,7 +42,7 @@ Each folder in this repository is a **facet**, containing YAML files that define
 - [Function](oss-taxonomy/function/) — What the software does
   - `api-development`, `authentication`, `automation`, `caching`, `ci-cd`, `containerization`, `database-management`, `deployment`, `documentation`, `logging`, ...
 
-## 🛠 Usage
+## Usage
 
 You can use this taxonomy to:
 
@@ -58,7 +58,7 @@ A combined JSON file is automatically generated ([`combined-taxonomy.json`](./co
 
 The taxonomy structure is formally defined in [`schema.json`](./schema.json), a JSON Schema file that can be used to validate the combined taxonomy data or integrate it into your tools and editors.
 
-## 📘 Term Format
+## Term Format
 
 Each `.yml` file in a facet folder defines a single **term**. Here's the recommended structure:
 
@@ -106,7 +106,7 @@ These ecosystem identifiers come from [packages.ecosyste.ms](https://packages.ec
 
 `npm`, `go`, `docker`, `nuget`, `pypi`, `maven`, `packagist`, `cargo`, `rubygems`, `cocoapods`, `pub`, `bower`, `cpan`, `alpine`, `actions`, `cran`, `clojars`, `conda`, `hex`, `hackage`, `julia`, `swiftpm`, `spack`, `homebrew`, `puppet`, `openvsx`, `deno`, `elm`, `racket`, `vcpkg`, `bioconductor`, `carthage`, `postmarketos`, `elpa`, `adelie`
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! To add or improve a term:
 
@@ -116,7 +116,7 @@ We welcome contributions! To add or improve a term:
 4. Run `generate_combined_taxonomy.rb` to update the combined file.
 5. Open a pull request.
 
-## 📄 License
+## License
 
 CC0 1.0 Universal
 Public Domain Dedication. You can use this taxonomy freely without restrictions.
