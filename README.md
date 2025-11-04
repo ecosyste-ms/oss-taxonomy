@@ -64,8 +64,8 @@ The taxonomy structure is formally defined in [`schema.json`](./schema.json), a 
 
 ### Why Use This Taxonomy in CodeMeta?
 
-Analysis of over 100,000 open source projects with CodeMeta files reveals:
-- **No standard vocabulary** for `applicationCategory` (119 unique values for just 213 uses, 69% used only once)
+Analysis of 1,631 open source projects with CodeMeta files reveals:
+- **No standard vocabulary** for `applicationCategory` (229 unique values for 496 uses, 61% used only once)
 - **Fragmented keywords** with no consistent structure or semantic meaning
 - **No multi-faceted classification** to capture what software does, who it's for, and where it fits
 
