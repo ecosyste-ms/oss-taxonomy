@@ -58,6 +58,69 @@ A combined JSON file is automatically generated ([`combined-taxonomy.json`](./co
 
 The taxonomy structure is formally defined in [`schema.json`](./schema.json), a JSON Schema file that can be used to validate the combined taxonomy data or integrate it into your tools and editors.
 
+## Using with CodeMeta
+
+[CodeMeta](https://codemeta.github.io/) is a standard for software metadata that extends schema.org. If you're maintaining a `codemeta.json` file for your project, you can use this taxonomy to provide rich, structured classification.
+
+### Why Use This Taxonomy in CodeMeta?
+
+Analysis of over 100,000 open source projects with CodeMeta files reveals:
+- **No standard vocabulary** for `applicationCategory` (119 unique values for just 213 uses, 69% used only once)
+- **Fragmented keywords** with no consistent structure or semantic meaning
+- **No multi-faceted classification** to capture what software does, who it's for, and where it fits
+
+This taxonomy fills that gap by providing a **shared vocabulary** with **multi-dimensional classification**.
+
+### Recommended Approach: Namespaced Keywords
+
+Use **colon-prefixed keywords** to preserve the faceted structure of this taxonomy within CodeMeta's existing fields. This approach:
+- ✓ Works with existing CodeMeta/schema.org standards (no changes required)
+- ✓ Is machine-parsable with simple regex patterns
+- ✓ Maintains backward compatibility (still searchable as plain text)
+- ✓ Preserves semantic meaning across facets
+
+#### Example
+
+```json
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "django",
+  "description": "A high-level Python web framework",
+  "applicationCategory": "framework",
+  "keywords": [
+    "domain:web-development",
+    "domain:api-development",
+    "role:framework",
+    "role:library",
+    "technology:python",
+    "audience:developer",
+    "audience:enterprise",
+    "layer:backend",
+    "layer:full-stack",
+    "function:api-development",
+    "function:authentication",
+    "function:database-management"
+  ]
+}
+```
+
+#### Guidelines
+
+1. **Use the facet name as the namespace prefix**: `domain:`, `role:`, `technology:`, `audience:`, `layer:`, `function:`
+
+2. **Use kebab-case term names**: Match the exact term names from this taxonomy (e.g., `web-development`, not `Web Development`)
+
+3. **Include multiple terms per facet**: Software often fits multiple categories within each dimension
+
+4. **Set applicationCategory to the primary role**: Use the most specific `role` term (e.g., `framework`, `library`, `cli-tool`)
+
+5. **Mix with regular keywords**: You can include both namespaced and non-namespaced keywords
+
+### Future Direction
+
+We are working with the CodeMeta community to potentially formalize this approach or introduce native structured taxonomy support in future versions. Feedback and real-world usage will inform these discussions.
+
 ## Term Format
 
 Each `.yml` file in a facet folder defines a single **term**. Here's the recommended structure:
