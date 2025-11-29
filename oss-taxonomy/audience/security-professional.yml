@@ -1,0 +1,23 @@
+name: security-professional
+description: Software for penetration testers, security analysts, SOC teams, and cybersecurity practitioners.
+examples:
+  - nmap
+  - metasploit
+  - wireshark
+related:
+  - sysadmin
+  - developer
+  - security
+aliases:
+  - pentester
+  - security-analyst
+  - infosec-professional
+ecosystems:
+  - pypi
+  - cargo
+  - homebrew
+tags:
+  - security
+  - penetration-testing
+  - vulnerability
+  - forensics

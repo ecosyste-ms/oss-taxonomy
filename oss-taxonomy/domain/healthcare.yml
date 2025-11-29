@@ -1,0 +1,22 @@
+name: healthcare
+description: Software for medical applications, health records, clinical systems, and health technology.
+examples:
+  - openmrs
+  - hapi-fhir
+  - orthanc
+related:
+  - scientific-computing
+  - security
+aliases:
+  - health-tech
+  - medical
+  - health-informatics
+ecosystems:
+  - pypi
+  - npm
+  - maven
+tags:
+  - medical
+  - ehr
+  - fhir
+  - clinical

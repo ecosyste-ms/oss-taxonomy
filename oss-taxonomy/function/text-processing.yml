@@ -1,0 +1,22 @@
+name: text-processing
+description: Text manipulation, pattern matching, diff, and string processing utilities.
+examples:
+  - regex
+  - diff-match-patch
+  - sed
+related:
+  - parsing
+  - natural-language-processing
+aliases:
+  - string-processing
+  - text-manipulation
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - cargo
+tags:
+  - text
+  - regex
+  - diff
+  - strings

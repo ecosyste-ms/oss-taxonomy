@@ -1,0 +1,22 @@
+name: formatter
+description: Tools that automatically format source code to follow consistent style conventions.
+examples:
+  - prettier
+  - black
+  - gofmt
+related:
+  - linter
+  - editor
+aliases:
+  - code-formatter
+  - beautifier
+ecosystems:
+  - npm
+  - pypi
+  - cargo
+  - go
+tags:
+  - formatting
+  - style
+  - code-style
+  - whitespace

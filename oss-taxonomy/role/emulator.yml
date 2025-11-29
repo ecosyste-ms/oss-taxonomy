@@ -1,0 +1,20 @@
+name: emulator
+description: Software that mimics hardware or other software environments for testing or compatibility.
+examples:
+  - qemu
+  - dosbox
+  - android-emulator
+related:
+  - runtime
+  - testing-framework
+aliases:
+  - simulator
+  - virtual-machine
+ecosystems:
+  - homebrew
+  - docker
+tags:
+  - emulation
+  - simulation
+  - compatibility
+  - virtualization

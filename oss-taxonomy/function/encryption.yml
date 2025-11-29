@@ -1,0 +1,23 @@
+name: encryption
+description: Cryptographic libraries, key management, and data encryption tools.
+examples:
+  - openssl
+  - libsodium
+  - age
+related:
+  - security
+  - authentication
+aliases:
+  - cryptography
+  - crypto
+  - key-management
+ecosystems:
+  - pypi
+  - cargo
+  - npm
+  - go
+tags:
+  - encryption
+  - keys
+  - certificates
+  - hashing

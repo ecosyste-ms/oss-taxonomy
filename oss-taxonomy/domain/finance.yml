@@ -1,0 +1,22 @@
+name: finance
+description: Software for financial services, trading, banking, payments, and fintech applications.
+examples:
+  - stripe
+  - plaid
+  - zipline
+related:
+  - enterprise
+  - security
+aliases:
+  - fintech
+  - financial-services
+  - banking
+ecosystems:
+  - pypi
+  - npm
+  - go
+tags:
+  - payments
+  - trading
+  - banking
+  - cryptocurrency

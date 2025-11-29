@@ -1,0 +1,23 @@
+name: application-layer
+description: Business logic and application code that sits between the frontend and data layer.
+examples:
+  - django
+  - rails
+  - spring-boot
+related:
+  - backend
+  - frontend
+  - middleware
+aliases:
+  - business-logic
+  - service-layer
+ecosystems:
+  - pypi
+  - rubygems
+  - maven
+  - npm
+tags:
+  - logic
+  - services
+  - controllers
+  - domain

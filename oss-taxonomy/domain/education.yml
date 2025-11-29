@@ -1,0 +1,23 @@
+name: education
+description: Software for educational technology, learning management, online courses, and academic tools.
+examples:
+  - moodle
+  - canvas-lms
+  - openedx
+related:
+  - content-management
+  - student
+  - educator
+aliases:
+  - edtech
+  - e-learning
+  - lms
+ecosystems:
+  - npm
+  - pypi
+  - packagist
+tags:
+  - learning
+  - courses
+  - academic
+  - training

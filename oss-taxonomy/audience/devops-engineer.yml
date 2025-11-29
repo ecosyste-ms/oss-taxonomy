@@ -1,0 +1,23 @@
+name: devops-engineer
+description: Software for engineers focused on CI/CD pipelines, cloud infrastructure, and deployment automation.
+examples:
+  - terraform
+  - github-actions
+  - argocd
+related:
+  - sysadmin
+  - developer
+  - devops
+aliases:
+  - platform-engineer
+  - sre
+  - site-reliability-engineer
+ecosystems:
+  - docker
+  - go
+  - pypi
+tags:
+  - ci-cd
+  - cloud
+  - automation
+  - infrastructure

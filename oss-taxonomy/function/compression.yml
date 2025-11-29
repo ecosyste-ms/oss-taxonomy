@@ -1,0 +1,23 @@
+name: compression
+description: Data compression, archiving, and decompression utilities.
+examples:
+  - zlib
+  - lz4
+  - zstd
+related:
+  - file-management
+  - parsing
+aliases:
+  - archiving
+  - zip
+  - decompression
+ecosystems:
+  - cargo
+  - pypi
+  - npm
+  - homebrew
+tags:
+  - compression
+  - archive
+  - gzip
+  - tar

@@ -114,6 +114,36 @@
       ]
     },
     {
+      "name": "devops-engineer",
+      "description": "Software for engineers focused on CI/CD pipelines, cloud infrastructure, and deployment automation.",
+      "examples": [
+        "terraform",
+        "github-actions",
+        "argocd"
+      ],
+      "related": [
+        "sysadmin",
+        "developer",
+        "devops"
+      ],
+      "aliases": [
+        "platform-engineer",
+        "sre",
+        "site-reliability-engineer"
+      ],
+      "ecosystems": [
+        "docker",
+        "go",
+        "pypi"
+      ],
+      "tags": [
+        "ci-cd",
+        "cloud",
+        "automation",
+        "infrastructure"
+      ]
+    },
+    {
       "name": "educator",
       "description": "Teachers, trainers, and instructors using software for educational purposes and teaching.",
       "examples": [
@@ -254,6 +284,36 @@
       ]
     },
     {
+      "name": "security-professional",
+      "description": "Software for penetration testers, security analysts, SOC teams, and cybersecurity practitioners.",
+      "examples": [
+        "nmap",
+        "metasploit",
+        "wireshark"
+      ],
+      "related": [
+        "sysadmin",
+        "developer",
+        "security"
+      ],
+      "aliases": [
+        "pentester",
+        "security-analyst",
+        "infosec-professional"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "security",
+        "penetration-testing",
+        "vulnerability",
+        "forensics"
+      ]
+    },
+    {
       "name": "student",
       "description": "Educational software and learning tools for students and educational contexts.",
       "examples": [
@@ -304,6 +364,35 @@
         "automation",
         "infrastructure",
         "configuration"
+      ]
+    },
+    {
+      "name": "writer",
+      "description": "Software for technical writers, documentation authors, and content professionals.",
+      "examples": [
+        "sphinx",
+        "mkdocs",
+        "asciidoctor"
+      ],
+      "related": [
+        "content-creator",
+        "educator",
+        "documentation"
+      ],
+      "aliases": [
+        "technical-writer",
+        "documentation-author"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "writing",
+        "documentation",
+        "technical-writing",
+        "markdown"
       ]
     }
   ],
@@ -513,6 +602,36 @@
       ]
     },
     {
+      "name": "education",
+      "description": "Software for educational technology, learning management, online courses, and academic tools.",
+      "examples": [
+        "moodle",
+        "canvas-lms",
+        "openedx"
+      ],
+      "related": [
+        "content-management",
+        "student",
+        "educator"
+      ],
+      "aliases": [
+        "edtech",
+        "e-learning",
+        "lms"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "packagist"
+      ],
+      "tags": [
+        "learning",
+        "courses",
+        "academic",
+        "training"
+      ]
+    },
+    {
       "name": "embedded-systems",
       "description": "Software for IoT devices, microcontrollers, firmware, and hardware interfaces.",
       "examples": [
@@ -542,6 +661,35 @@
       ]
     },
     {
+      "name": "finance",
+      "description": "Software for financial services, trading, banking, payments, and fintech applications.",
+      "examples": [
+        "stripe",
+        "plaid",
+        "zipline"
+      ],
+      "related": [
+        "enterprise",
+        "security"
+      ],
+      "aliases": [
+        "fintech",
+        "financial-services",
+        "banking"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "go"
+      ],
+      "tags": [
+        "payments",
+        "trading",
+        "banking",
+        "cryptocurrency"
+      ]
+    },
+    {
       "name": "game-development",
       "description": "Game engines, libraries, and tools for creating video games and interactive experiences.",
       "examples": [
@@ -568,6 +716,64 @@
         "graphics",
         "engine",
         "rendering"
+      ]
+    },
+    {
+      "name": "geospatial",
+      "description": "Software for geographic information systems, mapping, location services, and spatial data analysis.",
+      "examples": [
+        "qgis",
+        "leaflet",
+        "postgis"
+      ],
+      "related": [
+        "data-science",
+        "visualization"
+      ],
+      "aliases": [
+        "gis",
+        "mapping",
+        "location-services"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "cran"
+      ],
+      "tags": [
+        "maps",
+        "coordinates",
+        "spatial",
+        "geography"
+      ]
+    },
+    {
+      "name": "healthcare",
+      "description": "Software for medical applications, health records, clinical systems, and health technology.",
+      "examples": [
+        "openmrs",
+        "hapi-fhir",
+        "orthanc"
+      ],
+      "related": [
+        "scientific-computing",
+        "security"
+      ],
+      "aliases": [
+        "health-tech",
+        "medical",
+        "health-informatics"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "maven"
+      ],
+      "tags": [
+        "medical",
+        "ehr",
+        "fhir",
+        "clinical"
       ]
     },
     {
@@ -661,6 +867,35 @@
       ]
     },
     {
+      "name": "natural-language-processing",
+      "description": "Software for text analysis, language understanding, speech recognition, and computational linguistics.",
+      "examples": [
+        "spacy",
+        "nltk",
+        "huggingface-transformers"
+      ],
+      "related": [
+        "machine-learning",
+        "data-science"
+      ],
+      "aliases": [
+        "nlp",
+        "text-analysis",
+        "computational-linguistics"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "cargo"
+      ],
+      "tags": [
+        "text",
+        "language",
+        "speech",
+        "transformers"
+      ]
+    },
+    {
       "name": "networking",
       "description": "Software for network infrastructure, protocols, routing, DNS, VPNs, and network management.",
       "examples": [
@@ -687,6 +922,34 @@
         "infrastructure",
         "protocols",
         "dns"
+      ]
+    },
+    {
+      "name": "robotics",
+      "description": "Software for robot control, autonomous systems, ROS, and mechatronics applications.",
+      "examples": [
+        "ros",
+        "gazebo",
+        "moveit"
+      ],
+      "related": [
+        "embedded-systems",
+        "machine-learning"
+      ],
+      "aliases": [
+        "robot-operating-system",
+        "autonomous-systems"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "robots",
+        "autonomous",
+        "control-systems",
+        "sensors"
       ]
     },
     {
@@ -917,6 +1180,36 @@
       ]
     },
     {
+      "name": "compression",
+      "description": "Data compression, archiving, and decompression utilities.",
+      "examples": [
+        "zlib",
+        "lz4",
+        "zstd"
+      ],
+      "related": [
+        "file-management",
+        "parsing"
+      ],
+      "aliases": [
+        "archiving",
+        "zip",
+        "decompression"
+      ],
+      "ecosystems": [
+        "cargo",
+        "pypi",
+        "npm",
+        "homebrew"
+      ],
+      "tags": [
+        "compression",
+        "archive",
+        "gzip",
+        "tar"
+      ]
+    },
+    {
       "name": "containerization",
       "description": "Container runtimes, image building, and container management tools.",
       "examples": [
@@ -1029,6 +1322,124 @@
         "docs",
         "api-docs",
         "static-site"
+      ]
+    },
+    {
+      "name": "encryption",
+      "description": "Cryptographic libraries, key management, and data encryption tools.",
+      "examples": [
+        "openssl",
+        "libsodium",
+        "age"
+      ],
+      "related": [
+        "security",
+        "authentication"
+      ],
+      "aliases": [
+        "cryptography",
+        "crypto",
+        "key-management"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "npm",
+        "go"
+      ],
+      "tags": [
+        "encryption",
+        "keys",
+        "certificates",
+        "hashing"
+      ]
+    },
+    {
+      "name": "file-management",
+      "description": "File operations, synchronization, backup, and filesystem utilities.",
+      "examples": [
+        "rsync",
+        "rclone",
+        "watchman"
+      ],
+      "related": [
+        "compression",
+        "automation"
+      ],
+      "aliases": [
+        "file-operations",
+        "file-sync",
+        "backup"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "pypi",
+        "npm",
+        "go"
+      ],
+      "tags": [
+        "files",
+        "sync",
+        "backup",
+        "filesystem"
+      ]
+    },
+    {
+      "name": "image-processing",
+      "description": "Image manipulation, conversion, optimization, and computer vision libraries.",
+      "examples": [
+        "imagemagick",
+        "sharp",
+        "pillow"
+      ],
+      "related": [
+        "visualization",
+        "multimedia"
+      ],
+      "aliases": [
+        "image-manipulation",
+        "graphics-processing"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "cargo",
+        "homebrew"
+      ],
+      "tags": [
+        "images",
+        "graphics",
+        "resize",
+        "conversion"
+      ]
+    },
+    {
+      "name": "internationalization",
+      "description": "Translation, localization, and multi-language support tools.",
+      "examples": [
+        "i18next",
+        "gettext",
+        "formatjs"
+      ],
+      "related": [
+        "text-processing",
+        "templating"
+      ],
+      "aliases": [
+        "i18n",
+        "l10n",
+        "localization"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "translation",
+        "locale",
+        "language",
+        "multilingual"
       ]
     },
     {
@@ -1259,6 +1670,36 @@
       ]
     },
     {
+      "name": "serialization",
+      "description": "Data encoding, decoding, and format conversion libraries.",
+      "examples": [
+        "protobuf",
+        "msgpack",
+        "serde"
+      ],
+      "related": [
+        "parsing",
+        "validation"
+      ],
+      "aliases": [
+        "encoding",
+        "decoding",
+        "marshalling"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "cargo",
+        "go"
+      ],
+      "tags": [
+        "serialization",
+        "binary",
+        "json",
+        "protocol-buffers"
+      ]
+    },
+    {
       "name": "simulation",
       "description": "Software for modeling systems, processes, and phenomena over time for analysis and prediction.",
       "examples": [
@@ -1344,6 +1785,65 @@
       ]
     },
     {
+      "name": "text-processing",
+      "description": "Text manipulation, pattern matching, diff, and string processing utilities.",
+      "examples": [
+        "regex",
+        "diff-match-patch",
+        "sed"
+      ],
+      "related": [
+        "parsing",
+        "natural-language-processing"
+      ],
+      "aliases": [
+        "string-processing",
+        "text-manipulation"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "cargo"
+      ],
+      "tags": [
+        "text",
+        "regex",
+        "diff",
+        "strings"
+      ]
+    },
+    {
+      "name": "validation",
+      "description": "Input validation, schema validation, and data verification libraries.",
+      "examples": [
+        "joi",
+        "zod",
+        "jsonschema"
+      ],
+      "related": [
+        "parsing",
+        "serialization"
+      ],
+      "aliases": [
+        "input-validation",
+        "schema-validation",
+        "data-validation"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "cargo"
+      ],
+      "tags": [
+        "validation",
+        "schema",
+        "sanitization",
+        "constraints"
+      ]
+    },
+    {
       "name": "visualization",
       "description": "Software for creating charts, graphs, and visual representations of data.",
       "examples": [
@@ -1370,6 +1870,36 @@
     }
   ],
   "layer": [
+    {
+      "name": "application-layer",
+      "description": "Business logic and application code that sits between the frontend and data layer.",
+      "examples": [
+        "django",
+        "rails",
+        "spring-boot"
+      ],
+      "related": [
+        "backend",
+        "frontend",
+        "middleware"
+      ],
+      "aliases": [
+        "business-logic",
+        "service-layer"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems",
+        "maven",
+        "npm"
+      ],
+      "tags": [
+        "logic",
+        "services",
+        "controllers",
+        "domain"
+      ]
+    },
     {
       "name": "backend",
       "description": "Server-side software that handles business logic and database interactions.",
@@ -1421,6 +1951,36 @@
         "storage",
         "persistence",
         "cache"
+      ]
+    },
+    {
+      "name": "edge",
+      "description": "Software that runs at the network edge, including CDNs, edge functions, and distributed compute.",
+      "examples": [
+        "traefik",
+        "varnish",
+        "envoy"
+      ],
+      "related": [
+        "infrastructure",
+        "network-layer",
+        "platform"
+      ],
+      "aliases": [
+        "edge-computing",
+        "cdn",
+        "edge-functions"
+      ],
+      "ecosystems": [
+        "npm",
+        "go",
+        "docker"
+      ],
+      "tags": [
+        "edge",
+        "cdn",
+        "distributed",
+        "latency"
       ]
     },
     {
@@ -1783,6 +2343,34 @@
       ]
     },
     {
+      "name": "debugger",
+      "description": "Tools for inspecting, stepping through, and diagnosing issues in running code.",
+      "examples": [
+        "gdb",
+        "lldb",
+        "pdb"
+      ],
+      "related": [
+        "testing-framework",
+        "editor"
+      ],
+      "aliases": [
+        "debugging-tool",
+        "profiler"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "pypi",
+        "npm"
+      ],
+      "tags": [
+        "debugging",
+        "breakpoints",
+        "inspection",
+        "profiling"
+      ]
+    },
+    {
       "name": "editor",
       "description": "Text editors and integrated development environments for writing and editing code.",
       "examples": [
@@ -1811,6 +2399,62 @@
       ]
     },
     {
+      "name": "emulator",
+      "description": "Software that mimics hardware or other software environments for testing or compatibility.",
+      "examples": [
+        "qemu",
+        "dosbox",
+        "android-emulator"
+      ],
+      "related": [
+        "runtime",
+        "testing-framework"
+      ],
+      "aliases": [
+        "simulator",
+        "virtual-machine"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "docker"
+      ],
+      "tags": [
+        "emulation",
+        "simulation",
+        "compatibility",
+        "virtualization"
+      ]
+    },
+    {
+      "name": "formatter",
+      "description": "Tools that automatically format source code to follow consistent style conventions.",
+      "examples": [
+        "prettier",
+        "black",
+        "gofmt"
+      ],
+      "related": [
+        "linter",
+        "editor"
+      ],
+      "aliases": [
+        "code-formatter",
+        "beautifier"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "cargo",
+        "go"
+      ],
+      "tags": [
+        "formatting",
+        "style",
+        "code-style",
+        "whitespace"
+      ]
+    },
+    {
       "name": "framework",
       "description": "Software that provides a structured foundation to build applications.",
       "examples": [
@@ -1833,6 +2477,32 @@
         "mvc",
         "architecture",
         "backend"
+      ]
+    },
+    {
+      "name": "language",
+      "description": "Programming languages and their core implementations, compilers, or interpreters.",
+      "examples": [
+        "rust",
+        "python",
+        "go"
+      ],
+      "related": [
+        "compiler",
+        "runtime"
+      ],
+      "aliases": [
+        "programming-language",
+        "language-implementation"
+      ],
+      "ecosystems": [
+        "homebrew"
+      ],
+      "tags": [
+        "language",
+        "syntax",
+        "semantics",
+        "compiler"
       ]
     },
     {
@@ -1862,6 +2532,35 @@
         "utilities",
         "reusable",
         "components"
+      ]
+    },
+    {
+      "name": "linter",
+      "description": "Static analysis tools that check code for errors, bugs, and style violations.",
+      "examples": [
+        "eslint",
+        "rubocop",
+        "pylint"
+      ],
+      "related": [
+        "formatter",
+        "testing-framework"
+      ],
+      "aliases": [
+        "static-analyzer",
+        "code-checker"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "cargo"
+      ],
+      "tags": [
+        "code-quality",
+        "static-analysis",
+        "style",
+        "errors"
       ]
     },
     {
@@ -1949,6 +2648,33 @@
         "extension",
         "addon",
         "integration"
+      ]
+    },
+    {
+      "name": "runtime",
+      "description": "Execution environments and interpreters that run programs written in a specific language.",
+      "examples": [
+        "nodejs",
+        "deno",
+        "bun"
+      ],
+      "related": [
+        "compiler",
+        "language"
+      ],
+      "aliases": [
+        "interpreter",
+        "execution-environment"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "docker"
+      ],
+      "tags": [
+        "execution",
+        "interpreter",
+        "virtual-machine",
+        "environment"
       ]
     },
     {

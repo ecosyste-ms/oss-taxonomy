@@ -1,0 +1,22 @@
+name: internationalization
+description: Translation, localization, and multi-language support tools.
+examples:
+  - i18next
+  - gettext
+  - formatjs
+related:
+  - text-processing
+  - templating
+aliases:
+  - i18n
+  - l10n
+  - localization
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+tags:
+  - translation
+  - locale
+  - language
+  - multilingual
