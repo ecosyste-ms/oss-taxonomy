@@ -2,8 +2,8 @@ name: ci-cd
 description: Software for automating continuous integration and continuous deployment workflows.
 examples:
   - jenkins
-  - circleci
-  - github-actions
+  - gitlab-ci
+  - woodpecker
 related:
   - developer
   - automation

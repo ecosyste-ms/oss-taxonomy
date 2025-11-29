@@ -3,7 +3,7 @@ description: A document-oriented NoSQL database designed for scalability and fle
 examples:
   - mongoose
   - mongodb-compass
-  - mongodb-atlas
+  - mongosh
 related:
   - database
   - nosql

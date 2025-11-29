@@ -2,8 +2,8 @@ name: platform
 description: Foundational services, runtime environments, and platforms that other software runs on.
 examples:
   - kubernetes
-  - aws-lambda
-  - heroku
+  - openshift
+  - dokku
 related:
   - infrastructure
   - operating-system

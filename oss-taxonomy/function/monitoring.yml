@@ -3,7 +3,7 @@ description: Observability platforms, metrics collection, and system monitoring 
 examples:
   - prometheus
   - grafana
-  - datadog-agent
+  - zabbix
 related:
   - observability
   - logging

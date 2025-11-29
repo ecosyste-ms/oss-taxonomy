@@ -65,7 +65,7 @@
       "examples": [
         "inkscape",
         "gimp",
-        "figma-plugins"
+        "penpot"
       ],
       "related": [
         "frontend",
@@ -92,8 +92,8 @@
       "description": "Software intended for developers and programmers.",
       "examples": [
         "vscode",
-        "jetbrains-ide",
-        "sublime-text"
+        "neovim",
+        "emacs"
       ],
       "related": [
         "sysadmin",
@@ -263,8 +263,8 @@
       "description": "Software used by researchers for data analysis, simulations, and experiments.",
       "examples": [
         "jupyter",
-        "matlab",
-        "r"
+        "rstudio",
+        "octave"
       ],
       "related": [
         "data-science",
@@ -664,9 +664,9 @@
       "name": "finance",
       "description": "Software for financial services, trading, banking, payments, and fintech applications.",
       "examples": [
-        "stripe",
-        "plaid",
-        "zipline"
+        "zipline",
+        "gnucash",
+        "ledger"
       ],
       "related": [
         "enterprise",
@@ -695,7 +695,7 @@
       "examples": [
         "godot",
         "pygame",
-        "unity"
+        "bevy"
       ],
       "related": [
         "graphics",
@@ -1158,8 +1158,8 @@
       "description": "Software for automating continuous integration and continuous deployment workflows.",
       "examples": [
         "jenkins",
-        "circleci",
-        "github-actions"
+        "gitlab-ci",
+        "woodpecker"
       ],
       "related": [
         "developer",
@@ -1506,7 +1506,7 @@
       "examples": [
         "prometheus",
         "grafana",
-        "datadog-agent"
+        "zabbix"
       ],
       "related": [
         "observability",
@@ -2179,8 +2179,8 @@
       "description": "Foundational services, runtime environments, and platforms that other software runs on.",
       "examples": [
         "kubernetes",
-        "aws-lambda",
-        "heroku"
+        "openshift",
+        "dokku"
       ],
       "related": [
         "infrastructure",
@@ -2822,7 +2822,7 @@
       "examples": [
         "ansible-playbooks",
         "ansible-galaxy",
-        "ansible-tower"
+        "awx"
       ],
       "related": [
         "automation",
@@ -2979,8 +2979,8 @@
       "description": "A modern, object-oriented programming language developed by Microsoft for the .NET framework.",
       "examples": [
         "aspnet-core",
-        "unity",
-        "xamarin"
+        "avalonia",
+        "monogame"
       ],
       "related": [
         "dotnet",
@@ -3209,33 +3209,6 @@
         "framework",
         "python",
         "api"
-      ]
-    },
-    {
-      "name": "firebase",
-      "description": "Google's mobile and web application development platform with backend services and SDKs.",
-      "examples": [
-        "firebase-auth",
-        "firestore",
-        "firebase-functions"
-      ],
-      "related": [
-        "backend-as-a-service",
-        "cloud",
-        "mobile-development"
-      ],
-      "aliases": [
-        "firebase-platform"
-      ],
-      "ecosystems": [
-        "npm",
-        "pypi"
-      ],
-      "tags": [
-        "baas",
-        "cloud",
-        "backend",
-        "google"
       ]
     },
     {
@@ -3637,7 +3610,7 @@
       "examples": [
         "mongoose",
         "mongodb-compass",
-        "mongodb-atlas"
+        "mongosh"
       ],
       "related": [
         "database",
@@ -3690,9 +3663,9 @@
       "name": "nextjs",
       "description": "A React framework for building full-stack web applications with server-side rendering and static generation.",
       "examples": [
-        "vercel",
         "next-auth",
-        "next-pwa"
+        "next-pwa",
+        "next-intl"
       ],
       "related": [
         "react",
