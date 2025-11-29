@@ -1,0 +1,22 @@
+name: linter
+description: Static analysis tools that check code for errors, bugs, and style violations.
+examples:
+  - eslint
+  - rubocop
+  - pylint
+related:
+  - formatter
+  - testing-framework
+aliases:
+  - static-analyzer
+  - code-checker
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - cargo
+tags:
+  - code-quality
+  - static-analysis
+  - style
+  - errors

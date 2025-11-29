@@ -2,8 +2,8 @@ name: researcher
 description: Software used by researchers for data analysis, simulations, and experiments.
 examples:
   - jupyter
-  - matlab
-  - r
+  - rstudio
+  - octave
 related:
   - data-science
   - scientific-computing

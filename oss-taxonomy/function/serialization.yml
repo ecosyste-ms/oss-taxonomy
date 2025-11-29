@@ -1,0 +1,23 @@
+name: serialization
+description: Data encoding, decoding, and format conversion libraries.
+examples:
+  - protobuf
+  - msgpack
+  - serde
+related:
+  - parsing
+  - validation
+aliases:
+  - encoding
+  - decoding
+  - marshalling
+ecosystems:
+  - npm
+  - pypi
+  - cargo
+  - go
+tags:
+  - serialization
+  - binary
+  - json
+  - protocol-buffers

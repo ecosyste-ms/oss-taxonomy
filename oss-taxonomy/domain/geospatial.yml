@@ -1,0 +1,22 @@
+name: geospatial
+description: Software for geographic information systems, mapping, location services, and spatial data analysis.
+examples:
+  - qgis
+  - leaflet
+  - postgis
+related:
+  - data-science
+  - visualization
+aliases:
+  - gis
+  - mapping
+  - location-services
+ecosystems:
+  - pypi
+  - npm
+  - cran
+tags:
+  - maps
+  - coordinates
+  - spatial
+  - geography

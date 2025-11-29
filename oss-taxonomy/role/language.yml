@@ -1,0 +1,19 @@
+name: language
+description: Programming languages and their core implementations, compilers, or interpreters.
+examples:
+  - rust
+  - python
+  - go
+related:
+  - compiler
+  - runtime
+aliases:
+  - programming-language
+  - language-implementation
+ecosystems:
+  - homebrew
+tags:
+  - language
+  - syntax
+  - semantics
+  - compiler

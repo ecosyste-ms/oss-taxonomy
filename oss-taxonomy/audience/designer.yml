@@ -3,7 +3,7 @@ description: Tools for UI/UX designers, graphic designers, and creative professi
 examples:
   - inkscape
   - gimp
-  - figma-plugins
+  - penpot
 related:
   - frontend
   - creative

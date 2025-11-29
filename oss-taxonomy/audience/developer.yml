@@ -2,8 +2,8 @@ name: developer
 description: Software intended for developers and programmers.
 examples:
   - vscode
-  - jetbrains-ide
-  - sublime-text
+  - neovim
+  - emacs
 related:
   - sysadmin
   - end-user

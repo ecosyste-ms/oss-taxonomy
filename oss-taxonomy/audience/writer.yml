@@ -1,0 +1,22 @@
+name: writer
+description: Software for technical writers, documentation authors, and content professionals.
+examples:
+  - sphinx
+  - mkdocs
+  - asciidoctor
+related:
+  - content-creator
+  - educator
+  - documentation
+aliases:
+  - technical-writer
+  - documentation-author
+ecosystems:
+  - pypi
+  - npm
+  - rubygems
+tags:
+  - writing
+  - documentation
+  - technical-writing
+  - markdown

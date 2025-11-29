@@ -1,0 +1,22 @@
+name: image-processing
+description: Image manipulation, conversion, optimization, and computer vision libraries.
+examples:
+  - imagemagick
+  - sharp
+  - pillow
+related:
+  - visualization
+  - multimedia
+aliases:
+  - image-manipulation
+  - graphics-processing
+ecosystems:
+  - npm
+  - pypi
+  - cargo
+  - homebrew
+tags:
+  - images
+  - graphics
+  - resize
+  - conversion

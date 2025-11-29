@@ -1,0 +1,21 @@
+name: robotics
+description: Software for robot control, autonomous systems, ROS, and mechatronics applications.
+examples:
+  - ros
+  - gazebo
+  - moveit
+related:
+  - embedded-systems
+  - machine-learning
+aliases:
+  - robot-operating-system
+  - autonomous-systems
+ecosystems:
+  - pypi
+  - cargo
+  - homebrew
+tags:
+  - robots
+  - autonomous
+  - control-systems
+  - sensors

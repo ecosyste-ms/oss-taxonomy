@@ -1,0 +1,23 @@
+name: file-management
+description: File operations, synchronization, backup, and filesystem utilities.
+examples:
+  - rsync
+  - rclone
+  - watchman
+related:
+  - compression
+  - automation
+aliases:
+  - file-operations
+  - file-sync
+  - backup
+ecosystems:
+  - homebrew
+  - pypi
+  - npm
+  - go
+tags:
+  - files
+  - sync
+  - backup
+  - filesystem

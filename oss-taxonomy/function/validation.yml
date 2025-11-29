@@ -1,0 +1,23 @@
+name: validation
+description: Input validation, schema validation, and data verification libraries.
+examples:
+  - joi
+  - zod
+  - jsonschema
+related:
+  - parsing
+  - serialization
+aliases:
+  - input-validation
+  - schema-validation
+  - data-validation
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - cargo
+tags:
+  - validation
+  - schema
+  - sanitization
+  - constraints

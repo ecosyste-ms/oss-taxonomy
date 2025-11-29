@@ -3,7 +3,7 @@ description: An open-source automation tool for configuration management, applic
 examples:
   - ansible-playbooks
   - ansible-galaxy
-  - ansible-tower
+  - awx
 related:
   - automation
   - devops

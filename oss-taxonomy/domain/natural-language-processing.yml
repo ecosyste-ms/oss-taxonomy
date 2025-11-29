@@ -1,0 +1,22 @@
+name: natural-language-processing
+description: Software for text analysis, language understanding, speech recognition, and computational linguistics.
+examples:
+  - spacy
+  - nltk
+  - huggingface-transformers
+related:
+  - machine-learning
+  - data-science
+aliases:
+  - nlp
+  - text-analysis
+  - computational-linguistics
+ecosystems:
+  - pypi
+  - npm
+  - cargo
+tags:
+  - text
+  - language
+  - speech
+  - transformers

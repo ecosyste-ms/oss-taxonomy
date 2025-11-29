@@ -3,7 +3,7 @@ description: Game engines, libraries, and tools for creating video games and int
 examples:
   - godot
   - pygame
-  - unity
+  - bevy
 related:
   - graphics
   - 3d-rendering

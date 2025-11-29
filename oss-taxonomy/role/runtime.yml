@@ -1,0 +1,20 @@
+name: runtime
+description: Execution environments and interpreters that run programs written in a specific language.
+examples:
+  - nodejs
+  - deno
+  - bun
+related:
+  - compiler
+  - language
+aliases:
+  - interpreter
+  - execution-environment
+ecosystems:
+  - homebrew
+  - docker
+tags:
+  - execution
+  - interpreter
+  - virtual-machine
+  - environment

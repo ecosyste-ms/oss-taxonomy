@@ -1,0 +1,23 @@
+name: edge
+description: Software that runs at the network edge, including CDNs, edge functions, and distributed compute.
+examples:
+  - traefik
+  - varnish
+  - envoy
+related:
+  - infrastructure
+  - network-layer
+  - platform
+aliases:
+  - edge-computing
+  - cdn
+  - edge-functions
+ecosystems:
+  - npm
+  - go
+  - docker
+tags:
+  - edge
+  - cdn
+  - distributed
+  - latency

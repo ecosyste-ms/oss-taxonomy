@@ -1,0 +1,21 @@
+name: debugger
+description: Tools for inspecting, stepping through, and diagnosing issues in running code.
+examples:
+  - gdb
+  - lldb
+  - pdb
+related:
+  - testing-framework
+  - editor
+aliases:
+  - debugging-tool
+  - profiler
+ecosystems:
+  - homebrew
+  - pypi
+  - npm
+tags:
+  - debugging
+  - breakpoints
+  - inspection
+  - profiling
