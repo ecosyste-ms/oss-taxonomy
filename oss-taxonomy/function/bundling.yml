@@ -1,0 +1,23 @@
+name: bundling
+description: Combining and transforming source files into optimised deployable artifacts.
+examples:
+  - webpack
+  - vite
+  - esbuild
+  - rollup
+  - parcel
+related:
+  - deployment
+  - compression
+aliases:
+  - module-bundling
+  - asset-pipeline
+  - asset-bundling
+ecosystems:
+  - npm
+tags:
+  - bundler
+  - assets
+  - modules
+  - tree-shaking
+  - minification

@@ -1,0 +1,26 @@
+name: feature-flags
+description: Runtime feature toggling for gradual rollouts, experiments, and kill switches.
+examples:
+  - launchdarkly
+  - unleash
+  - flipper
+  - flagsmith
+related:
+  - deployment
+  - monitoring
+aliases:
+  - feature-toggles
+  - feature-management
+  - feature-switches
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - go
+  - maven
+tags:
+  - flags
+  - toggles
+  - rollout
+  - experiments
+  - configuration

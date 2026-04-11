@@ -1,0 +1,25 @@
+name: dependency-injection
+description: Inversion of control containers that wire object graphs and manage component lifecycles.
+examples:
+  - guice
+  - dagger
+  - wire
+  - inversify
+related:
+  - testing
+  - api-development
+aliases:
+  - ioc
+  - inversion-of-control
+  - di-container
+ecosystems:
+  - maven
+  - npm
+  - go
+  - nuget
+tags:
+  - injection
+  - ioc
+  - container
+  - wiring
+  - lifecycle

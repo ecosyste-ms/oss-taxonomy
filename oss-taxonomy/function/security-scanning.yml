@@ -1,0 +1,30 @@
+name: security-scanning
+description: Static and dynamic analysis tools that find vulnerabilities, secrets, and known-bad dependencies.
+examples:
+  - semgrep
+  - trivy
+  - bandit
+  - brakeman
+  - snyk
+related:
+  - testing
+  - ci-cd
+  - validation
+aliases:
+  - vulnerability-scanning
+  - sast
+  - sca
+  - security-analysis
+ecosystems:
+  - pypi
+  - npm
+  - rubygems
+  - go
+  - homebrew
+  - docker
+tags:
+  - security
+  - vulnerabilities
+  - scanning
+  - static-analysis
+  - cve

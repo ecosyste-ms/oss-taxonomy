@@ -1,0 +1,30 @@
+name: http-client
+description: Libraries for making outbound HTTP requests to APIs and remote services.
+examples:
+  - requests
+  - axios
+  - reqwest
+  - faraday
+  - guzzle
+related:
+  - api-development
+  - networking
+  - scraping
+aliases:
+  - http-requests
+  - rest-client
+  - api-client
+ecosystems:
+  - pypi
+  - npm
+  - cargo
+  - rubygems
+  - go
+  - maven
+  - packagist
+tags:
+  - http
+  - rest
+  - api
+  - client
+  - requests

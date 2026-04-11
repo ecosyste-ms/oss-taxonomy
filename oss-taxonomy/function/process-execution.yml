@@ -1,0 +1,25 @@
+name: process-execution
+description: Libraries for spawning and managing operating system processes from application code.
+examples:
+  - execa
+  - shelljs
+  - sh
+  - invoke
+related:
+  - automation
+  - file-management
+aliases:
+  - subprocess
+  - shell-execution
+  - command-execution
+ecosystems:
+  - npm
+  - pypi
+  - rubygems
+  - go
+tags:
+  - subprocess
+  - shell
+  - exec
+  - spawn
+  - command
