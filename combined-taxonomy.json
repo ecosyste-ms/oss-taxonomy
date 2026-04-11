@@ -1125,6 +1125,36 @@
       ]
     },
     {
+      "name": "bundling",
+      "description": "Combining and transforming source files into optimised deployable artifacts.",
+      "examples": [
+        "webpack",
+        "vite",
+        "esbuild",
+        "rollup",
+        "parcel"
+      ],
+      "related": [
+        "deployment",
+        "compression"
+      ],
+      "aliases": [
+        "module-bundling",
+        "asset-pipeline",
+        "asset-bundling"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "bundler",
+        "assets",
+        "modules",
+        "tree-shaking",
+        "minification"
+      ]
+    },
+    {
       "name": "caching",
       "description": "Cache systems, in-memory data stores, and performance optimization tools.",
       "examples": [
@@ -1177,6 +1207,39 @@
         "automation",
         "deployment",
         "pipelines"
+      ]
+    },
+    {
+      "name": "code-generation",
+      "description": "Tools that generate source code from schemas, interface definitions, or annotations.",
+      "examples": [
+        "protoc",
+        "openapi-generator",
+        "sqlc",
+        "graphql-codegen"
+      ],
+      "related": [
+        "api-development",
+        "serialization",
+        "automation"
+      ],
+      "aliases": [
+        "codegen",
+        "source-generation"
+      ],
+      "ecosystems": [
+        "npm",
+        "go",
+        "pypi",
+        "maven",
+        "cargo"
+      ],
+      "tags": [
+        "codegen",
+        "schema",
+        "idl",
+        "protobuf",
+        "openapi"
       ]
     },
     {
@@ -1239,6 +1302,43 @@
       ]
     },
     {
+      "name": "data-mapping",
+      "description": "Object-relational mappers and query builders that translate between application objects and database rows.",
+      "examples": [
+        "sqlalchemy",
+        "activerecord",
+        "prisma",
+        "gorm",
+        "diesel"
+      ],
+      "related": [
+        "database-management",
+        "data-layer",
+        "validation"
+      ],
+      "aliases": [
+        "orm",
+        "object-relational-mapping",
+        "query-builder"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems",
+        "npm",
+        "go",
+        "cargo",
+        "maven",
+        "packagist"
+      ],
+      "tags": [
+        "orm",
+        "database",
+        "sql",
+        "persistence",
+        "models"
+      ]
+    },
+    {
       "name": "database-management",
       "description": "Database administration tools, GUI clients, and database operation utilities.",
       "examples": [
@@ -1264,6 +1364,38 @@
         "admin",
         "management",
         "gui"
+      ]
+    },
+    {
+      "name": "dependency-injection",
+      "description": "Inversion of control containers that wire object graphs and manage component lifecycles.",
+      "examples": [
+        "guice",
+        "dagger",
+        "wire",
+        "inversify"
+      ],
+      "related": [
+        "testing",
+        "api-development"
+      ],
+      "aliases": [
+        "ioc",
+        "inversion-of-control",
+        "di-container"
+      ],
+      "ecosystems": [
+        "maven",
+        "npm",
+        "go",
+        "nuget"
+      ],
+      "tags": [
+        "injection",
+        "ioc",
+        "container",
+        "wiring",
+        "lifecycle"
       ]
     },
     {
@@ -1355,6 +1487,39 @@
       ]
     },
     {
+      "name": "feature-flags",
+      "description": "Runtime feature toggling for gradual rollouts, experiments, and kill switches.",
+      "examples": [
+        "launchdarkly",
+        "unleash",
+        "flipper",
+        "flagsmith"
+      ],
+      "related": [
+        "deployment",
+        "monitoring"
+      ],
+      "aliases": [
+        "feature-toggles",
+        "feature-management",
+        "feature-switches"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "go",
+        "maven"
+      ],
+      "tags": [
+        "flags",
+        "toggles",
+        "rollout",
+        "experiments",
+        "configuration"
+      ]
+    },
+    {
       "name": "file-management",
       "description": "File operations, synchronization, backup, and filesystem utilities.",
       "examples": [
@@ -1382,6 +1547,43 @@
         "sync",
         "backup",
         "filesystem"
+      ]
+    },
+    {
+      "name": "http-client",
+      "description": "Libraries for making outbound HTTP requests to APIs and remote services.",
+      "examples": [
+        "requests",
+        "axios",
+        "reqwest",
+        "faraday",
+        "guzzle"
+      ],
+      "related": [
+        "api-development",
+        "networking",
+        "scraping"
+      ],
+      "aliases": [
+        "http-requests",
+        "rest-client",
+        "api-client"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "cargo",
+        "rubygems",
+        "go",
+        "maven",
+        "packagist"
+      ],
+      "tags": [
+        "http",
+        "rest",
+        "api",
+        "client",
+        "requests"
       ]
     },
     {
@@ -1501,6 +1703,39 @@
       ]
     },
     {
+      "name": "mocking",
+      "description": "Test doubles, stubs, and fake implementations for isolating code under test.",
+      "examples": [
+        "mockito",
+        "sinon",
+        "msw",
+        "mockgen"
+      ],
+      "related": [
+        "testing",
+        "dependency-injection"
+      ],
+      "aliases": [
+        "test-doubles",
+        "stubbing",
+        "faking"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "maven",
+        "go",
+        "rubygems"
+      ],
+      "tags": [
+        "mocks",
+        "stubs",
+        "fakes",
+        "testing",
+        "isolation"
+      ]
+    },
+    {
       "name": "monitoring",
       "description": "Observability platforms, metrics collection, and system monitoring tools.",
       "examples": [
@@ -1587,6 +1822,38 @@
       ]
     },
     {
+      "name": "process-execution",
+      "description": "Libraries for spawning and managing operating system processes from application code.",
+      "examples": [
+        "execa",
+        "shelljs",
+        "sh",
+        "invoke"
+      ],
+      "related": [
+        "automation",
+        "file-management"
+      ],
+      "aliases": [
+        "subprocess",
+        "shell-execution",
+        "command-execution"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "go"
+      ],
+      "tags": [
+        "subprocess",
+        "shell",
+        "exec",
+        "spawn",
+        "command"
+      ]
+    },
+    {
       "name": "scheduling",
       "description": "Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals.",
       "examples": [
@@ -1667,6 +1934,77 @@
         "indexing",
         "full-text",
         "query"
+      ]
+    },
+    {
+      "name": "secrets-management",
+      "description": "Loading, storing, and rotating credentials and sensitive configuration at runtime.",
+      "examples": [
+        "vault",
+        "sops",
+        "dotenv",
+        "doppler"
+      ],
+      "related": [
+        "encryption",
+        "authentication",
+        "deployment"
+      ],
+      "aliases": [
+        "credential-management",
+        "secrets",
+        "secret-storage"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "go",
+        "rubygems",
+        "homebrew"
+      ],
+      "tags": [
+        "secrets",
+        "credentials",
+        "vault",
+        "environment",
+        "configuration"
+      ]
+    },
+    {
+      "name": "security-scanning",
+      "description": "Static and dynamic analysis tools that find vulnerabilities, secrets, and known-bad dependencies.",
+      "examples": [
+        "semgrep",
+        "trivy",
+        "bandit",
+        "brakeman",
+        "snyk"
+      ],
+      "related": [
+        "testing",
+        "ci-cd",
+        "validation"
+      ],
+      "aliases": [
+        "vulnerability-scanning",
+        "sast",
+        "sca",
+        "security-analysis"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "rubygems",
+        "go",
+        "homebrew",
+        "docker"
+      ],
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "scanning",
+        "static-analysis",
+        "cve"
       ]
     },
     {
@@ -1811,6 +2149,36 @@
         "regex",
         "diff",
         "strings"
+      ]
+    },
+    {
+      "name": "type-checking",
+      "description": "Static type analysis that verifies type correctness without running the code.",
+      "examples": [
+        "mypy",
+        "typescript",
+        "sorbet",
+        "pyright"
+      ],
+      "related": [
+        "validation",
+        "testing"
+      ],
+      "aliases": [
+        "static-typing",
+        "type-inference",
+        "typecheck"
+      ],
+      "ecosystems": [
+        "pypi",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "types",
+        "static-analysis",
+        "type-safety",
+        "inference"
       ]
     },
     {

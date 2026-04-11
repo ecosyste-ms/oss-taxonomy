@@ -1,0 +1,23 @@
+name: type-checking
+description: Static type analysis that verifies type correctness without running the code.
+examples:
+  - mypy
+  - typescript
+  - sorbet
+  - pyright
+related:
+  - validation
+  - testing
+aliases:
+  - static-typing
+  - type-inference
+  - typecheck
+ecosystems:
+  - pypi
+  - npm
+  - rubygems
+tags:
+  - types
+  - static-analysis
+  - type-safety
+  - inference

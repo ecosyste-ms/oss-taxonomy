@@ -1,0 +1,30 @@
+name: data-mapping
+description: Object-relational mappers and query builders that translate between application objects and database rows.
+examples:
+  - sqlalchemy
+  - activerecord
+  - prisma
+  - gorm
+  - diesel
+related:
+  - database-management
+  - data-layer
+  - validation
+aliases:
+  - orm
+  - object-relational-mapping
+  - query-builder
+ecosystems:
+  - pypi
+  - rubygems
+  - npm
+  - go
+  - cargo
+  - maven
+  - packagist
+tags:
+  - orm
+  - database
+  - sql
+  - persistence
+  - models

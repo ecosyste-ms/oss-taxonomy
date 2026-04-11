@@ -1,0 +1,26 @@
+name: code-generation
+description: Tools that generate source code from schemas, interface definitions, or annotations.
+examples:
+  - protoc
+  - openapi-generator
+  - sqlc
+  - graphql-codegen
+related:
+  - api-development
+  - serialization
+  - automation
+aliases:
+  - codegen
+  - source-generation
+ecosystems:
+  - npm
+  - go
+  - pypi
+  - maven
+  - cargo
+tags:
+  - codegen
+  - schema
+  - idl
+  - protobuf
+  - openapi

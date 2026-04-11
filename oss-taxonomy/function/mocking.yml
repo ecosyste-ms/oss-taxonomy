@@ -1,0 +1,26 @@
+name: mocking
+description: Test doubles, stubs, and fake implementations for isolating code under test.
+examples:
+  - mockito
+  - sinon
+  - msw
+  - mockgen
+related:
+  - testing
+  - dependency-injection
+aliases:
+  - test-doubles
+  - stubbing
+  - faking
+ecosystems:
+  - npm
+  - pypi
+  - maven
+  - go
+  - rubygems
+tags:
+  - mocks
+  - stubs
+  - fakes
+  - testing
+  - isolation
