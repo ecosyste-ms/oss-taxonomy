@@ -2,8 +2,8 @@ require 'bundler/setup'
 require 'yaml'
 require 'fileutils'
 
-required_fields = ['name', 'description', 'examples']
-optional_fields = ['aliases', 'notable_projects', 'ecosystems', 'tags']
+required_fields = ['name', 'description']
+optional_fields = ['examples', 'related', 'aliases', 'ecosystems', 'tags']
 
 facet_directories = Dir.glob('oss-taxonomy/*').select { |entry| File.directory?(entry) }
 
