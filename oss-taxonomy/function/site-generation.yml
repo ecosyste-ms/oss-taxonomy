@@ -1,0 +1,27 @@
+name: site-generation
+description: Building static websites from content files, templates, and data sources.
+examples:
+  - hugo
+  - jekyll
+  - eleventy
+  - astro
+  - gatsby
+related:
+  - templating
+  - documentation
+  - bundling
+aliases:
+  - static-site-generator
+  - ssg
+  - site-builder
+ecosystems:
+  - npm
+  - rubygems
+  - go
+  - pypi
+tags:
+  - static-site
+  - markdown
+  - content
+  - jamstack
+  - prerendering
