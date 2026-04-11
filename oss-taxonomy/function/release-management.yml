@@ -1,0 +1,27 @@
+name: release-management
+description: Versioning, changelog generation, and publishing automation for software releases.
+examples:
+  - semantic-release
+  - changesets
+  - release-please
+  - goreleaser
+related:
+  - ci-cd
+  - automation
+  - deployment
+aliases:
+  - versioning
+  - changelog
+  - release-automation
+ecosystems:
+  - npm
+  - pypi
+  - cargo
+  - go
+  - actions
+tags:
+  - releases
+  - semver
+  - changelog
+  - publishing
+  - tags

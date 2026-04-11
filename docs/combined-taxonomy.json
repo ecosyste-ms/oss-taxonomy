@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-04-11T10:27:17Z",
+  "generated_at": "2026-04-11T15:18:36Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1127,6 +1127,41 @@
       ]
     },
     {
+      "name": "benchmarking",
+      "description": "Measuring execution time, throughput, or resource usage of code under controlled conditions.",
+      "examples": [
+        "criterion",
+        "hyperfine",
+        "k6",
+        "gatling",
+        "locust"
+      ],
+      "related": [
+        "testing",
+        "monitoring"
+      ],
+      "aliases": [
+        "performance-testing",
+        "load-testing",
+        "micro-benchmarking"
+      ],
+      "ecosystems": [
+        "cargo",
+        "homebrew",
+        "pypi",
+        "maven",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "performance",
+        "benchmarks",
+        "latency",
+        "throughput",
+        "profiling"
+      ]
+    },
+    {
       "name": "bundling",
       "description": "Combining and transforming source files into optimised deployable artifacts.",
       "examples": [
@@ -1301,6 +1336,38 @@
         "docker",
         "images",
         "runtime"
+      ]
+    },
+    {
+      "name": "coverage",
+      "description": "Measuring which lines, branches, or paths of code are exercised by tests.",
+      "examples": [
+        "simplecov",
+        "jacoco",
+        "istanbul",
+        "tarpaulin"
+      ],
+      "related": [
+        "testing",
+        "ci-cd"
+      ],
+      "aliases": [
+        "code-coverage",
+        "test-coverage"
+      ],
+      "ecosystems": [
+        "rubygems",
+        "maven",
+        "npm",
+        "cargo",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "coverage",
+        "metrics",
+        "testing",
+        "reporting"
       ]
     },
     {
@@ -1856,6 +1923,70 @@
       ]
     },
     {
+      "name": "release-management",
+      "description": "Versioning, changelog generation, and publishing automation for software releases.",
+      "examples": [
+        "semantic-release",
+        "changesets",
+        "release-please",
+        "goreleaser"
+      ],
+      "related": [
+        "ci-cd",
+        "automation",
+        "deployment"
+      ],
+      "aliases": [
+        "versioning",
+        "changelog",
+        "release-automation"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "cargo",
+        "go",
+        "actions"
+      ],
+      "tags": [
+        "releases",
+        "semver",
+        "changelog",
+        "publishing",
+        "tags"
+      ]
+    },
+    {
+      "name": "runtime-management",
+      "description": "Installing and switching between versions of language runtimes and toolchains.",
+      "examples": [
+        "asdf",
+        "mise",
+        "pyenv",
+        "nvm",
+        "rbenv"
+      ],
+      "related": [
+        "automation",
+        "deployment"
+      ],
+      "aliases": [
+        "version-manager",
+        "toolchain-management"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "versions",
+        "runtimes",
+        "shims",
+        "toolchain"
+      ]
+    },
+    {
       "name": "scheduling",
       "description": "Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals.",
       "examples": [
@@ -2065,6 +2196,70 @@
         "modeling",
         "analysis",
         "prediction"
+      ]
+    },
+    {
+      "name": "site-generation",
+      "description": "Building static websites from content files, templates, and data sources.",
+      "examples": [
+        "hugo",
+        "jekyll",
+        "eleventy",
+        "astro",
+        "gatsby"
+      ],
+      "related": [
+        "templating",
+        "documentation",
+        "bundling"
+      ],
+      "aliases": [
+        "static-site-generator",
+        "ssg",
+        "site-builder"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems",
+        "go",
+        "pypi"
+      ],
+      "tags": [
+        "static-site",
+        "markdown",
+        "content",
+        "jamstack",
+        "prerendering"
+      ]
+    },
+    {
+      "name": "styling",
+      "description": "Processing, generating, or extending stylesheets and visual presentation rules.",
+      "examples": [
+        "sass",
+        "postcss",
+        "tailwindcss",
+        "less"
+      ],
+      "related": [
+        "templating",
+        "bundling"
+      ],
+      "aliases": [
+        "css-processing",
+        "stylesheet",
+        "css-preprocessing"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "css",
+        "stylesheets",
+        "preprocessor",
+        "design-tokens",
+        "utility-classes"
       ]
     },
     {

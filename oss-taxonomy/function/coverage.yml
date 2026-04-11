@@ -1,0 +1,25 @@
+name: coverage
+description: Measuring which lines, branches, or paths of code are exercised by tests.
+examples:
+  - simplecov
+  - jacoco
+  - istanbul
+  - tarpaulin
+related:
+  - testing
+  - ci-cd
+aliases:
+  - code-coverage
+  - test-coverage
+ecosystems:
+  - rubygems
+  - maven
+  - npm
+  - cargo
+  - pypi
+  - go
+tags:
+  - coverage
+  - metrics
+  - testing
+  - reporting

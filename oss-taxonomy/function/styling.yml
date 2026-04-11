@@ -1,0 +1,23 @@
+name: styling
+description: Processing, generating, or extending stylesheets and visual presentation rules.
+examples:
+  - sass
+  - postcss
+  - tailwindcss
+  - less
+related:
+  - templating
+  - bundling
+aliases:
+  - css-processing
+  - stylesheet
+  - css-preprocessing
+ecosystems:
+  - npm
+  - rubygems
+tags:
+  - css
+  - stylesheets
+  - preprocessor
+  - design-tokens
+  - utility-classes

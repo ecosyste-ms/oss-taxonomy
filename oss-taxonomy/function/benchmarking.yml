@@ -1,0 +1,28 @@
+name: benchmarking
+description: Measuring execution time, throughput, or resource usage of code under controlled conditions.
+examples:
+  - criterion
+  - hyperfine
+  - k6
+  - gatling
+  - locust
+related:
+  - testing
+  - monitoring
+aliases:
+  - performance-testing
+  - load-testing
+  - micro-benchmarking
+ecosystems:
+  - cargo
+  - homebrew
+  - pypi
+  - maven
+  - npm
+  - rubygems
+tags:
+  - performance
+  - benchmarks
+  - latency
+  - throughput
+  - profiling
