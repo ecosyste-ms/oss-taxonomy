@@ -5,6 +5,16 @@
   "description": "Schema for the OSS Taxonomy combined JSON file, defining facets and terms for classifying open source software",
   "type": "object",
   "properties": {
+    "version": {
+      "type": "string",
+      "description": "Taxonomy version, bumped when terms are added or changed",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "generated_at": {
+      "type": "string",
+      "description": "UTC timestamp when combined-taxonomy.json was generated",
+      "format": "date-time"
+    },
     "domain": {
       "type": "array",
       "description": "Terms describing the industry or field the software is designed for",
