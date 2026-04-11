@@ -5,31 +5,28 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   combine_yml_to_json:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4 # zizmor: ignore[artipacked] add-and-commit needs the token to push
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@e65c17d16e57e481586a6a5a0282698790062f92 # v1.300.0
         with:
-          ruby-version: 3.0
+          ruby-version: '3.4'
           bundler-cache: true
 
-      - name: Install dependencies with Bundler
-        run: |
-          gem install bundler
-          bundle install
-
       - name: Run combine script
-        run: |
-          bundle exec ruby ./combine_yml_to_json.rb
-          
+        run: bundle exec ruby ./combine_yml_to_json.rb
+
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321 # v10.0.0
         with:
           message: 'Update combined-taxonomy.json'
-          add: 'combined-taxonomy.json'
+          add: 'combined-taxonomy.json terms.txt docs/'

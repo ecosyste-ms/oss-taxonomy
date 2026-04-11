@@ -7,24 +7,23 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@e65c17d16e57e481586a6a5a0282698790062f92 # v1.300.0
         with:
-          ruby-version: 3.0
+          ruby-version: '3.4'
           bundler-cache: true
 
-      - name: Install dependencies with Bundler
-        run: |
-          gem install bundler
-          bundle install
-
       - name: Run YML linting
-        run: |
-          bundle exec ruby ./lint_yml_files.rb
+        run: bundle exec ruby ./lint_yml_files.rb
