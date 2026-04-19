@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    json (2.19.3)
+    json (2.19.4)
     yaml (0.4.0)
 
 PLATFORMS
@@ -13,7 +13,7 @@ DEPENDENCIES
   yaml
 
 CHECKSUMS
-  json (2.19.3) sha256=289b0bb53052a1fa8c34ab33cc750b659ba14a5c45f3fcf4b18762dc67c78646
+  json (2.19.4) sha256=670a7d333fb3b18ca5b29cb255eb7bef099e40d88c02c80bd42a3f30fe5239ac
   yaml (0.4.0) sha256=240e69d1e6ce3584d6085978719a0faa6218ae426e034d8f9b02fb54d3471942
 
 BUNDLED WITH
