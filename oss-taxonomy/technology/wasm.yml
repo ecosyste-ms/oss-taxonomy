@@ -1,0 +1,25 @@
+name: wasm
+description: WebAssembly runtimes, compilers, and toolchains for running portable bytecode in and outside the browser.
+examples:
+  - wasmtime
+  - wasmer
+  - emscripten
+  - wasm-bindgen
+  - wasm-pack
+related:
+  - rust
+  - javascript
+  - cpp
+aliases:
+  - webassembly
+  - wasi
+ecosystems:
+  - cargo
+  - npm
+  - go
+tags:
+  - wasm
+  - webassembly
+  - bytecode
+  - sandbox
+  - portable

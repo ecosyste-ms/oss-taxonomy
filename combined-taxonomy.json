@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-06-20T12:21:34Z",
+  "generated_at": "2026-06-20T17:53:40Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1383,6 +1383,44 @@
       ]
     },
     {
+      "name": "configuration",
+      "description": "Libraries for loading, parsing, validating, and merging application configuration from files, environment variables, and flags.",
+      "examples": [
+        "viper",
+        "dynaconf",
+        "dotenv",
+        "figment",
+        "confuse"
+      ],
+      "related": [
+        "validation",
+        "secrets-management",
+        "feature-flags"
+      ],
+      "aliases": [
+        "config",
+        "config-management",
+        "dotenv",
+        "settings",
+        "env-vars"
+      ],
+      "ecosystems": [
+        "go",
+        "pypi",
+        "npm",
+        "cargo",
+        "rubygems",
+        "packagist"
+      ],
+      "tags": [
+        "config",
+        "environment",
+        "settings",
+        "dotenv",
+        "flags"
+      ]
+    },
+    {
       "name": "containerization",
       "description": "Container runtimes, image building, and container management tools.",
       "examples": [
@@ -1506,6 +1544,43 @@
         "admin",
         "management",
         "gui"
+      ]
+    },
+    {
+      "name": "database-migrations",
+      "description": "Tools that version, apply, and roll back database schema changes and seed data.",
+      "examples": [
+        "flyway",
+        "alembic",
+        "liquibase",
+        "goose",
+        "dbmate"
+      ],
+      "related": [
+        "database-management",
+        "data-mapping",
+        "deployment"
+      ],
+      "aliases": [
+        "migrations",
+        "schema-migration",
+        "schema-versioning",
+        "seeding"
+      ],
+      "ecosystems": [
+        "pypi",
+        "rubygems",
+        "go",
+        "npm",
+        "maven",
+        "packagist"
+      ],
+      "tags": [
+        "migrations",
+        "schema",
+        "ddl",
+        "versioning",
+        "seed"
       ]
     },
     {
@@ -2034,7 +2109,10 @@
       ],
       "aliases": [
         "observability",
-        "metrics"
+        "metrics",
+        "tracing",
+        "opentelemetry",
+        "telemetry"
       ],
       "ecosystems": [
         "docker",
@@ -2046,7 +2124,8 @@
         "monitoring",
         "metrics",
         "observability",
-        "alerting"
+        "alerting",
+        "tracing"
       ]
     },
     {
@@ -5460,6 +5539,38 @@
         "framework",
         "javascript",
         "ui"
+      ]
+    },
+    {
+      "name": "wasm",
+      "description": "WebAssembly runtimes, compilers, and toolchains for running portable bytecode in and outside the browser.",
+      "examples": [
+        "wasmtime",
+        "wasmer",
+        "emscripten",
+        "wasm-bindgen",
+        "wasm-pack"
+      ],
+      "related": [
+        "rust",
+        "javascript",
+        "cpp"
+      ],
+      "aliases": [
+        "webassembly",
+        "wasi"
+      ],
+      "ecosystems": [
+        "cargo",
+        "npm",
+        "go"
+      ],
+      "tags": [
+        "wasm",
+        "webassembly",
+        "bytecode",
+        "sandbox",
+        "portable"
       ]
     },
     {

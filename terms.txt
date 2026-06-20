@@ -45,10 +45,12 @@ function:ci-cd
 function:cli-building
 function:code-generation
 function:compression
+function:configuration
 function:containerization
 function:coverage
 function:data-mapping
 function:database-management
+function:database-migrations
 function:dependency-injection
 function:deployment
 function:documentation
@@ -188,4 +190,5 @@ technology:terraform
 technology:typescript
 technology:vite
 technology:vue
+technology:wasm
 technology:webpack
