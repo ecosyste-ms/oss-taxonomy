@@ -1,0 +1,29 @@
+name: object-storage
+description: Clients and abstractions for blob and object storage services such as S3, GCS, and Azure Blob.
+examples:
+  - aws-sdk-s3
+  - minio
+  - fog
+  - google-cloud-storage
+  - azure-storage-blob
+related:
+  - file-management
+  - cloud-computing
+  - caching
+aliases:
+  - blob-storage
+  - cloud-storage
+  - s3
+ecosystems:
+  - npm
+  - rubygems
+  - pypi
+  - go
+  - cargo
+  - maven
+tags:
+  - s3
+  - gcs
+  - blob
+  - bucket
+  - object-store

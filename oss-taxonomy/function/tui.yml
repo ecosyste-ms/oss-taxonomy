@@ -1,0 +1,27 @@
+name: tui
+description: Terminal user interface toolkits for building interactive text-mode applications.
+examples:
+  - bubbletea
+  - ratatui
+  - textual
+  - blessed
+  - ncurses
+related:
+  - cli-tool
+  - visualization
+aliases:
+  - terminal-ui
+  - text-ui
+  - curses
+ecosystems:
+  - go
+  - cargo
+  - pypi
+  - npm
+  - rubygems
+tags:
+  - tui
+  - terminal
+  - curses
+  - text-mode
+  - interactive

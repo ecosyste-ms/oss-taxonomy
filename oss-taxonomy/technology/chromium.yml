@@ -1,0 +1,21 @@
+name: chromium
+description: The open-source browser engine that underpins Chrome, Electron, and many embedded webviews.
+examples:
+  - electron
+  - puppeteer
+  - cef
+  - tauri-webview
+related:
+  - javascript
+  - nodejs
+aliases:
+  - chrome
+  - blink
+  - cef
+ecosystems:
+  - npm
+tags:
+  - browser
+  - webview
+  - embedded
+  - v8

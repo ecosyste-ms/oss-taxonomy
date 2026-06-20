@@ -1,0 +1,21 @@
+name: objective-c
+description: An object-oriented C superset historically used for macOS and iOS development.
+examples:
+  - cocoa
+  - afnetworking
+  - realm-cocoa
+related:
+  - swift
+  - c
+aliases:
+  - objc
+  - objectivec
+ecosystems:
+  - cocoapods
+  - carthage
+  - swiftpm
+tags:
+  - apple
+  - macos
+  - ios
+  - cocoa

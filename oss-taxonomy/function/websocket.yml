@@ -1,0 +1,28 @@
+name: websocket
+description: WebSocket servers, clients, and protocol implementations for bidirectional real-time communication.
+examples:
+  - socket.io
+  - ws
+  - actioncable
+  - tungstenite
+  - gorilla-websocket
+related:
+  - networking
+  - http-client
+  - messaging
+aliases:
+  - websockets
+  - real-time
+  - ws
+ecosystems:
+  - npm
+  - rubygems
+  - cargo
+  - go
+  - pypi
+  - hex
+tags:
+  - websocket
+  - real-time
+  - bidirectional
+  - push

@@ -1,0 +1,19 @@
+name: cmake
+description: A cross-platform build system generator widely used for C and C++ projects.
+examples:
+  - vcpkg
+  - llvm
+  - opencv
+related:
+  - c
+  - cpp
+aliases:
+  - cmakelists
+ecosystems:
+  - vcpkg
+  - conda
+tags:
+  - build
+  - native
+  - cross-platform
+  - makefile

@@ -1,0 +1,29 @@
+name: gui-toolkit
+description: Widget toolkits and windowing libraries for building native desktop graphical interfaces.
+examples:
+  - gtk
+  - qt
+  - egui
+  - iced
+  - fyne
+  - tkinter
+related:
+  - desktop-development
+  - visualization
+  - styling
+aliases:
+  - widget-toolkit
+  - windowing
+  - desktop-ui
+ecosystems:
+  - cargo
+  - pypi
+  - go
+  - npm
+  - vcpkg
+tags:
+  - gui
+  - widgets
+  - windowing
+  - desktop
+  - native

@@ -1,0 +1,30 @@
+name: rpc
+description: Remote procedure call frameworks and clients for typed request/response communication between services.
+examples:
+  - grpc
+  - thrift
+  - connect-rpc
+  - tonic
+  - twirp
+related:
+  - api-development
+  - networking
+  - messaging
+  - serialization
+aliases:
+  - grpc
+  - remote-procedure-call
+  - protobuf-rpc
+ecosystems:
+  - go
+  - cargo
+  - npm
+  - pypi
+  - maven
+  - rubygems
+tags:
+  - rpc
+  - grpc
+  - protobuf
+  - microservices
+  - client-server

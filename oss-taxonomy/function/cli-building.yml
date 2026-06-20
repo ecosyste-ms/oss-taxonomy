@@ -1,0 +1,31 @@
+name: cli-building
+description: Libraries for building command-line interfaces, including argument parsing, subcommands, help text, and shell completion.
+examples:
+  - cobra
+  - clap
+  - click
+  - commander
+  - thor
+  - argparse
+related:
+  - cli-tool
+  - parsing
+  - documentation
+aliases:
+  - cli-framework
+  - argument-parsing
+  - argparse
+  - command-line-parser
+ecosystems:
+  - go
+  - cargo
+  - pypi
+  - npm
+  - rubygems
+  - hex
+tags:
+  - cli
+  - argv
+  - flags
+  - subcommands
+  - completion

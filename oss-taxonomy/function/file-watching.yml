@@ -1,0 +1,28 @@
+name: file-watching
+description: Filesystem watchers that detect file changes and trigger reloads, rebuilds, or notifications.
+examples:
+  - watchman
+  - chokidar
+  - fsnotify
+  - notify
+  - watchdog
+related:
+  - automation
+  - bundling
+  - testing
+aliases:
+  - file-watcher
+  - live-reload
+  - hot-reload
+  - fsevents
+ecosystems:
+  - npm
+  - go
+  - cargo
+  - pypi
+  - rubygems
+tags:
+  - watch
+  - inotify
+  - reload
+  - filesystem

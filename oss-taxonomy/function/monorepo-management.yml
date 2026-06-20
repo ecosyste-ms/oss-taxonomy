@@ -1,0 +1,25 @@
+name: monorepo-management
+description: Tools for managing, versioning, and building many packages from a single repository.
+examples:
+  - lerna
+  - nx
+  - turborepo
+  - bazel
+  - rush
+related:
+  - bundling
+  - release-management
+  - automation
+aliases:
+  - monorepo
+  - workspace-tooling
+ecosystems:
+  - npm
+  - go
+  - cargo
+  - pypi
+tags:
+  - monorepo
+  - workspaces
+  - polyrepo
+  - build-orchestration

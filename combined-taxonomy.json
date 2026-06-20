@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-06-12T11:51:48Z",
+  "generated_at": "2026-06-20T12:21:34Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1068,6 +1068,41 @@
       ]
     },
     {
+      "name": "async-runtime",
+      "description": "Asynchronous runtimes, event loops, and concurrency primitives for non-blocking I/O and cooperative multitasking.",
+      "examples": [
+        "tokio",
+        "asyncio",
+        "libuv",
+        "trio",
+        "async-std"
+      ],
+      "related": [
+        "networking",
+        "scheduling",
+        "process-execution"
+      ],
+      "aliases": [
+        "async",
+        "concurrency",
+        "event-loop",
+        "reactor"
+      ],
+      "ecosystems": [
+        "cargo",
+        "pypi",
+        "npm",
+        "hex"
+      ],
+      "tags": [
+        "async",
+        "await",
+        "futures",
+        "non-blocking",
+        "concurrency"
+      ]
+    },
+    {
       "name": "authentication",
       "description": "Identity management, access control, and authentication services.",
       "examples": [
@@ -1244,6 +1279,44 @@
         "automation",
         "deployment",
         "pipelines"
+      ]
+    },
+    {
+      "name": "cli-building",
+      "description": "Libraries for building command-line interfaces, including argument parsing, subcommands, help text, and shell completion.",
+      "examples": [
+        "cobra",
+        "clap",
+        "click",
+        "commander",
+        "thor",
+        "argparse"
+      ],
+      "related": [
+        "cli-tool",
+        "parsing",
+        "documentation"
+      ],
+      "aliases": [
+        "cli-framework",
+        "argument-parsing",
+        "argparse",
+        "command-line-parser"
+      ],
+      "ecosystems": [
+        "go",
+        "cargo",
+        "pypi",
+        "npm",
+        "rubygems",
+        "hex"
+      ],
+      "tags": [
+        "cli",
+        "argv",
+        "flags",
+        "subcommands",
+        "completion"
       ]
     },
     {
@@ -1526,6 +1599,42 @@
       ]
     },
     {
+      "name": "email",
+      "description": "Libraries for composing, sending, receiving, and parsing email over SMTP, IMAP, and related protocols.",
+      "examples": [
+        "nodemailer",
+        "actionmailer",
+        "lettre",
+        "swiftmailer",
+        "mail"
+      ],
+      "related": [
+        "messaging",
+        "templating",
+        "networking"
+      ],
+      "aliases": [
+        "mail",
+        "smtp",
+        "mailer"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems",
+        "cargo",
+        "pypi",
+        "packagist",
+        "go"
+      ],
+      "tags": [
+        "email",
+        "smtp",
+        "imap",
+        "mime",
+        "mailer"
+      ]
+    },
+    {
       "name": "encryption",
       "description": "Cryptographic libraries, key management, and data encryption tools.",
       "examples": [
@@ -1616,6 +1725,113 @@
         "sync",
         "backup",
         "filesystem"
+      ]
+    },
+    {
+      "name": "file-watching",
+      "description": "Filesystem watchers that detect file changes and trigger reloads, rebuilds, or notifications.",
+      "examples": [
+        "watchman",
+        "chokidar",
+        "fsnotify",
+        "notify",
+        "watchdog"
+      ],
+      "related": [
+        "automation",
+        "bundling",
+        "testing"
+      ],
+      "aliases": [
+        "file-watcher",
+        "live-reload",
+        "hot-reload",
+        "fsevents"
+      ],
+      "ecosystems": [
+        "npm",
+        "go",
+        "cargo",
+        "pypi",
+        "rubygems"
+      ],
+      "tags": [
+        "watch",
+        "inotify",
+        "reload",
+        "filesystem"
+      ]
+    },
+    {
+      "name": "graph-database",
+      "description": "Drivers, query builders, and modeling layers for graph databases and graph query languages.",
+      "examples": [
+        "neo4j",
+        "gremlin",
+        "dgraph",
+        "janusgraph",
+        "redisgraph"
+      ],
+      "related": [
+        "database-management",
+        "data-mapping",
+        "search"
+      ],
+      "aliases": [
+        "graph-db",
+        "property-graph",
+        "gremlin",
+        "cypher"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "go",
+        "maven",
+        "cargo"
+      ],
+      "tags": [
+        "graph",
+        "nodes",
+        "edges",
+        "traversal",
+        "cypher"
+      ]
+    },
+    {
+      "name": "gui-toolkit",
+      "description": "Widget toolkits and windowing libraries for building native desktop graphical interfaces.",
+      "examples": [
+        "gtk",
+        "qt",
+        "egui",
+        "iced",
+        "fyne",
+        "tkinter"
+      ],
+      "related": [
+        "desktop-development",
+        "visualization",
+        "styling"
+      ],
+      "aliases": [
+        "widget-toolkit",
+        "windowing",
+        "desktop-ui"
+      ],
+      "ecosystems": [
+        "cargo",
+        "pypi",
+        "go",
+        "npm",
+        "vcpkg"
+      ],
+      "tags": [
+        "gui",
+        "widgets",
+        "windowing",
+        "desktop",
+        "native"
       ]
     },
     {
@@ -1834,6 +2050,38 @@
       ]
     },
     {
+      "name": "monorepo-management",
+      "description": "Tools for managing, versioning, and building many packages from a single repository.",
+      "examples": [
+        "lerna",
+        "nx",
+        "turborepo",
+        "bazel",
+        "rush"
+      ],
+      "related": [
+        "bundling",
+        "release-management",
+        "automation"
+      ],
+      "aliases": [
+        "monorepo",
+        "workspace-tooling"
+      ],
+      "ecosystems": [
+        "npm",
+        "go",
+        "cargo",
+        "pypi"
+      ],
+      "tags": [
+        "monorepo",
+        "workspaces",
+        "polyrepo",
+        "build-orchestration"
+      ]
+    },
+    {
       "name": "networking",
       "description": "Software for network protocols, routing, DNS, firewalls, and network management.",
       "examples": [
@@ -1859,6 +2107,42 @@
         "protocols",
         "routing",
         "firewall"
+      ]
+    },
+    {
+      "name": "object-storage",
+      "description": "Clients and abstractions for blob and object storage services such as S3, GCS, and Azure Blob.",
+      "examples": [
+        "aws-sdk-s3",
+        "minio",
+        "fog",
+        "google-cloud-storage",
+        "azure-storage-blob"
+      ],
+      "related": [
+        "file-management",
+        "cloud-computing",
+        "caching"
+      ],
+      "aliases": [
+        "blob-storage",
+        "cloud-storage",
+        "s3"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems",
+        "pypi",
+        "go",
+        "cargo",
+        "maven"
+      ],
+      "tags": [
+        "s3",
+        "gcs",
+        "blob",
+        "bucket",
+        "object-store"
       ]
     },
     {
@@ -1888,6 +2172,42 @@
         "data",
         "serialization",
         "formats"
+      ]
+    },
+    {
+      "name": "payments",
+      "description": "SDKs and libraries for processing payments, subscriptions, and billing through payment providers.",
+      "examples": [
+        "stripe",
+        "braintree",
+        "paddle",
+        "paypal-sdk",
+        "adyen"
+      ],
+      "related": [
+        "finance",
+        "api-development",
+        "authentication"
+      ],
+      "aliases": [
+        "payment-processing",
+        "billing",
+        "checkout"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems",
+        "pypi",
+        "go",
+        "packagist",
+        "maven"
+      ],
+      "tags": [
+        "payments",
+        "billing",
+        "subscriptions",
+        "checkout",
+        "cards"
       ]
     },
     {
@@ -1954,6 +2274,79 @@
         "changelog",
         "publishing",
         "tags"
+      ]
+    },
+    {
+      "name": "routing",
+      "description": "HTTP request routers and URL dispatchers that map incoming requests to handlers.",
+      "examples": [
+        "express",
+        "chi",
+        "actix-web",
+        "find-my-way",
+        "gorilla-mux"
+      ],
+      "related": [
+        "api-development",
+        "http-client",
+        "networking"
+      ],
+      "aliases": [
+        "router",
+        "url-dispatch",
+        "request-routing"
+      ],
+      "ecosystems": [
+        "npm",
+        "go",
+        "cargo",
+        "pypi",
+        "rubygems",
+        "packagist"
+      ],
+      "tags": [
+        "routing",
+        "http",
+        "middleware",
+        "mux",
+        "endpoints"
+      ]
+    },
+    {
+      "name": "rpc",
+      "description": "Remote procedure call frameworks and clients for typed request/response communication between services.",
+      "examples": [
+        "grpc",
+        "thrift",
+        "connect-rpc",
+        "tonic",
+        "twirp"
+      ],
+      "related": [
+        "api-development",
+        "networking",
+        "messaging",
+        "serialization"
+      ],
+      "aliases": [
+        "grpc",
+        "remote-procedure-call",
+        "protobuf-rpc"
+      ],
+      "ecosystems": [
+        "go",
+        "cargo",
+        "npm",
+        "pypi",
+        "maven",
+        "rubygems"
+      ],
+      "tags": [
+        "rpc",
+        "grpc",
+        "protobuf",
+        "microservices",
+        "client-server"
       ]
     },
     {
@@ -2349,6 +2742,40 @@
       ]
     },
     {
+      "name": "tui",
+      "description": "Terminal user interface toolkits for building interactive text-mode applications.",
+      "examples": [
+        "bubbletea",
+        "ratatui",
+        "textual",
+        "blessed",
+        "ncurses"
+      ],
+      "related": [
+        "cli-tool",
+        "visualization"
+      ],
+      "aliases": [
+        "terminal-ui",
+        "text-ui",
+        "curses"
+      ],
+      "ecosystems": [
+        "go",
+        "cargo",
+        "pypi",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "tui",
+        "terminal",
+        "curses",
+        "text-mode",
+        "interactive"
+      ]
+    },
+    {
       "name": "type-checking",
       "description": "Static type analysis that verifies type correctness without running the code.",
       "examples": [
@@ -2431,6 +2858,74 @@
         "charts",
         "graphs",
         "interactive"
+      ]
+    },
+    {
+      "name": "webhooks",
+      "description": "Libraries for sending, receiving, verifying, and routing webhook payloads between services.",
+      "examples": [
+        "svix",
+        "octokit-webhooks",
+        "standard-webhooks",
+        "stripe-webhooks"
+      ],
+      "related": [
+        "api-development",
+        "messaging",
+        "automation"
+      ],
+      "aliases": [
+        "webhook",
+        "http-callbacks"
+      ],
+      "ecosystems": [
+        "npm",
+        "go",
+        "pypi",
+        "rubygems",
+        "cargo"
+      ],
+      "tags": [
+        "webhooks",
+        "events",
+        "callbacks",
+        "hmac",
+        "integration"
+      ]
+    },
+    {
+      "name": "websocket",
+      "description": "WebSocket servers, clients, and protocol implementations for bidirectional real-time communication.",
+      "examples": [
+        "socket.io",
+        "ws",
+        "actioncable",
+        "tungstenite",
+        "gorilla-websocket"
+      ],
+      "related": [
+        "networking",
+        "http-client",
+        "messaging"
+      ],
+      "aliases": [
+        "websockets",
+        "real-time",
+        "ws"
+      ],
+      "ecosystems": [
+        "npm",
+        "rubygems",
+        "cargo",
+        "go",
+        "pypi",
+        "hex"
+      ],
+      "tags": [
+        "websocket",
+        "real-time",
+        "bidirectional",
+        "push"
       ]
     }
   ],
@@ -3514,6 +4009,60 @@
       ]
     },
     {
+      "name": "chromium",
+      "description": "The open-source browser engine that underpins Chrome, Electron, and many embedded webviews.",
+      "examples": [
+        "electron",
+        "puppeteer",
+        "cef",
+        "tauri-webview"
+      ],
+      "related": [
+        "javascript",
+        "nodejs"
+      ],
+      "aliases": [
+        "chrome",
+        "blink",
+        "cef"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "browser",
+        "webview",
+        "embedded",
+        "v8"
+      ]
+    },
+    {
+      "name": "cmake",
+      "description": "A cross-platform build system generator widely used for C and C++ projects.",
+      "examples": [
+        "vcpkg",
+        "llvm",
+        "opencv"
+      ],
+      "related": [
+        "c",
+        "cpp"
+      ],
+      "aliases": [
+        "cmakelists"
+      ],
+      "ecosystems": [
+        "vcpkg",
+        "conda"
+      ],
+      "tags": [
+        "build",
+        "native",
+        "cross-platform",
+        "makefile"
+      ]
+    },
+    {
       "name": "cpp",
       "description": "A general-purpose programming language extending C with object-oriented features, used for high-performance applications.",
       "examples": [
@@ -3933,6 +4482,31 @@
       ]
     },
     {
+      "name": "groovy",
+      "description": "A dynamic JVM language used for scripting, build configuration, and application development.",
+      "examples": [
+        "gradle",
+        "grails",
+        "spock"
+      ],
+      "related": [
+        "java",
+        "kotlin"
+      ],
+      "aliases": [
+        "apache-groovy"
+      ],
+      "ecosystems": [
+        "maven"
+      ],
+      "tags": [
+        "jvm",
+        "scripting",
+        "dsl",
+        "gradle"
+      ]
+    },
+    {
       "name": "html",
       "description": "The standard markup language for creating web pages and web applications.",
       "examples": [
@@ -4279,6 +4853,34 @@
       ]
     },
     {
+      "name": "nix",
+      "description": "A purely functional package manager and expression language for reproducible builds and system configuration.",
+      "examples": [
+        "nixpkgs",
+        "nixos",
+        "home-manager",
+        "devenv"
+      ],
+      "related": [
+        "linux",
+        "docker"
+      ],
+      "aliases": [
+        "nixos",
+        "nixpkgs",
+        "flakes"
+      ],
+      "ecosystems": [
+        "homebrew"
+      ],
+      "tags": [
+        "reproducible",
+        "declarative",
+        "package-manager",
+        "functional"
+      ]
+    },
+    {
       "name": "nodejs",
       "description": "A JavaScript runtime built on Chrome's V8 engine for building scalable server-side applications.",
       "examples": [
@@ -4303,6 +4905,34 @@
         "javascript",
         "backend",
         "server-side"
+      ]
+    },
+    {
+      "name": "objective-c",
+      "description": "An object-oriented C superset historically used for macOS and iOS development.",
+      "examples": [
+        "cocoa",
+        "afnetworking",
+        "realm-cocoa"
+      ],
+      "related": [
+        "swift",
+        "c"
+      ],
+      "aliases": [
+        "objc",
+        "objectivec"
+      ],
+      "ecosystems": [
+        "cocoapods",
+        "carthage",
+        "swiftpm"
+      ],
+      "tags": [
+        "apple",
+        "macos",
+        "ios",
+        "cocoa"
       ]
     },
     {

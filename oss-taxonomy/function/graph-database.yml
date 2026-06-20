@@ -1,0 +1,29 @@
+name: graph-database
+description: Drivers, query builders, and modeling layers for graph databases and graph query languages.
+examples:
+  - neo4j
+  - gremlin
+  - dgraph
+  - janusgraph
+  - redisgraph
+related:
+  - database-management
+  - data-mapping
+  - search
+aliases:
+  - graph-db
+  - property-graph
+  - gremlin
+  - cypher
+ecosystems:
+  - npm
+  - pypi
+  - go
+  - maven
+  - cargo
+tags:
+  - graph
+  - nodes
+  - edges
+  - traversal
+  - cypher

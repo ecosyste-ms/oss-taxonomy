@@ -1,0 +1,29 @@
+name: routing
+description: HTTP request routers and URL dispatchers that map incoming requests to handlers.
+examples:
+  - express
+  - chi
+  - actix-web
+  - find-my-way
+  - gorilla-mux
+related:
+  - api-development
+  - http-client
+  - networking
+aliases:
+  - router
+  - url-dispatch
+  - request-routing
+ecosystems:
+  - npm
+  - go
+  - cargo
+  - pypi
+  - rubygems
+  - packagist
+tags:
+  - routing
+  - http
+  - middleware
+  - mux
+  - endpoints
