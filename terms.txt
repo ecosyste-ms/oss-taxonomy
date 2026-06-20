@@ -46,6 +46,7 @@ function:cli-building
 function:code-generation
 function:compression
 function:configuration
+function:connection-pooling
 function:containerization
 function:coverage
 function:data-mapping
@@ -57,6 +58,7 @@ function:documentation
 function:email
 function:encryption
 function:feature-flags
+function:ffi
 function:file-management
 function:file-watching
 function:graph-database
@@ -64,6 +66,7 @@ function:gui-toolkit
 function:http-client
 function:image-processing
 function:internationalization
+function:language-server
 function:logging
 function:messaging
 function:mocking
@@ -78,6 +81,7 @@ function:release-management
 function:routing
 function:rpc
 function:runtime-management
+function:sbom
 function:scheduling
 function:scraping
 function:search
@@ -86,7 +90,9 @@ function:security-scanning
 function:serialization
 function:simulation
 function:site-generation
+function:static-analysis
 function:styling
+function:syntax-highlighting
 function:templating
 function:testing
 function:text-processing

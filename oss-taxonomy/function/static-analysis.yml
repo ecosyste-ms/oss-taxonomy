@@ -1,0 +1,29 @@
+name: static-analysis
+description: Tools that analyse source code without executing it to find bugs, security issues, or data-flow problems, including SAST and taint analysis.
+examples:
+  - semgrep
+  - codeql
+  - sonarqube
+  - staticcheck
+  - bandit
+related:
+  - linter
+  - security-scanning
+  - type-checking
+aliases:
+  - sast
+  - code-analysis
+  - dataflow-analysis
+  - taint-analysis
+ecosystems:
+  - go
+  - pypi
+  - npm
+  - maven
+  - cargo
+tags:
+  - static-analysis
+  - sast
+  - dataflow
+  - taint
+  - code-quality

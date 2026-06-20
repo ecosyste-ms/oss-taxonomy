@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-06-20T17:53:40Z",
+  "generated_at": "2026-06-20T20:01:32Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1421,6 +1421,39 @@
       ]
     },
     {
+      "name": "connection-pooling",
+      "description": "Libraries that manage reusable pools of database or network connections to bound resource use and latency.",
+      "examples": [
+        "hikaricp",
+        "pgbouncer",
+        "sqlalchemy-pool",
+        "r2d2",
+        "generic-pool"
+      ],
+      "related": [
+        "database-management",
+        "networking",
+        "caching"
+      ],
+      "aliases": [
+        "connection-pool",
+        "pooling"
+      ],
+      "ecosystems": [
+        "maven",
+        "go",
+        "pypi",
+        "cargo",
+        "npm"
+      ],
+      "tags": [
+        "pool",
+        "connections",
+        "database",
+        "resource-management"
+      ]
+    },
+    {
       "name": "containerization",
       "description": "Container runtimes, image building, and container management tools.",
       "examples": [
@@ -1773,6 +1806,40 @@
       ]
     },
     {
+      "name": "ffi",
+      "description": "Foreign function interfaces and native binding generators that let code in one language call into another or into C libraries.",
+      "examples": [
+        "pyo3",
+        "cffi",
+        "napi-rs",
+        "jna",
+        "node-gyp"
+      ],
+      "related": [
+        "code-generation",
+        "runtime-management"
+      ],
+      "aliases": [
+        "foreign-function-interface",
+        "native-bindings",
+        "language-bindings"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "npm",
+        "maven",
+        "rubygems"
+      ],
+      "tags": [
+        "ffi",
+        "bindings",
+        "native",
+        "interop",
+        "cgo"
+      ]
+    },
+    {
       "name": "file-management",
       "description": "File operations, synchronization, backup, and filesystem utilities.",
       "examples": [
@@ -2002,6 +2069,39 @@
         "locale",
         "language",
         "multilingual"
+      ]
+    },
+    {
+      "name": "language-server",
+      "description": "Language Server Protocol implementations that provide editors with completion, diagnostics, and navigation for a language.",
+      "examples": [
+        "gopls",
+        "rust-analyzer",
+        "pyright",
+        "typescript-language-server",
+        "clangd"
+      ],
+      "related": [
+        "editor",
+        "type-checking",
+        "static-analysis"
+      ],
+      "aliases": [
+        "lsp",
+        "language-server-protocol"
+      ],
+      "ecosystems": [
+        "go",
+        "npm",
+        "pypi",
+        "cargo"
+      ],
+      "tags": [
+        "lsp",
+        "editor",
+        "completion",
+        "diagnostics",
+        "tooling"
       ]
     },
     {
@@ -2459,6 +2559,40 @@
       ]
     },
     {
+      "name": "sbom",
+      "description": "Tools that generate, parse, or convert software bills of materials in formats like SPDX and CycloneDX.",
+      "examples": [
+        "syft",
+        "cyclonedx-cli",
+        "spdx-tools",
+        "trivy",
+        "tern"
+      ],
+      "related": [
+        "security-scanning",
+        "dependency-injection",
+        "documentation"
+      ],
+      "aliases": [
+        "software-bill-of-materials",
+        "spdx",
+        "cyclonedx"
+      ],
+      "ecosystems": [
+        "go",
+        "pypi",
+        "npm",
+        "maven"
+      ],
+      "tags": [
+        "sbom",
+        "spdx",
+        "cyclonedx",
+        "supply-chain",
+        "inventory"
+      ]
+    },
+    {
       "name": "scheduling",
       "description": "Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals.",
       "examples": [
@@ -2705,6 +2839,42 @@
       ]
     },
     {
+      "name": "static-analysis",
+      "description": "Tools that analyse source code without executing it to find bugs, security issues, or data-flow problems, including SAST and taint analysis.",
+      "examples": [
+        "semgrep",
+        "codeql",
+        "sonarqube",
+        "staticcheck",
+        "bandit"
+      ],
+      "related": [
+        "linter",
+        "security-scanning",
+        "type-checking"
+      ],
+      "aliases": [
+        "sast",
+        "code-analysis",
+        "dataflow-analysis",
+        "taint-analysis"
+      ],
+      "ecosystems": [
+        "go",
+        "pypi",
+        "npm",
+        "maven",
+        "cargo"
+      ],
+      "tags": [
+        "static-analysis",
+        "sast",
+        "dataflow",
+        "taint",
+        "code-quality"
+      ]
+    },
+    {
       "name": "styling",
       "description": "Processing, generating, or extending stylesheets and visual presentation rules.",
       "examples": [
@@ -2732,6 +2902,38 @@
         "preprocessor",
         "design-tokens",
         "utility-classes"
+      ]
+    },
+    {
+      "name": "syntax-highlighting",
+      "description": "Libraries that tokenise and colourise source code for display in editors, terminals, and documentation.",
+      "examples": [
+        "pygments",
+        "chroma",
+        "highlight.js",
+        "prism",
+        "rouge"
+      ],
+      "related": [
+        "parsing",
+        "documentation",
+        "text-processing"
+      ],
+      "aliases": [
+        "highlighter",
+        "code-highlighting"
+      ],
+      "ecosystems": [
+        "pypi",
+        "go",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "highlighting",
+        "tokenizer",
+        "syntax",
+        "display"
       ]
     },
     {

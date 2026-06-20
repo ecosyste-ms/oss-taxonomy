@@ -1,0 +1,26 @@
+name: language-server
+description: Language Server Protocol implementations that provide editors with completion, diagnostics, and navigation for a language.
+examples:
+  - gopls
+  - rust-analyzer
+  - pyright
+  - typescript-language-server
+  - clangd
+related:
+  - editor
+  - type-checking
+  - static-analysis
+aliases:
+  - lsp
+  - language-server-protocol
+ecosystems:
+  - go
+  - npm
+  - pypi
+  - cargo
+tags:
+  - lsp
+  - editor
+  - completion
+  - diagnostics
+  - tooling
