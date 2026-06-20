@@ -1,0 +1,29 @@
+name: email
+description: Libraries for composing, sending, receiving, and parsing email over SMTP, IMAP, and related protocols.
+examples:
+  - nodemailer
+  - actionmailer
+  - lettre
+  - swiftmailer
+  - mail
+related:
+  - messaging
+  - templating
+  - networking
+aliases:
+  - mail
+  - smtp
+  - mailer
+ecosystems:
+  - npm
+  - rubygems
+  - cargo
+  - pypi
+  - packagist
+  - go
+tags:
+  - email
+  - smtp
+  - imap
+  - mime
+  - mailer

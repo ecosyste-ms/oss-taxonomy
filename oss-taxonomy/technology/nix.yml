@@ -1,0 +1,21 @@
+name: nix
+description: A purely functional package manager and expression language for reproducible builds and system configuration.
+examples:
+  - nixpkgs
+  - nixos
+  - home-manager
+  - devenv
+related:
+  - linux
+  - docker
+aliases:
+  - nixos
+  - nixpkgs
+  - flakes
+ecosystems:
+  - homebrew
+tags:
+  - reproducible
+  - declarative
+  - package-manager
+  - functional

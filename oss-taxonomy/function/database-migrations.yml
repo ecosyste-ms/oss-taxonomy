@@ -1,0 +1,30 @@
+name: database-migrations
+description: Tools that version, apply, and roll back database schema changes and seed data.
+examples:
+  - flyway
+  - alembic
+  - liquibase
+  - goose
+  - dbmate
+related:
+  - database-management
+  - data-mapping
+  - deployment
+aliases:
+  - migrations
+  - schema-migration
+  - schema-versioning
+  - seeding
+ecosystems:
+  - pypi
+  - rubygems
+  - go
+  - npm
+  - maven
+  - packagist
+tags:
+  - migrations
+  - schema
+  - ddl
+  - versioning
+  - seed

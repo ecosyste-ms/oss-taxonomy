@@ -1,0 +1,28 @@
+name: async-runtime
+description: Asynchronous runtimes, event loops, and concurrency primitives for non-blocking I/O and cooperative multitasking.
+examples:
+  - tokio
+  - asyncio
+  - libuv
+  - trio
+  - async-std
+related:
+  - networking
+  - scheduling
+  - process-execution
+aliases:
+  - async
+  - concurrency
+  - event-loop
+  - reactor
+ecosystems:
+  - cargo
+  - pypi
+  - npm
+  - hex
+tags:
+  - async
+  - await
+  - futures
+  - non-blocking
+  - concurrency

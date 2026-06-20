@@ -1,0 +1,26 @@
+name: webhooks
+description: Libraries for sending, receiving, verifying, and routing webhook payloads between services.
+examples:
+  - svix
+  - octokit-webhooks
+  - standard-webhooks
+  - stripe-webhooks
+related:
+  - api-development
+  - messaging
+  - automation
+aliases:
+  - webhook
+  - http-callbacks
+ecosystems:
+  - npm
+  - go
+  - pypi
+  - rubygems
+  - cargo
+tags:
+  - webhooks
+  - events
+  - callbacks
+  - hmac
+  - integration

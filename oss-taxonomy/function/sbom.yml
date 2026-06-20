@@ -1,0 +1,27 @@
+name: sbom
+description: Tools that generate, parse, or convert software bills of materials in formats like SPDX and CycloneDX.
+examples:
+  - syft
+  - cyclonedx-cli
+  - spdx-tools
+  - trivy
+  - tern
+related:
+  - security-scanning
+  - dependency-injection
+  - documentation
+aliases:
+  - software-bill-of-materials
+  - spdx
+  - cyclonedx
+ecosystems:
+  - go
+  - pypi
+  - npm
+  - maven
+tags:
+  - sbom
+  - spdx
+  - cyclonedx
+  - supply-chain
+  - inventory

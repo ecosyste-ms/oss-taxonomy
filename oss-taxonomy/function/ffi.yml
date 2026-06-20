@@ -1,0 +1,27 @@
+name: ffi
+description: Foreign function interfaces and native binding generators that let code in one language call into another or into C libraries.
+examples:
+  - pyo3
+  - cffi
+  - napi-rs
+  - jna
+  - node-gyp
+related:
+  - code-generation
+  - runtime-management
+aliases:
+  - foreign-function-interface
+  - native-bindings
+  - language-bindings
+ecosystems:
+  - pypi
+  - cargo
+  - npm
+  - maven
+  - rubygems
+tags:
+  - ffi
+  - bindings
+  - native
+  - interop
+  - cgo

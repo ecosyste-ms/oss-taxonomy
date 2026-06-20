@@ -10,6 +10,9 @@ related:
 aliases:
   - observability
   - metrics
+  - tracing
+  - opentelemetry
+  - telemetry
 ecosystems:
   - docker
   - go
@@ -20,3 +23,4 @@ tags:
   - metrics
   - observability
   - alerting
+  - tracing

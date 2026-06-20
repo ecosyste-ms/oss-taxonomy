@@ -1,0 +1,29 @@
+name: payments
+description: SDKs and libraries for processing payments, subscriptions, and billing through payment providers.
+examples:
+  - stripe
+  - braintree
+  - paddle
+  - paypal-sdk
+  - adyen
+related:
+  - finance
+  - api-development
+  - authentication
+aliases:
+  - payment-processing
+  - billing
+  - checkout
+ecosystems:
+  - npm
+  - rubygems
+  - pypi
+  - go
+  - packagist
+  - maven
+tags:
+  - payments
+  - billing
+  - subscriptions
+  - checkout
+  - cards

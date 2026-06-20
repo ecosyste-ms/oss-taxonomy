@@ -1,0 +1,25 @@
+name: syntax-highlighting
+description: Libraries that tokenise and colourise source code for display in editors, terminals, and documentation.
+examples:
+  - pygments
+  - chroma
+  - highlight.js
+  - prism
+  - rouge
+related:
+  - parsing
+  - documentation
+  - text-processing
+aliases:
+  - highlighter
+  - code-highlighting
+ecosystems:
+  - pypi
+  - go
+  - npm
+  - rubygems
+tags:
+  - highlighting
+  - tokenizer
+  - syntax
+  - display

@@ -1,0 +1,26 @@
+name: connection-pooling
+description: Libraries that manage reusable pools of database or network connections to bound resource use and latency.
+examples:
+  - hikaricp
+  - pgbouncer
+  - sqlalchemy-pool
+  - r2d2
+  - generic-pool
+related:
+  - database-management
+  - networking
+  - caching
+aliases:
+  - connection-pool
+  - pooling
+ecosystems:
+  - maven
+  - go
+  - pypi
+  - cargo
+  - npm
+tags:
+  - pool
+  - connections
+  - database
+  - resource-management

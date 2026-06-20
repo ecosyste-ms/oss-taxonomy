@@ -1,0 +1,31 @@
+name: configuration
+description: Libraries for loading, parsing, validating, and merging application configuration from files, environment variables, and flags.
+examples:
+  - viper
+  - dynaconf
+  - dotenv
+  - figment
+  - confuse
+related:
+  - validation
+  - secrets-management
+  - feature-flags
+aliases:
+  - config
+  - config-management
+  - dotenv
+  - settings
+  - env-vars
+ecosystems:
+  - go
+  - pypi
+  - npm
+  - cargo
+  - rubygems
+  - packagist
+tags:
+  - config
+  - environment
+  - settings
+  - dotenv
+  - flags
