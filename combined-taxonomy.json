@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-06-29T08:38:53Z",
+  "generated_at": "2026-07-09T14:50:32Z",
   "audience": [
     {
       "name": "content-creator",
@@ -3902,6 +3902,43 @@
         "static-analysis",
         "style",
         "errors"
+      ]
+    },
+    {
+      "name": "native-extension",
+      "description": "Packages that load compiled C, C++, or Rust code as a shared library (.so/.dylib/.dll) into the host language runtime at import time, whether built from bundled source during install or shipped as a prebuilt binary.",
+      "examples": [
+        "nokogiri",
+        "numpy",
+        "psycopg2",
+        "node-sass",
+        "bcrypt",
+        "grpcio"
+      ],
+      "related": [
+        "library",
+        "plugin",
+        "build-tool"
+      ],
+      "aliases": [
+        "c-extension",
+        "native-addon",
+        "ffi-binding",
+        "compiled-extension"
+      ],
+      "ecosystems": [
+        "rubygems",
+        "pypi",
+        "npm",
+        "packagist",
+        "hex",
+        "cpan"
+      ],
+      "tags": [
+        "ffi",
+        "native",
+        "compiled",
+        "binding"
       ]
     },
     {
