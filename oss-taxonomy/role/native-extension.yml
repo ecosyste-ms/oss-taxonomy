@@ -1,5 +1,5 @@
 name: native-extension
-description: Packages that compile C, C++, or Rust into a shared object the host language runtime loads at import time.
+description: Packages that load compiled C, C++, or Rust code as a shared library (.so/.dylib/.dll) into the host language runtime at import time, whether built from bundled source during install or shipped as a prebuilt binary.
 examples:
   - nokogiri
   - numpy
