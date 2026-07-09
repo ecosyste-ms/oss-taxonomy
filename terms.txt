@@ -127,6 +127,7 @@ role:framework
 role:language
 role:library
 role:linter
+role:native-extension
 role:orchestrator
 role:package-manager
 role:plugin
