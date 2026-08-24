@@ -1,0 +1,25 @@
+name: bioinformatics
+description: Software for analyzing and managing biological data using computational methods.
+examples:
+  - bioconductor
+  - galaxy
+  - blast
+  - samtools
+  - multiqc
+related:
+  - scientific-computing
+  - data-science
+  - healthcare
+aliases:
+  - computational-biology
+  - bio-informatics
+ecosystems:
+  - bioconductor
+  - conda
+  - pypi
+  - cran
+tags:
+  - genomics
+  - proteomics
+  - sequencing
+  - biological-data

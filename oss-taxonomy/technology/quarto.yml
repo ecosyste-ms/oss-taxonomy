@@ -1,0 +1,21 @@
+name: quarto
+description: A publishing system for creating reports, articles, presentations, books, and websites from source documents.
+examples:
+  - quarto-cli
+  - quarto-live
+  - quarto-web
+related:
+  - report-generation
+  - literate-programming
+  - site-generation
+aliases:
+  - quarto-cli
+ecosystems:
+  - conda
+  - homebrew
+  - cran
+tags:
+  - publishing
+  - markdown
+  - notebooks
+  - reports

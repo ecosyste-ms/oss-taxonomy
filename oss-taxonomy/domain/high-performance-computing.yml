@@ -1,0 +1,26 @@
+name: high-performance-computing
+description: Software for large-scale computation across clusters, supercomputers, and parallel processors.
+examples:
+  - openmpi
+  - slurm
+  - mpich
+  - openblas
+  - ray
+related:
+  - scientific-computing
+  - cloud-computing
+  - scheduling
+aliases:
+  - hpc
+  - parallel-computing
+  - supercomputing
+ecosystems:
+  - spack
+  - conda
+  - pypi
+  - homebrew
+tags:
+  - clusters
+  - mpi
+  - parallelism
+  - distributed-computing

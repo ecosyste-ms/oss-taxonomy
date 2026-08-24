@@ -12,6 +12,7 @@ audience:security-professional
 audience:student
 audience:sysadmin
 audience:writer
+domain:bioinformatics
 domain:blockchain
 domain:cloud-computing
 domain:content-management
@@ -25,11 +26,13 @@ domain:finance
 domain:game-development
 domain:geospatial
 domain:healthcare
+domain:high-performance-computing
 domain:machine-learning
 domain:mobile-development
 domain:multimedia
 domain:natural-language-processing
 domain:networking
+domain:research
 domain:robotics
 domain:scientific-computing
 domain:security
@@ -49,7 +52,10 @@ function:configuration
 function:connection-pooling
 function:containerization
 function:coverage
+function:data-analysis
 function:data-mapping
+function:data-provenance
+function:data-version-control
 function:database-management
 function:database-migrations
 function:dependency-injection
@@ -65,8 +71,10 @@ function:graph-database
 function:gui-toolkit
 function:http-client
 function:image-processing
+function:interactive-computing
 function:internationalization
 function:language-server
+function:literate-programming
 function:logging
 function:messaging
 function:mocking
@@ -78,6 +86,7 @@ function:parsing
 function:payments
 function:process-execution
 function:release-management
+function:report-generation
 function:routing
 function:rpc
 function:runtime-management
@@ -99,9 +108,11 @@ function:text-processing
 function:tui
 function:type-checking
 function:validation
+function:version-control
 function:visualization
 function:webhooks
 function:websocket
+function:workflow-orchestration
 layer:application-layer
 layer:backend
 layer:data-layer
@@ -131,6 +142,7 @@ role:native-extension
 role:orchestrator
 role:package-manager
 role:plugin
+role:registry
 role:runtime
 role:sdk
 role:server
@@ -156,6 +168,7 @@ technology:express
 technology:fastapi
 technology:flask
 technology:flutter
+technology:fortran
 technology:git
 technology:github-actions
 technology:go
@@ -166,12 +179,15 @@ technology:java
 technology:javascript
 technology:jenkins
 technology:jquery
+technology:julia
+technology:jupyter
 technology:kotlin
 technology:kubernetes
 technology:laravel
 technology:linux
 technology:mongodb
 technology:mysql
+technology:nextflow
 technology:nextjs
 technology:nginx
 technology:nix
@@ -180,6 +196,7 @@ technology:objective-c
 technology:php
 technology:postgresql
 technology:python
+technology:quarto
 technology:r
 technology:rails
 technology:react
@@ -188,6 +205,7 @@ technology:ruby
 technology:rust
 technology:sass
 technology:scala
+technology:snakemake
 technology:spring-boot
 technology:sqlite
 technology:svelte

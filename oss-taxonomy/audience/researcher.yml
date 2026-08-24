@@ -1,10 +1,11 @@
 name: researcher
-description: Software used by researchers for data analysis, simulations, and experiments.
+description: Software designed for researchers conducting analysis, simulations, experiments, or other scholarly work.
 examples:
   - jupyter
   - rstudio
   - octave
 related:
+  - research
   - data-science
   - scientific-computing
 aliases:
@@ -12,6 +13,9 @@ aliases:
 ecosystems:
   - conda
   - pypi
+  - cran
+  - bioconductor
+  - julia
 tags:
   - academic
   - research

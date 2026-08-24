@@ -1,0 +1,21 @@
+name: nextflow
+description: A workflow language and execution engine for portable, data-intensive pipelines.
+examples:
+  - nf-core
+  - nf-core-rnaseq
+  - nf-core-sarek
+  - nf-core-viralrecon
+related:
+  - workflow-orchestration
+  - scientific-computing
+  - bioinformatics
+aliases:
+  - nextflow-dsl
+ecosystems:
+  - conda
+  - homebrew
+tags:
+  - workflow-language
+  - pipelines
+  - dataflow
+  - distributed-execution

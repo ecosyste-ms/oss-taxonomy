@@ -1,0 +1,27 @@
+name: data-version-control
+description: Tracking, comparing, and retrieving versions of datasets and their associated metadata.
+examples:
+  - dvc
+  - lakefs
+  - pachyderm
+  - dolt
+  - git-annex
+related:
+  - version-control
+  - data-provenance
+  - file-management
+  - object-storage
+aliases:
+  - dataset-versioning
+  - data-versioning
+  - versioned-data
+ecosystems:
+  - pypi
+  - go
+  - docker
+  - homebrew
+tags:
+  - datasets
+  - versions
+  - history
+  - storage

@@ -1,0 +1,28 @@
+name: research
+description: Software created during research or for a research purpose across scholarly disciplines.
+examples:
+  - zotero
+  - galaxy
+  - geant4
+  - opensesame
+  - nextflow
+related:
+  - scientific-computing
+  - data-science
+  - education
+aliases:
+  - research-software
+  - scholarly-software
+  - academic-software
+ecosystems:
+  - pypi
+  - cran
+  - bioconductor
+  - julia
+  - conda
+  - spack
+tags:
+  - research
+  - scholarship
+  - academic
+  - open-science

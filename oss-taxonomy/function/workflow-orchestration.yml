@@ -1,0 +1,27 @@
+name: workflow-orchestration
+description: Coordinating multi-step workflows according to their dependencies, inputs, outputs, and execution state.
+examples:
+  - nextflow
+  - snakemake
+  - airflow
+  - prefect
+  - targets
+related:
+  - scheduling
+  - automation
+  - process-execution
+aliases:
+  - workflow-management
+  - pipeline-orchestration
+  - workflow-automation
+ecosystems:
+  - pypi
+  - conda
+  - cran
+  - bioconductor
+tags:
+  - workflows
+  - pipelines
+  - dependencies
+  - execution
+  - directed-acyclic-graph

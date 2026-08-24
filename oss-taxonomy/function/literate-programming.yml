@@ -1,0 +1,26 @@
+name: literate-programming
+description: Combining executable source code with narrative text in the same document or notebook.
+examples:
+  - jupyter
+  - quarto
+  - r-markdown
+  - org-babel
+  - pluto
+related:
+  - documentation
+  - report-generation
+  - interactive-computing
+aliases:
+  - executable-documentation
+  - notebook-programming
+ecosystems:
+  - pypi
+  - cran
+  - julia
+  - elpa
+  - conda
+tags:
+  - notebooks
+  - narrative
+  - executable-documents
+  - publishing

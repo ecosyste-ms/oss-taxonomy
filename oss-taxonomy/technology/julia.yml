@@ -1,0 +1,22 @@
+name: julia
+description: A programming language for numerical computing, data analysis, and scientific software.
+examples:
+  - flux
+  - dataframes.jl
+  - jump
+  - differentialequations.jl
+  - documenter.jl
+related:
+  - scientific-computing
+  - data-science
+  - high-performance-computing
+aliases:
+  - julia-lang
+ecosystems:
+  - julia
+  - conda
+tags:
+  - programming-language
+  - numerical-computing
+  - scientific-computing
+  - multiple-dispatch

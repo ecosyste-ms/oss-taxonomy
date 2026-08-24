@@ -1,0 +1,25 @@
+name: fortran
+description: A compiled programming language used for numerical and high-performance computing.
+examples:
+  - lapack
+  - openblas
+  - wrf
+  - quantum-espresso
+  - gfortran
+related:
+  - scientific-computing
+  - high-performance-computing
+  - simulation
+aliases:
+  - modern-fortran
+  - f77
+  - f90
+  - f95
+ecosystems:
+  - spack
+  - conda
+tags:
+  - programming-language
+  - compiled
+  - numerical-computing
+  - arrays

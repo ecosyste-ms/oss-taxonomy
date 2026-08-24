@@ -1,12 +1,16 @@
 name: scientific-computing
-description: Software used in computational research and scientific modeling.
+description: Software for numerical methods, computational science, and scientific modeling.
 examples:
   - scipy
-  - matplotlib
-  - fortran
+  - petsc
+  - geant4
+  - fenics
 related:
+  - research
   - data-science
   - simulation
+  - bioinformatics
+  - high-performance-computing
 aliases:
   - computational-science
   - scientific-software
