@@ -41,8 +41,21 @@ module ExternalSources
 
   module Text
     def self.clean_html(value)
-      text = value.to_s.dup.force_encoding(Encoding::UTF_8).scrub
-      CGI.unescapeHTML(text.gsub(/<[^>]+>/, '').tr("\u00A0", ' ').strip)
+      text = CGI.unescapeHTML(value.to_s.dup.force_encoding(Encoding::UTF_8).scrub)
+      plain_text = +''
+      inside_tag = false
+
+      text.each_char do |character|
+        if character == '<'
+          inside_tag = true
+        elsif inside_tag
+          inside_tag = false if character == '>'
+        else
+          plain_text << character
+        end
+      end
+
+      plain_text.tr("\u00A0", ' ').strip
     end
 
     def self.slug(value)

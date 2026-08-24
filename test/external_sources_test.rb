@@ -5,6 +5,14 @@ require 'tempfile'
 require_relative '../scripts/external_sources'
 
 class ExternalSourcesTest < Test::Unit::TestCase
+  def test_clean_html_removes_nested_and_encoded_tags
+    nested = ExternalSources::Text.clean_html('before<<script>alert(1)</script>after')
+    encoded = ExternalSources::Text.clean_html('before&lt;script&gt;alert(1)&lt;/script&gt;after')
+
+    assert_equal 'beforealert(1)after', nested
+    assert_equal 'beforealert(1)after', encoded
+  end
+
   def test_pypi_classifiers_preserve_hierarchy
     html = <<~HTML
       <a href="/search/?c=Topic" data-clipboard-target="source">Topic :: Scientific/Engineering :: Physics</a>
