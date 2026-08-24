@@ -58,6 +58,17 @@ A combined JSON file is automatically generated ([`combined-taxonomy.json`](./co
 
 The taxonomy structure is formally defined in [`schema.json`](./schema.json), a JSON Schema file that can be used to validate the combined taxonomy data or integrate it into your tools and editors.
 
+### External source collectors
+
+The collector CLI emits normalized records from public category and tag sources. List the supported sources, then select JSON, JSON Lines, or TSV output:
+
+```sh
+bundle exec ruby scripts/collect_external_source.rb --list
+bundle exec ruby scripts/collect_external_source.rb pypi-classifiers --kind topic --format tsv
+```
+
+Use `--input PATH_OR_URL` to parse a saved response. The StackShare collector reads `data/external/stackshare-tools.csv` when that file exists and downloads the [published dataset](https://github.com/captn3m0/stackshare-dataset) otherwise. The local snapshot is ignored by Git because the source database is distributed under the ODbL.
+
 ## Using with CodeMeta
 
 [CodeMeta](https://codemeta.github.io/) is a standard for software metadata that extends schema.org. If you're maintaining a `codemeta.json` file for your project, you can use this taxonomy to provide rich, structured classification.
