@@ -234,7 +234,7 @@ module ExternalSources
         query = URI.encode_www_form(site: 'stackoverflow', sort: 'popular', order: 'desc', pagesize: per_page, page: page)
         body = @client.get("#{ENDPOINT}?#{query}")
         parsed = JSON.parse(body)
-        records.concat(parse(body))
+        records.concat(records_from(parsed))
         break unless parsed['has_more']
 
         page += 1
@@ -244,7 +244,11 @@ module ExternalSources
     end
 
     def parse(body)
-      JSON.parse(body).fetch('items').map do |tag|
+      records_from(JSON.parse(body))
+    end
+
+    def records_from(payload)
+      payload.fetch('items').map do |tag|
         name = tag.fetch('name')
         {
           'source' => 'stackoverflow',
