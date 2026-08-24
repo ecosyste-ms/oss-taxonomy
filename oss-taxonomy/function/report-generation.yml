@@ -1,0 +1,27 @@
+name: report-generation
+description: Producing structured reports from data, templates, or analysis results.
+examples:
+  - quarto
+  - multiqc
+  - jasperreports
+  - reportlab
+  - r-markdown
+related:
+  - templating
+  - visualization
+  - documentation
+  - site-generation
+aliases:
+  - automated-reporting
+  - document-generation
+  - reporting
+ecosystems:
+  - pypi
+  - cran
+  - maven
+  - npm
+tags:
+  - reports
+  - publishing
+  - documents
+  - analysis

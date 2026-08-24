@@ -1,0 +1,26 @@
+name: data-provenance
+description: Recording the origins, transformations, dependencies, and history of data.
+examples:
+  - openlineage
+  - marquez
+  - datahub
+  - dvc
+  - pachyderm
+related:
+  - data-version-control
+  - data-mapping
+  - workflow-orchestration
+aliases:
+  - data-lineage
+  - lineage-tracking
+  - provenance-tracking
+ecosystems:
+  - pypi
+  - maven
+  - go
+  - docker
+tags:
+  - lineage
+  - traceability
+  - metadata
+  - transformations

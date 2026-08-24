@@ -1,0 +1,22 @@
+name: snakemake
+description: A Python-based workflow system for defining dependency graphs of rules, inputs, and outputs.
+examples:
+  - snakemake
+  - snakemake-workflow-catalog
+  - snakemake-storage-plugin-s3
+related:
+  - workflow-orchestration
+  - python
+  - scientific-computing
+  - bioinformatics
+aliases:
+  - snakefile
+  - snakemake-workflow
+ecosystems:
+  - pypi
+  - conda
+tags:
+  - workflow-language
+  - pipelines
+  - dependency-graph
+  - rules

@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-08-20T07:56:22Z",
+  "generated_at": "2026-08-24T14:52:36Z",
   "audience": [
     {
       "name": "content-creator",
@@ -262,13 +262,14 @@
     },
     {
       "name": "researcher",
-      "description": "Software used by researchers for data analysis, simulations, and experiments.",
+      "description": "Software designed for researchers conducting analysis, simulations, experiments, or other scholarly work.",
       "examples": [
         "jupyter",
         "rstudio",
         "octave"
       ],
       "related": [
+        "research",
         "data-science",
         "scientific-computing"
       ],
@@ -277,7 +278,10 @@
       ],
       "ecosystems": [
         "conda",
-        "pypi"
+        "pypi",
+        "cran",
+        "bioconductor",
+        "julia"
       ],
       "tags": [
         "academic",
@@ -400,6 +404,38 @@
   ],
   "domain": [
     {
+      "name": "bioinformatics",
+      "description": "Software for analyzing and managing biological data using computational methods.",
+      "examples": [
+        "bioconductor",
+        "galaxy",
+        "blast",
+        "samtools",
+        "multiqc"
+      ],
+      "related": [
+        "scientific-computing",
+        "data-science",
+        "healthcare"
+      ],
+      "aliases": [
+        "computational-biology",
+        "bio-informatics"
+      ],
+      "ecosystems": [
+        "bioconductor",
+        "conda",
+        "pypi",
+        "cran"
+      ],
+      "tags": [
+        "genomics",
+        "proteomics",
+        "sequencing",
+        "biological-data"
+      ]
+    },
+    {
       "name": "blockchain",
       "description": "Software for blockchain development, cryptocurrency, smart contracts, and web3 applications.",
       "examples": [
@@ -502,8 +538,7 @@
         "machine-learning"
       ],
       "aliases": [
-        "ds",
-        "data-analysis"
+        "ds"
       ],
       "ecosystems": [
         "pypi",
@@ -779,6 +814,39 @@
       ]
     },
     {
+      "name": "high-performance-computing",
+      "description": "Software for large-scale computation across clusters, supercomputers, and parallel processors.",
+      "examples": [
+        "openmpi",
+        "slurm",
+        "mpich",
+        "openblas",
+        "ray"
+      ],
+      "related": [
+        "scientific-computing",
+        "cloud-computing",
+        "scheduling"
+      ],
+      "aliases": [
+        "hpc",
+        "parallel-computing",
+        "supercomputing"
+      ],
+      "ecosystems": [
+        "spack",
+        "conda",
+        "pypi",
+        "homebrew"
+      ],
+      "tags": [
+        "clusters",
+        "mpi",
+        "parallelism",
+        "distributed-computing"
+      ]
+    },
+    {
       "name": "machine-learning",
       "description": "Frameworks and tools for machine learning, deep learning, and artificial intelligence.",
       "examples": [
@@ -927,6 +995,41 @@
       ]
     },
     {
+      "name": "research",
+      "description": "Software created during research or for a research purpose across scholarly disciplines.",
+      "examples": [
+        "zotero",
+        "galaxy",
+        "geant4",
+        "opensesame",
+        "nextflow"
+      ],
+      "related": [
+        "scientific-computing",
+        "data-science",
+        "education"
+      ],
+      "aliases": [
+        "research-software",
+        "scholarly-software",
+        "academic-software"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cran",
+        "bioconductor",
+        "julia",
+        "conda",
+        "spack"
+      ],
+      "tags": [
+        "research",
+        "scholarship",
+        "academic",
+        "open-science"
+      ]
+    },
+    {
       "name": "robotics",
       "description": "Software for robot control, autonomous systems, ROS, and mechatronics applications.",
       "examples": [
@@ -956,15 +1059,19 @@
     },
     {
       "name": "scientific-computing",
-      "description": "Software used in computational research and scientific modeling.",
+      "description": "Software for numerical methods, computational science, and scientific modeling.",
       "examples": [
         "scipy",
-        "matplotlib",
-        "fortran"
+        "petsc",
+        "geant4",
+        "fenics"
       ],
       "related": [
+        "research",
         "data-science",
-        "simulation"
+        "simulation",
+        "bioinformatics",
+        "high-performance-computing"
       ],
       "aliases": [
         "computational-science",
@@ -1146,8 +1253,7 @@
         "scripting"
       ],
       "aliases": [
-        "task-automation",
-        "workflow-automation"
+        "task-automation"
       ],
       "ecosystems": [
         "pypi",
@@ -1515,6 +1621,40 @@
       ]
     },
     {
+      "name": "data-analysis",
+      "description": "Transforming, summarizing, and interpreting data to answer questions and identify patterns.",
+      "examples": [
+        "pandas",
+        "polars",
+        "dplyr",
+        "duckdb",
+        "apache-spark"
+      ],
+      "related": [
+        "data-science",
+        "visualization",
+        "scientific-computing"
+      ],
+      "aliases": [
+        "analytics",
+        "analytical-computing",
+        "data-analytics"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cran",
+        "julia",
+        "conda",
+        "maven"
+      ],
+      "tags": [
+        "analysis",
+        "statistics",
+        "exploration",
+        "transformation"
+      ]
+    },
+    {
       "name": "data-mapping",
       "description": "Object-relational mappers and query builders that translate between application objects and database rows.",
       "examples": [
@@ -1549,6 +1689,73 @@
         "sql",
         "persistence",
         "models"
+      ]
+    },
+    {
+      "name": "data-provenance",
+      "description": "Recording the origins, transformations, dependencies, and history of data.",
+      "examples": [
+        "openlineage",
+        "marquez",
+        "datahub",
+        "dvc",
+        "pachyderm"
+      ],
+      "related": [
+        "data-version-control",
+        "data-mapping",
+        "workflow-orchestration"
+      ],
+      "aliases": [
+        "data-lineage",
+        "lineage-tracking",
+        "provenance-tracking"
+      ],
+      "ecosystems": [
+        "pypi",
+        "maven",
+        "go",
+        "docker"
+      ],
+      "tags": [
+        "lineage",
+        "traceability",
+        "metadata",
+        "transformations"
+      ]
+    },
+    {
+      "name": "data-version-control",
+      "description": "Tracking, comparing, and retrieving versions of datasets and their associated metadata.",
+      "examples": [
+        "dvc",
+        "lakefs",
+        "pachyderm",
+        "dolt",
+        "git-annex"
+      ],
+      "related": [
+        "version-control",
+        "data-provenance",
+        "file-management",
+        "object-storage"
+      ],
+      "aliases": [
+        "dataset-versioning",
+        "data-versioning",
+        "versioned-data"
+      ],
+      "ecosystems": [
+        "pypi",
+        "go",
+        "docker",
+        "homebrew"
+      ],
+      "tags": [
+        "datasets",
+        "versions",
+        "history",
+        "storage"
       ]
     },
     {
@@ -2043,6 +2250,40 @@
       ]
     },
     {
+      "name": "interactive-computing",
+      "description": "Providing interactive sessions for writing and running code, exploring data, and viewing results.",
+      "examples": [
+        "jupyterlab",
+        "ipython",
+        "rstudio",
+        "pluto",
+        "polynote"
+      ],
+      "related": [
+        "data-analysis",
+        "visualization",
+        "literate-programming"
+      ],
+      "aliases": [
+        "interactive-notebook",
+        "notebook-environment",
+        "computational-notebook"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda",
+        "cran",
+        "julia",
+        "npm"
+      ],
+      "tags": [
+        "notebooks",
+        "repl",
+        "exploration",
+        "code-execution"
+      ]
+    },
+    {
       "name": "internationalization",
       "description": "Translation, localization, and multi-language support tools.",
       "examples": [
@@ -2102,6 +2343,39 @@
         "completion",
         "diagnostics",
         "tooling"
+      ]
+    },
+    {
+      "name": "literate-programming",
+      "description": "Combining executable source code with narrative text in the same document or notebook.",
+      "examples": [
+        "jupyter",
+        "quarto",
+        "r-markdown",
+        "org-babel",
+        "pluto"
+      ],
+      "related": [
+        "documentation",
+        "report-generation",
+        "interactive-computing"
+      ],
+      "aliases": [
+        "executable-documentation",
+        "notebook-programming"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cran",
+        "julia",
+        "elpa",
+        "conda"
+      ],
+      "tags": [
+        "notebooks",
+        "narrative",
+        "executable-documents",
+        "publishing"
       ]
     },
     {
@@ -2453,6 +2727,40 @@
         "changelog",
         "publishing",
         "tags"
+      ]
+    },
+    {
+      "name": "report-generation",
+      "description": "Producing structured reports from data, templates, or analysis results.",
+      "examples": [
+        "quarto",
+        "multiqc",
+        "jasperreports",
+        "reportlab",
+        "r-markdown"
+      ],
+      "related": [
+        "templating",
+        "visualization",
+        "documentation",
+        "site-generation"
+      ],
+      "aliases": [
+        "automated-reporting",
+        "document-generation",
+        "reporting"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cran",
+        "maven",
+        "npm"
+      ],
+      "tags": [
+        "reports",
+        "publishing",
+        "documents",
+        "analysis"
       ]
     },
     {
@@ -3117,6 +3425,41 @@
       ]
     },
     {
+      "name": "version-control",
+      "description": "Tracking and managing revisions to files, source code, and other versioned content.",
+      "examples": [
+        "git",
+        "mercurial",
+        "fossil",
+        "pijul",
+        "sapling"
+      ],
+      "related": [
+        "git",
+        "data-version-control",
+        "release-management"
+      ],
+      "aliases": [
+        "source-control",
+        "revision-control",
+        "vcs",
+        "scm"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "cargo",
+        "pypi",
+        "go"
+      ],
+      "tags": [
+        "history",
+        "revisions",
+        "branches",
+        "commits",
+        "changes"
+      ]
+    },
+    {
       "name": "visualization",
       "description": "Software for creating charts, graphs, and visual representations of data.",
       "examples": [
@@ -3207,6 +3550,40 @@
         "real-time",
         "bidirectional",
         "push"
+      ]
+    },
+    {
+      "name": "workflow-orchestration",
+      "description": "Coordinating multi-step workflows according to their dependencies, inputs, outputs, and execution state.",
+      "examples": [
+        "nextflow",
+        "snakemake",
+        "airflow",
+        "prefect",
+        "targets"
+      ],
+      "related": [
+        "scheduling",
+        "automation",
+        "process-execution"
+      ],
+      "aliases": [
+        "workflow-management",
+        "pipeline-orchestration",
+        "workflow-automation"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda",
+        "cran",
+        "bioconductor"
+      ],
+      "tags": [
+        "workflows",
+        "pipelines",
+        "dependencies",
+        "execution",
+        "directed-acyclic-graph"
       ]
     }
   ],
@@ -3943,29 +4320,38 @@
     },
     {
       "name": "orchestrator",
-      "description": "Container orchestration and service management platforms for distributed systems.",
+      "description": "Software that coordinates dependent services, jobs, or workflow steps and manages their execution.",
       "examples": [
         "kubernetes",
-        "docker-swarm",
-        "nomad"
+        "nomad",
+        "nextflow",
+        "snakemake"
       ],
       "related": [
         "containerization",
-        "infrastructure"
+        "infrastructure",
+        "workflow-orchestration",
+        "scheduling"
       ],
       "aliases": [
         "container-orchestration",
-        "cluster-management"
+        "cluster-management",
+        "workflow-engine",
+        "workflow-manager"
       ],
       "ecosystems": [
         "docker",
         "go",
-        "homebrew"
+        "homebrew",
+        "pypi",
+        "conda",
+        "cran"
       ],
       "tags": [
         "orchestration",
         "containers",
-        "kubernetes",
+        "workflows",
+        "pipelines",
         "distributed"
       ]
     },
@@ -4026,6 +4412,41 @@
         "extension",
         "addon",
         "integration"
+      ]
+    },
+    {
+      "name": "registry",
+      "description": "Services that index and provide software artifacts, datasets, models, or workflows for discovery and distribution.",
+      "examples": [
+        "harbor",
+        "warehouse",
+        "crates.io",
+        "dockstore",
+        "mlflow"
+      ],
+      "related": [
+        "package-manager",
+        "object-storage",
+        "search"
+      ],
+      "aliases": [
+        "software-registry",
+        "artifact-registry",
+        "repository-service",
+        "catalog-service"
+      ],
+      "ecosystems": [
+        "docker",
+        "pypi",
+        "cargo",
+        "maven"
+      ],
+      "tags": [
+        "registry",
+        "catalog",
+        "discovery",
+        "distribution",
+        "metadata"
       ]
     },
     {
@@ -4696,6 +5117,38 @@
       ]
     },
     {
+      "name": "fortran",
+      "description": "A compiled programming language used for numerical and high-performance computing.",
+      "examples": [
+        "lapack",
+        "openblas",
+        "wrf",
+        "quantum-espresso",
+        "gfortran"
+      ],
+      "related": [
+        "scientific-computing",
+        "high-performance-computing",
+        "simulation"
+      ],
+      "aliases": [
+        "modern-fortran",
+        "f77",
+        "f90",
+        "f95"
+      ],
+      "ecosystems": [
+        "spack",
+        "conda"
+      ],
+      "tags": [
+        "programming-language",
+        "compiled",
+        "numerical-computing",
+        "arrays"
+      ]
+    },
+    {
       "name": "git",
       "description": "A distributed version control system for tracking changes in source code during software development.",
       "examples": [
@@ -4955,6 +5408,66 @@
       ]
     },
     {
+      "name": "julia",
+      "description": "A programming language for numerical computing, data analysis, and scientific software.",
+      "examples": [
+        "flux",
+        "dataframes.jl",
+        "jump",
+        "differentialequations.jl",
+        "documenter.jl"
+      ],
+      "related": [
+        "scientific-computing",
+        "data-science",
+        "high-performance-computing"
+      ],
+      "aliases": [
+        "julia-lang"
+      ],
+      "ecosystems": [
+        "julia",
+        "conda"
+      ],
+      "tags": [
+        "programming-language",
+        "numerical-computing",
+        "scientific-computing",
+        "multiple-dispatch"
+      ]
+    },
+    {
+      "name": "jupyter",
+      "description": "An interactive computing platform and notebook format for combining code, text, data, and output.",
+      "examples": [
+        "jupyterlab",
+        "notebook",
+        "nbconvert",
+        "nbformat",
+        "voila"
+      ],
+      "related": [
+        "interactive-computing",
+        "literate-programming",
+        "data-science"
+      ],
+      "aliases": [
+        "jupyter-notebook",
+        "jupyterlab",
+        "ipynb"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "notebooks",
+        "interactive",
+        "kernels",
+        "computational-documents"
+      ]
+    },
+    {
       "name": "kotlin",
       "description": "A modern, statically typed programming language that runs on the JVM, officially supported for Android development.",
       "examples": [
@@ -5114,6 +5627,34 @@
         "sql",
         "relational",
         "rdbms"
+      ]
+    },
+    {
+      "name": "nextflow",
+      "description": "A workflow language and execution engine for portable, data-intensive pipelines.",
+      "examples": [
+        "nf-core",
+        "nf-core-rnaseq",
+        "nf-core-sarek",
+        "nf-core-viralrecon"
+      ],
+      "related": [
+        "workflow-orchestration",
+        "scientific-computing",
+        "bioinformatics"
+      ],
+      "aliases": [
+        "nextflow-dsl"
+      ],
+      "ecosystems": [
+        "conda",
+        "homebrew"
+      ],
+      "tags": [
+        "workflow-language",
+        "pipelines",
+        "dataflow",
+        "distributed-execution"
       ]
     },
     {
@@ -5334,6 +5875,34 @@
       ]
     },
     {
+      "name": "quarto",
+      "description": "A publishing system for creating reports, articles, presentations, books, and websites from source documents.",
+      "examples": [
+        "quarto-cli",
+        "quarto-live",
+        "quarto-web"
+      ],
+      "related": [
+        "report-generation",
+        "literate-programming",
+        "site-generation"
+      ],
+      "aliases": [
+        "quarto-cli"
+      ],
+      "ecosystems": [
+        "conda",
+        "homebrew",
+        "cran"
+      ],
+      "tags": [
+        "publishing",
+        "markdown",
+        "notebooks",
+        "reports"
+      ]
+    },
+    {
       "name": "r",
       "description": "A programming language and environment for statistical computing, data analysis, and visualization.",
       "examples": [
@@ -5539,6 +6108,35 @@
         "functional",
         "jvm",
         "data-engineering"
+      ]
+    },
+    {
+      "name": "snakemake",
+      "description": "A Python-based workflow system for defining dependency graphs of rules, inputs, and outputs.",
+      "examples": [
+        "snakemake",
+        "snakemake-workflow-catalog",
+        "snakemake-storage-plugin-s3"
+      ],
+      "related": [
+        "workflow-orchestration",
+        "python",
+        "scientific-computing",
+        "bioinformatics"
+      ],
+      "aliases": [
+        "snakefile",
+        "snakemake-workflow"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "workflow-language",
+        "pipelines",
+        "dependency-graph",
+        "rules"
       ]
     },
     {

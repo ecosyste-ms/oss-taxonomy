@@ -1,0 +1,24 @@
+name: jupyter
+description: An interactive computing platform and notebook format for combining code, text, data, and output.
+examples:
+  - jupyterlab
+  - notebook
+  - nbconvert
+  - nbformat
+  - voila
+related:
+  - interactive-computing
+  - literate-programming
+  - data-science
+aliases:
+  - jupyter-notebook
+  - jupyterlab
+  - ipynb
+ecosystems:
+  - pypi
+  - conda
+tags:
+  - notebooks
+  - interactive
+  - kernels
+  - computational-documents

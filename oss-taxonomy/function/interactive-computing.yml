@@ -1,0 +1,27 @@
+name: interactive-computing
+description: Providing interactive sessions for writing and running code, exploring data, and viewing results.
+examples:
+  - jupyterlab
+  - ipython
+  - rstudio
+  - pluto
+  - polynote
+related:
+  - data-analysis
+  - visualization
+  - literate-programming
+aliases:
+  - interactive-notebook
+  - notebook-environment
+  - computational-notebook
+ecosystems:
+  - pypi
+  - conda
+  - cran
+  - julia
+  - npm
+tags:
+  - notebooks
+  - repl
+  - exploration
+  - code-execution

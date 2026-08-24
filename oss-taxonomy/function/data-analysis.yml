@@ -1,0 +1,27 @@
+name: data-analysis
+description: Transforming, summarizing, and interpreting data to answer questions and identify patterns.
+examples:
+  - pandas
+  - polars
+  - dplyr
+  - duckdb
+  - apache-spark
+related:
+  - data-science
+  - visualization
+  - scientific-computing
+aliases:
+  - analytics
+  - analytical-computing
+  - data-analytics
+ecosystems:
+  - pypi
+  - cran
+  - julia
+  - conda
+  - maven
+tags:
+  - analysis
+  - statistics
+  - exploration
+  - transformation

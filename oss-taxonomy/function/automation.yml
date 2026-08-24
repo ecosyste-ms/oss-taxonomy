@@ -10,7 +10,6 @@ related:
   - scripting
 aliases:
   - task-automation
-  - workflow-automation
 ecosystems:
   - pypi
   - npm

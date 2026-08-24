@@ -9,7 +9,6 @@ related:
   - machine-learning
 aliases:
   - ds
-  - data-analysis
 ecosystems:
   - pypi
   - conda

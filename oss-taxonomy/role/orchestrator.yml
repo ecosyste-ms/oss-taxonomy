@@ -1,21 +1,30 @@
 name: orchestrator
-description: Container orchestration and service management platforms for distributed systems.
+description: Software that coordinates dependent services, jobs, or workflow steps and manages their execution.
 examples:
   - kubernetes
-  - docker-swarm
   - nomad
+  - nextflow
+  - snakemake
 related:
   - containerization
   - infrastructure
+  - workflow-orchestration
+  - scheduling
 aliases:
   - container-orchestration
   - cluster-management
+  - workflow-engine
+  - workflow-manager
 ecosystems:
   - docker
   - go
   - homebrew
+  - pypi
+  - conda
+  - cran
 tags:
   - orchestration
   - containers
-  - kubernetes
+  - workflows
+  - pipelines
   - distributed

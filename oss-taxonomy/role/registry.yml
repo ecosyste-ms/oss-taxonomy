@@ -1,0 +1,28 @@
+name: registry
+description: Services that index and provide software artifacts, datasets, models, or workflows for discovery and distribution.
+examples:
+  - harbor
+  - warehouse
+  - crates.io
+  - dockstore
+  - mlflow
+related:
+  - package-manager
+  - object-storage
+  - search
+aliases:
+  - software-registry
+  - artifact-registry
+  - repository-service
+  - catalog-service
+ecosystems:
+  - docker
+  - pypi
+  - cargo
+  - maven
+tags:
+  - registry
+  - catalog
+  - discovery
+  - distribution
+  - metadata

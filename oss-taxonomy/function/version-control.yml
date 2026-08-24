@@ -1,0 +1,28 @@
+name: version-control
+description: Tracking and managing revisions to files, source code, and other versioned content.
+examples:
+  - git
+  - mercurial
+  - fossil
+  - pijul
+  - sapling
+related:
+  - git
+  - data-version-control
+  - release-management
+aliases:
+  - source-control
+  - revision-control
+  - vcs
+  - scm
+ecosystems:
+  - homebrew
+  - cargo
+  - pypi
+  - go
+tags:
+  - history
+  - revisions
+  - branches
+  - commits
+  - changes
