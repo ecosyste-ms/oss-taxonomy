@@ -1,0 +1,17 @@
+name: protocol-conformance
+description: Software that checks protocol implementation behavior against a specification using test cases, traces, or executable reference oracles.
+examples:
+  - autobahn-testsuite
+  - lean-rfcs
+related:
+  - testing
+  - validation
+  - networking
+aliases:
+  - protocol-conformance-testing
+  - protocol-compliance-testing
+tags:
+  - conformance
+  - interoperability
+  - specification
+  - oracle

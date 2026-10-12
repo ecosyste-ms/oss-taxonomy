@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-09-07T08:09:36Z",
+  "generated_at": "2026-10-12T16:18:50Z",
   "audience": [
     {
       "name": "content-creator",
@@ -2693,6 +2693,29 @@
         "exec",
         "spawn",
         "command"
+      ]
+    },
+    {
+      "name": "protocol-conformance",
+      "description": "Software that checks protocol implementation behavior against a specification using test cases, traces, or executable reference oracles.",
+      "examples": [
+        "autobahn-testsuite",
+        "lean-rfcs"
+      ],
+      "related": [
+        "testing",
+        "validation",
+        "networking"
+      ],
+      "aliases": [
+        "protocol-conformance-testing",
+        "protocol-compliance-testing"
+      ],
+      "tags": [
+        "conformance",
+        "interoperability",
+        "specification",
+        "oracle"
       ]
     },
     {
