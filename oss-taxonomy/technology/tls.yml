@@ -1,0 +1,15 @@
+name: tls
+description: Transport Layer Security for encrypted communication, peer authentication, and integrity protection.
+examples:
+  - openssl
+  - curl
+related:
+  - encryption
+  - authentication
+  - security
+aliases:
+  - transport-layer-security
+tags:
+  - protocol
+  - secure-channel
+  - cryptography

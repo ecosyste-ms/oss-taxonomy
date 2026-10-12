@@ -1,0 +1,12 @@
+name: zlib-format
+description: The zlib wrapper format for DEFLATE data, with compression parameters, optional dictionary identification, and an Adler-32 checksum.
+examples:
+  - zlib
+  - libpng
+related:
+  - compression
+  - deflate
+tags:
+  - data-format
+  - compression
+  - wrapper-format

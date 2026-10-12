@@ -1,0 +1,12 @@
+name: gzip
+description: The gzip file format for DEFLATE-compressed members with header metadata, a checksum, and an uncompressed-size trailer.
+examples:
+  - gzip
+  - zlib
+related:
+  - compression
+  - deflate
+tags:
+  - data-format
+  - compression
+  - file-format

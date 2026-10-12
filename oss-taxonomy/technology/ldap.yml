@@ -1,0 +1,14 @@
+name: ldap
+description: The Lightweight Directory Access Protocol for querying and updating directory entries and performing directory authentication.
+examples:
+  - openldap
+  - curl
+related:
+  - authentication
+  - networking
+aliases:
+  - lightweight-directory-access-protocol
+tags:
+  - protocol
+  - directory
+  - identity

@@ -1,0 +1,14 @@
+name: bgp
+description: The Border Gateway Protocol for exchanging routing information between autonomous systems and within routing domains.
+examples:
+  - frrouting
+  - bird
+related:
+  - networking
+  - network-layer
+aliases:
+  - border-gateway-protocol
+tags:
+  - protocol
+  - routing
+  - internet

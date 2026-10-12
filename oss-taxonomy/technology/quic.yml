@@ -1,0 +1,14 @@
+name: quic
+description: A UDP-based transport protocol with encrypted connections, multiplexed streams, and connection migration, used by HTTP/3.
+examples:
+  - quiche
+  - curl
+related:
+  - http
+  - tls
+  - networking
+tags:
+  - protocol
+  - transport
+  - udp
+  - http3

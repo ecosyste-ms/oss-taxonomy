@@ -1,0 +1,14 @@
+name: dns
+description: The Domain Name System protocol for resolving names and publishing records, including resolver and authoritative server implementations.
+examples:
+  - bind
+  - dnsmasq
+related:
+  - networking
+  - network-layer
+aliases:
+  - domain-name-system
+tags:
+  - protocol
+  - name-resolution
+  - resolver
