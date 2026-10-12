@@ -85,6 +85,7 @@ function:object-storage
 function:parsing
 function:payments
 function:process-execution
+function:protocol-conformance
 function:release-management
 function:report-generation
 function:routing
