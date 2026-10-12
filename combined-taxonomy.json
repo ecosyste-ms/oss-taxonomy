@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-10-12T16:40:42Z",
+  "generated_at": "2026-10-12T16:43:43Z",
   "audience": [
     {
       "name": "content-creator",
@@ -4720,6 +4720,26 @@
       ]
     },
     {
+      "name": "bgp",
+      "description": "The Border Gateway Protocol for exchanging routing information between autonomous systems and within routing domains.",
+      "examples": [
+        "frrouting",
+        "bird"
+      ],
+      "related": [
+        "networking",
+        "network-layer"
+      ],
+      "aliases": [
+        "border-gateway-protocol"
+      ],
+      "tags": [
+        "protocol",
+        "routing",
+        "internet"
+      ]
+    },
+    {
       "name": "bootstrap",
       "description": "A popular CSS framework for building responsive and mobile-first websites with pre-designed components.",
       "examples": [
@@ -4930,6 +4950,24 @@
       ]
     },
     {
+      "name": "deflate",
+      "description": "The lossless compression format using LZ77 matches and Huffman coding, used in raw streams and inside gzip and zlib wrappers.",
+      "examples": [
+        "zlib",
+        "gzip"
+      ],
+      "related": [
+        "compression",
+        "gzip",
+        "zlib-format"
+      ],
+      "tags": [
+        "data-format",
+        "compression",
+        "encoding"
+      ]
+    },
+    {
       "name": "django",
       "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
       "examples": [
@@ -4953,6 +4991,26 @@
         "framework",
         "python",
         "mvc"
+      ]
+    },
+    {
+      "name": "dns",
+      "description": "The Domain Name System protocol for resolving names and publishing records, including resolver and authoritative server implementations.",
+      "examples": [
+        "bind",
+        "dnsmasq"
+      ],
+      "related": [
+        "networking",
+        "network-layer"
+      ],
+      "aliases": [
+        "domain-name-system"
+      ],
+      "tags": [
+        "protocol",
+        "name-resolution",
+        "resolver"
       ]
     },
     {
@@ -5301,6 +5359,23 @@
       ]
     },
     {
+      "name": "gzip",
+      "description": "The gzip file format for DEFLATE-compressed members with header metadata, a checksum, and an uncompressed-size trailer.",
+      "examples": [
+        "gzip",
+        "zlib"
+      ],
+      "related": [
+        "compression",
+        "deflate"
+      ],
+      "tags": [
+        "data-format",
+        "compression",
+        "file-format"
+      ]
+    },
+    {
       "name": "html",
       "description": "The standard markup language for creating web pages and web applications.",
       "examples": [
@@ -5325,6 +5400,28 @@
         "web",
         "frontend",
         "standard"
+      ]
+    },
+    {
+      "name": "http",
+      "description": "The Hypertext Transfer Protocol for exchanging requests and responses between clients, servers, and intermediaries.",
+      "examples": [
+        "curl",
+        "h11"
+      ],
+      "related": [
+        "http-client",
+        "networking",
+        "web-development"
+      ],
+      "aliases": [
+        "hypertext-transfer-protocol"
+      ],
+      "tags": [
+        "protocol",
+        "request-response",
+        "http2",
+        "http3"
       ]
     },
     {
@@ -5428,6 +5525,28 @@
         "javascript",
         "dom",
         "frontend"
+      ]
+    },
+    {
+      "name": "json",
+      "description": "JavaScript Object Notation, a text data format for objects, arrays, strings, numbers, booleans, and null values.",
+      "examples": [
+        "cjson",
+        "python",
+        "nodejs"
+      ],
+      "related": [
+        "parsing",
+        "serialization",
+        "validation"
+      ],
+      "aliases": [
+        "javascript-object-notation"
+      ],
+      "tags": [
+        "data-format",
+        "structured-data",
+        "encoding"
       ]
     },
     {
@@ -5568,6 +5687,26 @@
         "framework",
         "php",
         "mvc"
+      ]
+    },
+    {
+      "name": "ldap",
+      "description": "The Lightweight Directory Access Protocol for querying and updating directory entries and performing directory authentication.",
+      "examples": [
+        "openldap",
+        "curl"
+      ],
+      "related": [
+        "authentication",
+        "networking"
+      ],
+      "aliases": [
+        "lightweight-directory-access-protocol"
+      ],
+      "tags": [
+        "protocol",
+        "directory",
+        "identity"
       ]
     },
     {
@@ -5926,6 +6065,25 @@
       ]
     },
     {
+      "name": "quic",
+      "description": "A UDP-based transport protocol with encrypted connections, multiplexed streams, and connection migration, used by HTTP/3.",
+      "examples": [
+        "quiche",
+        "curl"
+      ],
+      "related": [
+        "http",
+        "tls",
+        "networking"
+      ],
+      "tags": [
+        "protocol",
+        "transport",
+        "udp",
+        "http3"
+      ]
+    },
+    {
       "name": "r",
       "description": "A programming language and environment for statistical computing, data analysis, and visualization.",
       "examples": [
@@ -6134,6 +6292,26 @@
       ]
     },
     {
+      "name": "smtp",
+      "description": "The Simple Mail Transfer Protocol for submitting and relaying email between clients and mail servers.",
+      "examples": [
+        "postfix",
+        "curl"
+      ],
+      "related": [
+        "email",
+        "networking"
+      ],
+      "aliases": [
+        "simple-mail-transfer-protocol"
+      ],
+      "tags": [
+        "protocol",
+        "mail-transfer",
+        "mail-submission"
+      ]
+    },
+    {
       "name": "snakemake",
       "description": "A Python-based workflow system for defining dependency graphs of rules, inputs, and outputs.",
       "examples": [
@@ -6215,6 +6393,27 @@
         "sql",
         "embedded",
         "lightweight"
+      ]
+    },
+    {
+      "name": "ssh",
+      "description": "The Secure Shell protocol for authenticated remote sessions, command execution, and forwarded connections.",
+      "examples": [
+        "openssh",
+        "wolfssh"
+      ],
+      "related": [
+        "networking",
+        "authentication",
+        "encryption"
+      ],
+      "aliases": [
+        "secure-shell"
+      ],
+      "tags": [
+        "protocol",
+        "remote-access",
+        "port-forwarding"
       ]
     },
     {
@@ -6323,6 +6522,27 @@
       ]
     },
     {
+      "name": "tls",
+      "description": "Transport Layer Security for encrypted communication, peer authentication, and integrity protection.",
+      "examples": [
+        "openssl",
+        "curl"
+      ],
+      "related": [
+        "encryption",
+        "authentication",
+        "security"
+      ],
+      "aliases": [
+        "transport-layer-security"
+      ],
+      "tags": [
+        "protocol",
+        "secure-channel",
+        "cryptography"
+      ]
+    },
+    {
       "name": "typescript",
       "description": "A typed superset of JavaScript that compiles to plain JavaScript, adding static type checking.",
       "examples": [
@@ -6346,6 +6566,27 @@
         "typed",
         "web",
         "frontend"
+      ]
+    },
+    {
+      "name": "uri",
+      "description": "Uniform Resource Identifiers and their syntax for identifying resources, parsing components, and resolving relative references.",
+      "examples": [
+        "curl",
+        "python",
+        "dart"
+      ],
+      "related": [
+        "parsing",
+        "http"
+      ],
+      "aliases": [
+        "uniform-resource-identifier"
+      ],
+      "tags": [
+        "identifier",
+        "syntax",
+        "relative-reference"
       ]
     },
     {
@@ -6457,6 +6698,45 @@
         "build-tool",
         "javascript",
         "module-loader"
+      ]
+    },
+    {
+      "name": "websocket",
+      "description": "The WebSocket protocol for exchanging framed messages over a persistent bidirectional connection after an opening handshake.",
+      "examples": [
+        "ws",
+        "gorilla-websocket",
+        "curl"
+      ],
+      "related": [
+        "http",
+        "networking",
+        "messaging"
+      ],
+      "aliases": [
+        "web-socket"
+      ],
+      "tags": [
+        "protocol",
+        "framing",
+        "bidirectional"
+      ]
+    },
+    {
+      "name": "zlib-format",
+      "description": "The zlib wrapper format for DEFLATE data, with compression parameters, optional dictionary identification, and an Adler-32 checksum.",
+      "examples": [
+        "zlib",
+        "libpng"
+      ],
+      "related": [
+        "compression",
+        "deflate"
+      ],
+      "tags": [
+        "data-format",
+        "compression",
+        "wrapper-format"
       ]
     }
   ]

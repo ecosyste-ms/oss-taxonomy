@@ -1,0 +1,15 @@
+name: uri
+description: Uniform Resource Identifiers and their syntax for identifying resources, parsing components, and resolving relative references.
+examples:
+  - curl
+  - python
+  - dart
+related:
+  - parsing
+  - http
+aliases:
+  - uniform-resource-identifier
+tags:
+  - identifier
+  - syntax
+  - relative-reference

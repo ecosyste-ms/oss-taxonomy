@@ -1,0 +1,14 @@
+name: smtp
+description: The Simple Mail Transfer Protocol for submitting and relaying email between clients and mail servers.
+examples:
+  - postfix
+  - curl
+related:
+  - email
+  - networking
+aliases:
+  - simple-mail-transfer-protocol
+tags:
+  - protocol
+  - mail-transfer
+  - mail-submission

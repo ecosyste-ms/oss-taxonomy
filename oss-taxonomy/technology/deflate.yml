@@ -1,0 +1,13 @@
+name: deflate
+description: The lossless compression format using LZ77 matches and Huffman coding, used in raw streams and inside gzip and zlib wrappers.
+examples:
+  - zlib
+  - gzip
+related:
+  - compression
+  - gzip
+  - zlib-format
+tags:
+  - data-format
+  - compression
+  - encoding

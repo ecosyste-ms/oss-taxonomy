@@ -1,0 +1,16 @@
+name: websocket
+description: The WebSocket protocol for exchanging framed messages over a persistent bidirectional connection after an opening handshake.
+examples:
+  - ws
+  - gorilla-websocket
+  - curl
+related:
+  - http
+  - networking
+  - messaging
+aliases:
+  - web-socket
+tags:
+  - protocol
+  - framing
+  - bidirectional

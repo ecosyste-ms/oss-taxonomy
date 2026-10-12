@@ -1,0 +1,16 @@
+name: http
+description: The Hypertext Transfer Protocol for exchanging requests and responses between clients, servers, and intermediaries.
+examples:
+  - curl
+  - h11
+related:
+  - http-client
+  - networking
+  - web-development
+aliases:
+  - hypertext-transfer-protocol
+tags:
+  - protocol
+  - request-response
+  - http2
+  - http3

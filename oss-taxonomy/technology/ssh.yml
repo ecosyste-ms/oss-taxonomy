@@ -1,0 +1,15 @@
+name: ssh
+description: The Secure Shell protocol for authenticated remote sessions, command execution, and forwarded connections.
+examples:
+  - openssh
+  - wolfssh
+related:
+  - networking
+  - authentication
+  - encryption
+aliases:
+  - secure-shell
+tags:
+  - protocol
+  - remote-access
+  - port-forwarding

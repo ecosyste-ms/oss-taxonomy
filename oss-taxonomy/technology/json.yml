@@ -1,0 +1,16 @@
+name: json
+description: JavaScript Object Notation, a text data format for objects, arrays, strings, numbers, booleans, and null values.
+examples:
+  - cjson
+  - python
+  - nodejs
+related:
+  - parsing
+  - serialization
+  - validation
+aliases:
+  - javascript-object-notation
+tags:
+  - data-format
+  - structured-data
+  - encoding
