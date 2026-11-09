@@ -1,0 +1,17 @@
+name: "apache-arrow"
+description: "Apache Arrow, a language-independent columnar memory format and software ecosystem for efficient analytical data processing and interchange."
+examples:
+  - "pyarrow"
+  - "arrow-r"
+  - "arrow-rs"
+related:
+  - "serialization"
+  - "data-analysis"
+  - "numerical-computing"
+aliases:
+  - "arrow-format"
+tags:
+  - "columnar"
+  - "data-format"
+  - "interoperability"
+  - "analytics"

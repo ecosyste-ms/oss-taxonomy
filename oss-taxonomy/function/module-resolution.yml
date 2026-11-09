@@ -1,0 +1,20 @@
+name: "module-resolution"
+description: "Locating modules and resolving imports, exports, and package entry points following the lookup rules of a language or toolchain."
+examples:
+  - "resolve"
+  - "enhanced-resolve"
+  - "resolve-exports"
+related:
+  - "bundling"
+  - "package-manager"
+  - "build-tool"
+aliases:
+  - "import-resolution"
+  - "module-lookup"
+ecosystems:
+  - "npm"
+tags:
+  - "modules"
+  - "imports"
+  - "exports"
+  - "resolution"

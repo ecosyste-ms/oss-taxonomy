@@ -1,0 +1,17 @@
+name: "msgpack"
+description: "MessagePack, a binary serialization format for structured data with compact representations of common data types."
+examples:
+  - "msgpack-python"
+  - "msgpack-java"
+  - "clojure-msgpack"
+related:
+  - "serialization"
+  - "parsing"
+  - "json"
+aliases:
+  - "messagepack"
+  - "message-pack"
+tags:
+  - "data-format"
+  - "binary"
+  - "serialization"

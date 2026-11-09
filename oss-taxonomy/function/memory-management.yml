@@ -1,0 +1,23 @@
+name: "memory-management"
+description: "Allocating, mapping, retaining, and releasing memory, including arenas, reference management, and memory-mapped access."
+examples:
+  - "bumpalo"
+  - "memmap2"
+  - "mmap-go"
+related:
+  - "data-structures"
+  - "ffi"
+  - "library"
+aliases:
+  - "memory-allocation"
+  - "memory-mapping"
+ecosystems:
+  - "cargo"
+  - "go"
+  - "hackage"
+  - "nuget"
+tags:
+  - "allocation"
+  - "arenas"
+  - "mmap"
+  - "memory"

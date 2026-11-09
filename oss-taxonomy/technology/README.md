@@ -7,6 +7,7 @@ This facet describes **specific technologies, languages, or frameworks** used or
 - `ada`: A statically typed compiled programming language used for systems, embedded, and high-integrity software.
 - `angular`: A TypeScript-based web application framework developed by Google for building dynamic single-page applications
 - `ansible`: An open-source automation tool for configuration management, application deployment, and task automation
+- `apache-arrow`: Apache Arrow, a language-independent columnar memory format and software ecosystem for efficient analytical data processing and interchange.
 - `aws`: Amazon Web Services, a comprehensive cloud computing platform offering compute, storage, and services
 - `azure`: Microsoft's cloud computing platform providing services for building, deploying, and managing applications
 - `bootstrap`: A popular CSS framework for building responsive and mobile-first websites with pre-designed components
@@ -32,24 +33,32 @@ This facet describes **specific technologies, languages, or frameworks** used or
 - `git`: A distributed version control system for tracking changes in source code during software development
 - `github-actions`: A CI/CD platform integrated with GitHub for automating workflows, builds, tests, and deployments
 - `go`: A statically typed, compiled programming language designed for simplicity and efficient concurrent programming
+- `google-cloud`: Google Cloud, a cloud platform whose service APIs and infrastructure are supported by open-source clients, SDKs, and integration tools.
 - `graphql`: A query language for APIs and runtime for executing queries with existing data
+- `grpc`: An RPC framework and protocol ecosystem for defining and calling remote services, commonly using Protocol Buffers for service definitions and messages.
 - `haskell`: A statically typed, lazy functional programming language used for libraries, applications, and language tooling.
+- `hdf5`: Hierarchical Data Format 5, a data model, file format, and library ecosystem for storing and accessing structured scientific datasets.
 - `html`: The standard markup language for creating web pages and web applications
 - `java`: An object-oriented programming language designed for portability and used in enterprise applications
 - `javascript`: A versatile programming language for web development, used for both frontend and backend applications
 - `jenkins`: An open-source automation server for building, testing, and deploying software with continuous integration
 - `jquery`: A fast, small JavaScript library that simplifies HTML document traversal and manipulation
+- `json-schema`: A declarative language for describing the structure and constraints of JSON data, used by validators and schema-aware tooling.
 - `kotlin`: A modern, statically typed programming language that runs on the JVM, officially supported for Android development
 - `kubernetes`: An open-source container orchestration platform for automating deployment, scaling, and management of applications
 - `laravel`: A PHP web framework with elegant syntax for building modern web applications with MVC architecture
 - `linux`: An open-source Unix-like operating system kernel and family of operating systems
 - `lua`: A lightweight scripting language designed for embedding in applications and extending software with scripts.
+- `markdown`: A lightweight markup language and family of dialects for representing formatted documents in plain text.
 - `mongodb`: A document-oriented NoSQL database designed for scalability and flexibility with JSON-like documents
+- `msgpack`: MessagePack, a binary serialization format for structured data with compact representations of common data types.
 - `mysql`: An open-source relational database management system known for reliability and ease of use
+- `netcdf`: Network Common Data Form, a family of data formats and libraries for creating, accessing, and sharing array-oriented scientific data.
 - `nextjs`: A React framework for building full-stack web applications with server-side rendering and static generation
 - `nginx`: A high-performance web server, reverse proxy, and load balancer for handling HTTP and HTTPS traffic
 - `nodejs`: A JavaScript runtime built on Chrome's V8 engine for building scalable server-side applications
 - `octave`: GNU Octave, a programming language and computing environment for numerical computation with syntax largely compatible with MATLAB.
+- `openapi`: A language-independent specification for describing HTTP APIs and their operations, parameters, and data schemas.
 - `perl`: A dynamic programming language used for text processing, scripting, system administration, and reusable modules.
 - `php`: A server-side scripting language designed for web development and general-purpose programming
 - `postgresql`: An advanced, open-source relational database with strong standards compliance and extensibility
@@ -64,6 +73,7 @@ This facet describes **specific technologies, languages, or frameworks** used or
 - `sass`: A CSS preprocessor that extends CSS with variables, nesting, mixins, and other powerful features
 - `scala`: A functional and object-oriented programming language running on the JVM, popular in data engineering and distributed systems
 - `spring-boot`: A Java-based framework for building production-ready Spring applications with minimal configuration
+- `sql`: Structured Query Language and its dialects for defining, querying, and modifying data in relational database systems.
 - `sqlite`: A lightweight, embedded SQL database engine that requires no separate server process or configuration
 - `svelte`: A modern JavaScript framework that compiles components into efficient vanilla JavaScript at build time
 - `swift`: A powerful, modern programming language developed by Apple for iOS, macOS, and other Apple platforms

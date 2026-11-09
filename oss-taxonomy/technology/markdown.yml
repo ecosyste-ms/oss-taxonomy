@@ -1,0 +1,14 @@
+name: "markdown"
+description: "A lightweight markup language and family of dialects for representing formatted documents in plain text."
+examples:
+  - "markdown-it"
+  - "marked"
+  - "python-markdown"
+related:
+  - "parsing"
+  - "documentation"
+  - "site-generation"
+tags:
+  - "markup"
+  - "plain-text"
+  - "documents"

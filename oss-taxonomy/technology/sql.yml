@@ -1,0 +1,17 @@
+name: "sql"
+description: "Structured Query Language and its dialects for defining, querying, and modifying data in relational database systems."
+examples:
+  - "sqlparse"
+  - "sqlglot"
+  - "postgresql"
+  - "sqlite"
+related:
+  - "database"
+  - "database-access"
+  - "data-mapping"
+aliases:
+  - "structured-query-language"
+tags:
+  - "query-language"
+  - "relational"
+  - "database"

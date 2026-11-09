@@ -1,0 +1,24 @@
+name: "background-jobs"
+description: "Enqueuing and executing deferred application tasks with worker processes, including job retries and queue management."
+examples:
+  - "sidekiq"
+  - "resque"
+related:
+  - "scheduling"
+  - "messaging"
+  - "workflow-orchestration"
+aliases:
+  - "background-processing"
+  - "job-queues"
+  - "task-queues"
+ecosystems:
+  - "rubygems"
+  - "nuget"
+  - "pypi"
+  - "npm"
+  - "packagist"
+tags:
+  - "jobs"
+  - "workers"
+  - "queues"
+  - "deferred-tasks"

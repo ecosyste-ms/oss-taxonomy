@@ -1,0 +1,17 @@
+name: "json-schema"
+description: "A declarative language for describing the structure and constraints of JSON data, used by validators and schema-aware tooling."
+examples:
+  - "ajv"
+  - "python-jsonschema"
+  - "gojsonschema"
+related:
+  - "json"
+  - "validation"
+  - "code-generation"
+aliases:
+  - "jsonschema"
+tags:
+  - "schema"
+  - "json"
+  - "validation"
+  - "specification"
