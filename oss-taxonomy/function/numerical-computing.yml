@@ -1,0 +1,27 @@
+name: "numerical-computing"
+description: "Performing numerical computation with arrays, matrices, arithmetic, and numerical algorithms. Includes general computation libraries that are not primarily tools for interpreting datasets."
+examples:
+  - "numpy"
+  - "scipy"
+  - "openblas"
+  - "hmatrix"
+related:
+  - "scientific-computing"
+  - "data-analysis"
+  - "high-performance-computing"
+aliases:
+  - "numerical-methods"
+  - "numerical-analysis"
+  - "array-computing"
+ecosystems:
+  - "pypi"
+  - "conda"
+  - "cran"
+  - "julia"
+  - "hackage"
+  - "spack"
+tags:
+  - "numerical"
+  - "arrays"
+  - "matrices"
+  - "linear-algebra"

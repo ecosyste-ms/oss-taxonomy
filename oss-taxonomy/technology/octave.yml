@@ -1,0 +1,21 @@
+name: "octave"
+description: "GNU Octave, a programming language and computing environment for numerical computation with syntax largely compatible with MATLAB."
+examples:
+  - "gnu-octave"
+  - "octave-control"
+  - "octave-signal"
+related:
+  - "language"
+  - "numerical-computing"
+  - "scientific-computing"
+  - "visualization"
+aliases:
+  - "gnu-octave"
+ecosystems:
+  - "homebrew"
+  - "conda"
+tags:
+  - "programming-language"
+  - "numerical-computing"
+  - "matrices"
+  - "scientific-computing"

@@ -1,0 +1,22 @@
+name: "type-definitions"
+description: "Packages or projects whose primary purpose is to supply API type declarations or typing stubs for other software, rather than its runtime implementation or a type checker."
+examples:
+  - "definitelytyped"
+  - "typeshed"
+  - "types-requests"
+related:
+  - "type-checking"
+  - "library"
+  - "developer"
+aliases:
+  - "type-stubs"
+  - "typing-stubs"
+  - "type-declarations"
+ecosystems:
+  - "npm"
+  - "pypi"
+tags:
+  - "types"
+  - "declarations"
+  - "stubs"
+  - "static-analysis"

@@ -1,0 +1,20 @@
+name: "lua"
+description: "A lightweight scripting language designed for embedding in applications and extending software with scripts."
+examples:
+  - "lua"
+  - "luajit"
+  - "hslua"
+  - "luarocks"
+related:
+  - "language"
+  - "runtime"
+  - "ffi"
+aliases:
+  - "lua-lang"
+ecosystems:
+  - "homebrew"
+  - "conda"
+tags:
+  - "programming-language"
+  - "scripting"
+  - "embedding"

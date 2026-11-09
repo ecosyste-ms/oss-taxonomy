@@ -1,0 +1,26 @@
+name: "random-number-generation"
+description: "Providing pseudorandom generators, random sampling, or access to operating-system entropy. Cryptographic suitability depends on the particular generator and its intended use."
+examples:
+  - "rand"
+  - "getrandom"
+  - "haskell-random"
+  - "randombytes"
+related:
+  - "numerical-computing"
+  - "simulation"
+  - "encryption"
+aliases:
+  - "rng"
+  - "random-generation"
+  - "random-sampling"
+ecosystems:
+  - "cargo"
+  - "hackage"
+  - "npm"
+  - "pypi"
+  - "julia"
+tags:
+  - "randomness"
+  - "pseudorandom"
+  - "entropy"
+  - "sampling"

@@ -1,0 +1,23 @@
+name: "reference-data"
+description: "Packages or projects primarily distributing curated reference datasets such as time-zone rules, trust stores, or compatibility tables, sometimes with small access APIs."
+examples:
+  - "tzdata"
+  - "certifi"
+  - "caniuse-lite"
+  - "aria-query"
+related:
+  - "library"
+  - "date-time"
+  - "validation"
+aliases:
+  - "reference-dataset"
+  - "lookup-data"
+ecosystems:
+  - "npm"
+  - "pypi"
+  - "conda"
+tags:
+  - "data"
+  - "reference"
+  - "lookup-tables"
+  - "metadata"

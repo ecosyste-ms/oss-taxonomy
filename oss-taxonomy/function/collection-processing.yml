@@ -1,0 +1,25 @@
+name: "collection-processing"
+description: "Transforming, filtering, combining, and iterating over collections and sequences. Describes operations on collections rather than implementing their storage structures."
+examples:
+  - "lodash"
+  - "itertools"
+  - "more-itertools"
+related:
+  - "data-structures"
+  - "data-analysis"
+  - "library"
+aliases:
+  - "collection-utilities"
+  - "iterator-utilities"
+  - "sequence-processing"
+ecosystems:
+  - "npm"
+  - "cargo"
+  - "pypi"
+  - "hackage"
+tags:
+  - "iteration"
+  - "iterators"
+  - "sequences"
+  - "filtering"
+  - "transformation"

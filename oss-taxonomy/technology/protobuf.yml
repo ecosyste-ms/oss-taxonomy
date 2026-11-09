@@ -1,0 +1,17 @@
+name: "protobuf"
+description: "Protocol Buffers, a schema-based serialization format and toolchain for generating code to exchange structured data. Protocol Buffers can be used independently of RPC."
+examples:
+  - "protobuf"
+  - "protobuf-go"
+  - "prost"
+related:
+  - "serialization"
+  - "code-generation"
+  - "rpc"
+aliases:
+  - "protocol-buffers"
+tags:
+  - "data-format"
+  - "binary"
+  - "schema"
+  - "code-generation"

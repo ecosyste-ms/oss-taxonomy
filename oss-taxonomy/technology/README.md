@@ -4,20 +4,26 @@ This facet describes **specific technologies, languages, or frameworks** used or
 
 ## Terms
 
+- `ada`: A statically typed compiled programming language used for systems, embedded, and high-integrity software.
 - `angular`: A TypeScript-based web application framework developed by Google for building dynamic single-page applications
 - `ansible`: An open-source automation tool for configuration management, application deployment, and task automation
 - `aws`: Amazon Web Services, a comprehensive cloud computing platform offering compute, storage, and services
 - `azure`: Microsoft's cloud computing platform providing services for building, deploying, and managing applications
 - `bootstrap`: A popular CSS framework for building responsive and mobile-first websites with pre-designed components
 - `c`: A foundational systems programming language known for efficiency and close-to-hardware control
+- `clojure`: A Lisp dialect with immutable data structures and functional programming facilities, commonly running on the JVM.
 - `cpp`: A general-purpose programming language extending C with object-oriented features, used for high-performance applications
 - `csharp`: A modern, object-oriented programming language developed by Microsoft for the .NET framework
 - `css`: A stylesheet language used for describing the presentation and styling of web pages
+- `csv`: Comma-separated values, a text format for tabular records and fields, including implementations that support other delimiter conventions.
+- `d`: A compiled systems programming language combining static typing, metaprogramming, and high-level programming facilities.
 - `dart`: A client-optimized programming language for building multi-platform applications, primarily used with Flutter
 - `django`: A high-level Python web framework that encourages rapid development and clean, pragmatic design
 - `docker`: A platform for automating the deployment, scaling, and management of applications using containers
+- `dotnet`: An application development platform with runtimes, libraries, and tooling for languages including C#, F#, and Visual Basic.
 - `elasticsearch`: A distributed search and analytics engine built on Apache Lucene for full-text search and logging
 - `elixir`: A functional, concurrent programming language built on the Erlang VM, designed for building scalable and maintainable applications
+- `erlang`: A concurrent functional programming language and runtime ecosystem for distributed, fault-tolerant applications.
 - `express`: A minimal and flexible Node.js web application framework for building web and mobile applications
 - `fastapi`: A modern, fast Python web framework for building APIs with automatic documentation and type hints
 - `firebase`: Google's mobile and web application development platform with backend services and SDKs
@@ -27,6 +33,7 @@ This facet describes **specific technologies, languages, or frameworks** used or
 - `github-actions`: A CI/CD platform integrated with GitHub for automating workflows, builds, tests, and deployments
 - `go`: A statically typed, compiled programming language designed for simplicity and efficient concurrent programming
 - `graphql`: A query language for APIs and runtime for executing queries with existing data
+- `haskell`: A statically typed, lazy functional programming language used for libraries, applications, and language tooling.
 - `html`: The standard markup language for creating web pages and web applications
 - `java`: An object-oriented programming language designed for portability and used in enterprise applications
 - `javascript`: A versatile programming language for web development, used for both frontend and backend applications
@@ -36,13 +43,17 @@ This facet describes **specific technologies, languages, or frameworks** used or
 - `kubernetes`: An open-source container orchestration platform for automating deployment, scaling, and management of applications
 - `laravel`: A PHP web framework with elegant syntax for building modern web applications with MVC architecture
 - `linux`: An open-source Unix-like operating system kernel and family of operating systems
+- `lua`: A lightweight scripting language designed for embedding in applications and extending software with scripts.
 - `mongodb`: A document-oriented NoSQL database designed for scalability and flexibility with JSON-like documents
 - `mysql`: An open-source relational database management system known for reliability and ease of use
 - `nextjs`: A React framework for building full-stack web applications with server-side rendering and static generation
 - `nginx`: A high-performance web server, reverse proxy, and load balancer for handling HTTP and HTTPS traffic
 - `nodejs`: A JavaScript runtime built on Chrome's V8 engine for building scalable server-side applications
+- `octave`: GNU Octave, a programming language and computing environment for numerical computation with syntax largely compatible with MATLAB.
+- `perl`: A dynamic programming language used for text processing, scripting, system administration, and reusable modules.
 - `php`: A server-side scripting language designed for web development and general-purpose programming
 - `postgresql`: An advanced, open-source relational database with strong standards compliance and extensibility
+- `protobuf`: Protocol Buffers, a schema-based serialization format and toolchain for generating code to exchange structured data. Protocol Buffers can be used independently of RPC.
 - `python`: A high-level, interpreted programming language known for readability and versatility across domains
 - `r`: A programming language and environment for statistical computing, data analysis, and visualization
 - `rails`: A Ruby web framework following convention over configuration, designed for building database-backed web applications
@@ -58,9 +69,12 @@ This facet describes **specific technologies, languages, or frameworks** used or
 - `swift`: A powerful, modern programming language developed by Apple for iOS, macOS, and other Apple platforms
 - `tailwindcss`: A utility-first CSS framework for rapidly building custom user interfaces with composable classes
 - `terraform`: An infrastructure as code tool for building, changing, and versioning infrastructure safely and efficiently
+- `toml`: TOML, a text format for configuration data organized around keys, values, and tables.
 - `typescript`: A typed superset of JavaScript that compiles to plain JavaScript, adding static type checking
 - `vite`: A fast build tool and development server for modern web projects with native ES modules support
 - `vue`: A progressive JavaScript framework for building user interfaces with a gentle learning curve
 - `webpack`: A module bundler for JavaScript applications that packages code and assets for deployment
+- `xml`: Extensible Markup Language, a markup format for structured documents and data with named elements and attributes.
+- `yaml`: YAML, a structured text serialization format commonly used for configuration and data exchange.
 
 Each YAML file in this folder defines one technology. Include a brief description and note typical use cases or ecosystems.

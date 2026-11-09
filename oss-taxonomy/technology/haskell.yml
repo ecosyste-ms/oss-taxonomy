@@ -1,0 +1,20 @@
+name: "haskell"
+description: "A statically typed, lazy functional programming language used for libraries, applications, and language tooling."
+examples:
+  - "ghc"
+  - "cabal"
+  - "aeson"
+  - "lens"
+related:
+  - "language"
+  - "compiler"
+  - "library"
+aliases:
+  - "haskell-lang"
+ecosystems:
+  - "hackage"
+tags:
+  - "programming-language"
+  - "functional"
+  - "lazy-evaluation"
+  - "static-typing"
