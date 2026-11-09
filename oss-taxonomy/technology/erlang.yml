@@ -1,0 +1,22 @@
+name: "erlang"
+description: "A concurrent functional programming language and runtime ecosystem for distributed, fault-tolerant applications."
+examples:
+  - "erlang-otp"
+  - "rebar3"
+  - "cowboy"
+  - "rabbitmq"
+related:
+  - "language"
+  - "elixir"
+  - "runtime"
+  - "messaging"
+aliases:
+  - "erlang-lang"
+ecosystems:
+  - "hex"
+  - "homebrew"
+tags:
+  - "programming-language"
+  - "functional"
+  - "concurrency"
+  - "fault-tolerance"

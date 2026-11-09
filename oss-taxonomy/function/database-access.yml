@@ -1,0 +1,31 @@
+name: "database-access"
+description: "Connecting to database systems and executing queries or data operations through drivers and client APIs. Distinct from database administration and object-relational mapping."
+examples:
+  - "node-postgres"
+  - "psycopg2"
+  - "mysql2"
+  - "ioredis"
+  - "pyodbc"
+related:
+  - "database"
+  - "connection-pooling"
+  - "data-mapping"
+  - "database-management"
+aliases:
+  - "database-client"
+  - "database-driver"
+  - "database-connectivity"
+ecosystems:
+  - "npm"
+  - "pypi"
+  - "rubygems"
+  - "maven"
+  - "go"
+  - "cargo"
+  - "packagist"
+tags:
+  - "database"
+  - "driver"
+  - "client"
+  - "queries"
+  - "connections"

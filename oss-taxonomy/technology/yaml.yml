@@ -1,0 +1,17 @@
+name: "yaml"
+description: "YAML, a structured text serialization format commonly used for configuration and data exchange."
+examples:
+  - "pyyaml"
+  - "js-yaml"
+  - "symfony-yaml"
+related:
+  - "parsing"
+  - "serialization"
+  - "configuration"
+  - "json"
+aliases:
+  - "yml"
+tags:
+  - "data-format"
+  - "configuration"
+  - "structured-data"

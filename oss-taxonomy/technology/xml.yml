@@ -1,0 +1,16 @@
+name: "xml"
+description: "Extensible Markup Language, a markup format for structured documents and data with named elements and attributes."
+examples:
+  - "libxml2"
+  - "xml2js"
+  - "jackson-dataformat-xml"
+related:
+  - "parsing"
+  - "serialization"
+  - "validation"
+aliases:
+  - "extensible-markup-language"
+tags:
+  - "data-format"
+  - "markup"
+  - "structured-data"

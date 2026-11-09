@@ -1,0 +1,27 @@
+name: "identifier-generation"
+description: "Generating and working with unique identifiers such as UUIDs and compact random IDs. Does not imply authenticating users or issuing access credentials."
+examples:
+  - "uuid"
+  - "nanoid"
+  - "ramsey-uuid"
+  - "google-uuid"
+related:
+  - "random-number-generation"
+  - "validation"
+  - "library"
+aliases:
+  - "unique-identifiers"
+  - "uuid-generation"
+  - "id-generation"
+ecosystems:
+  - "npm"
+  - "cargo"
+  - "go"
+  - "packagist"
+  - "pub"
+  - "rubygems"
+tags:
+  - "uuid"
+  - "ulid"
+  - "unique-id"
+  - "identifiers"

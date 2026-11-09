@@ -1,0 +1,20 @@
+name: "perl"
+description: "A dynamic programming language used for text processing, scripting, system administration, and reusable modules."
+examples:
+  - "perl5"
+  - "mojolicious"
+  - "dancer2"
+  - "dbi"
+related:
+  - "language"
+  - "text-processing"
+  - "sysadmin"
+aliases:
+  - "perl5"
+  - "perl-5"
+ecosystems:
+  - "cpan"
+tags:
+  - "programming-language"
+  - "scripting"
+  - "text-processing"

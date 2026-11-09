@@ -1,0 +1,22 @@
+name: "clojure"
+description: "A Lisp dialect with immutable data structures and functional programming facilities, commonly running on the JVM."
+examples:
+  - "clojure"
+  - "compojure"
+  - "ring"
+  - "leiningen"
+related:
+  - "language"
+  - "java"
+  - "library"
+aliases:
+  - "clj"
+  - "clojure-lang"
+ecosystems:
+  - "clojars"
+  - "maven"
+tags:
+  - "programming-language"
+  - "lisp"
+  - "functional"
+  - "jvm"

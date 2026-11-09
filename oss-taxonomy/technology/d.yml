@@ -1,0 +1,19 @@
+name: "d"
+description: "A compiled systems programming language combining static typing, metaprogramming, and high-level programming facilities."
+examples:
+  - "dmd"
+  - "ldc"
+  - "dub"
+related:
+  - "language"
+  - "compiler"
+  - "build-tool"
+  - "package-manager"
+aliases:
+  - "dlang"
+  - "d-language"
+tags:
+  - "programming-language"
+  - "compiled"
+  - "systems"
+  - "metaprogramming"

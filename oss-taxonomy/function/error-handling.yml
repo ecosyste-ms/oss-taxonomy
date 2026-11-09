@@ -1,0 +1,24 @@
+name: "error-handling"
+description: "Representing, propagating, wrapping, aggregating, or recovering from errors and exceptions within programs. Distinct from logging errors or tracking incidents in running services."
+examples:
+  - "anyhow"
+  - "thiserror"
+  - "haskell-exceptions"
+  - "go-multierror"
+related:
+  - "logging"
+  - "debugger"
+  - "library"
+aliases:
+  - "exception-handling"
+  - "error-propagation"
+ecosystems:
+  - "cargo"
+  - "hackage"
+  - "go"
+  - "npm"
+tags:
+  - "errors"
+  - "exceptions"
+  - "diagnostics"
+  - "error-context"

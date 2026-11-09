@@ -1,0 +1,16 @@
+name: "csv"
+description: "Comma-separated values, a text format for tabular records and fields, including implementations that support other delimiter conventions."
+examples:
+  - "rust-csv"
+  - "clojure-csv"
+  - "python-csv"
+related:
+  - "parsing"
+  - "serialization"
+  - "data-analysis"
+aliases:
+  - "comma-separated-values"
+tags:
+  - "data-format"
+  - "tabular-data"
+  - "delimited-text"

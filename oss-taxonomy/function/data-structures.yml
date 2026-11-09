@@ -1,0 +1,27 @@
+name: "data-structures"
+description: "Implementing reusable collections and containers such as maps, sets, vectors, trees, and persistent or immutable structures."
+examples:
+  - "indexmap"
+  - "hashbrown"
+  - "pyrsistent"
+  - "swift-collections"
+related:
+  - "collection-processing"
+  - "library"
+  - "caching"
+aliases:
+  - "collections"
+  - "collection-types"
+ecosystems:
+  - "cargo"
+  - "pypi"
+  - "hackage"
+  - "swiftpm"
+  - "maven"
+  - "nuget"
+tags:
+  - "map"
+  - "set"
+  - "vector"
+  - "tree"
+  - "immutable"

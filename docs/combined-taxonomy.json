@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-10-12T16:45:31Z",
+  "generated_at": "2026-11-09T11:11:53Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1459,6 +1459,38 @@
       ]
     },
     {
+      "name": "collection-processing",
+      "description": "Transforming, filtering, combining, and iterating over collections and sequences. Describes operations on collections rather than implementing their storage structures.",
+      "examples": [
+        "lodash",
+        "itertools",
+        "more-itertools"
+      ],
+      "related": [
+        "data-structures",
+        "data-analysis",
+        "library"
+      ],
+      "aliases": [
+        "collection-utilities",
+        "iterator-utilities",
+        "sequence-processing"
+      ],
+      "ecosystems": [
+        "npm",
+        "cargo",
+        "pypi",
+        "hackage"
+      ],
+      "tags": [
+        "iteration",
+        "iterators",
+        "sequences",
+        "filtering",
+        "transformation"
+      ]
+    },
+    {
       "name": "compression",
       "description": "Data compression, archiving, and decompression utilities.",
       "examples": [
@@ -1725,6 +1757,40 @@
       ]
     },
     {
+      "name": "data-structures",
+      "description": "Implementing reusable collections and containers such as maps, sets, vectors, trees, and persistent or immutable structures.",
+      "examples": [
+        "indexmap",
+        "hashbrown",
+        "pyrsistent",
+        "swift-collections"
+      ],
+      "related": [
+        "collection-processing",
+        "library",
+        "caching"
+      ],
+      "aliases": [
+        "collections",
+        "collection-types"
+      ],
+      "ecosystems": [
+        "cargo",
+        "pypi",
+        "hackage",
+        "swiftpm",
+        "maven",
+        "nuget"
+      ],
+      "tags": [
+        "map",
+        "set",
+        "vector",
+        "tree",
+        "immutable"
+      ]
+    },
+    {
       "name": "data-version-control",
       "description": "Tracking, comparing, and retrieving versions of datasets and their associated metadata.",
       "examples": [
@@ -1756,6 +1822,44 @@
         "versions",
         "history",
         "storage"
+      ]
+    },
+    {
+      "name": "database-access",
+      "description": "Connecting to database systems and executing queries or data operations through drivers and client APIs. Distinct from database administration and object-relational mapping.",
+      "examples": [
+        "node-postgres",
+        "psycopg2",
+        "mysql2",
+        "ioredis",
+        "pyodbc"
+      ],
+      "related": [
+        "database",
+        "connection-pooling",
+        "data-mapping",
+        "database-management"
+      ],
+      "aliases": [
+        "database-client",
+        "database-driver",
+        "database-connectivity"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "rubygems",
+        "maven",
+        "go",
+        "cargo",
+        "packagist"
+      ],
+      "tags": [
+        "database",
+        "driver",
+        "client",
+        "queries",
+        "connections"
       ]
     },
     {
@@ -1821,6 +1925,41 @@
         "ddl",
         "versioning",
         "seed"
+      ]
+    },
+    {
+      "name": "date-time",
+      "description": "Manipulating dates, times, durations, calendars, and time zones. Does not imply scheduling the execution of tasks.",
+      "examples": [
+        "date-fns",
+        "chrono",
+        "timex",
+        "joda-time"
+      ],
+      "related": [
+        "internationalization",
+        "scheduling",
+        "library"
+      ],
+      "aliases": [
+        "date-and-time",
+        "datetime",
+        "time-zone-handling"
+      ],
+      "ecosystems": [
+        "npm",
+        "cargo",
+        "hex",
+        "maven",
+        "pypi",
+        "hackage"
+      ],
+      "tags": [
+        "dates",
+        "time",
+        "duration",
+        "calendar",
+        "time-zone"
       ]
     },
     {
@@ -1977,6 +2116,37 @@
         "keys",
         "certificates",
         "hashing"
+      ]
+    },
+    {
+      "name": "error-handling",
+      "description": "Representing, propagating, wrapping, aggregating, or recovering from errors and exceptions within programs. Distinct from logging errors or tracking incidents in running services.",
+      "examples": [
+        "anyhow",
+        "thiserror",
+        "haskell-exceptions",
+        "go-multierror"
+      ],
+      "related": [
+        "logging",
+        "debugger",
+        "library"
+      ],
+      "aliases": [
+        "exception-handling",
+        "error-propagation"
+      ],
+      "ecosystems": [
+        "cargo",
+        "hackage",
+        "go",
+        "npm"
+      ],
+      "tags": [
+        "errors",
+        "exceptions",
+        "diagnostics",
+        "error-context"
       ]
     },
     {
@@ -2218,6 +2388,40 @@
         "api",
         "client",
         "requests"
+      ]
+    },
+    {
+      "name": "identifier-generation",
+      "description": "Generating and working with unique identifiers such as UUIDs and compact random IDs. Does not imply authenticating users or issuing access credentials.",
+      "examples": [
+        "uuid",
+        "nanoid",
+        "ramsey-uuid",
+        "google-uuid"
+      ],
+      "related": [
+        "random-number-generation",
+        "validation",
+        "library"
+      ],
+      "aliases": [
+        "unique-identifiers",
+        "uuid-generation",
+        "id-generation"
+      ],
+      "ecosystems": [
+        "npm",
+        "cargo",
+        "go",
+        "packagist",
+        "pub",
+        "rubygems"
+      ],
+      "tags": [
+        "uuid",
+        "ulid",
+        "unique-id",
+        "identifiers"
       ]
     },
     {
@@ -2563,6 +2767,40 @@
       ]
     },
     {
+      "name": "numerical-computing",
+      "description": "Performing numerical computation with arrays, matrices, arithmetic, and numerical algorithms. Includes general computation libraries that are not primarily tools for interpreting datasets.",
+      "examples": [
+        "numpy",
+        "scipy",
+        "openblas",
+        "hmatrix"
+      ],
+      "related": [
+        "scientific-computing",
+        "data-analysis",
+        "high-performance-computing"
+      ],
+      "aliases": [
+        "numerical-methods",
+        "numerical-analysis",
+        "array-computing"
+      ],
+      "ecosystems": [
+        "pypi",
+        "conda",
+        "cran",
+        "julia",
+        "hackage",
+        "spack"
+      ],
+      "tags": [
+        "numerical",
+        "arrays",
+        "matrices",
+        "linear-algebra"
+      ]
+    },
+    {
       "name": "object-storage",
       "description": "Clients and abstractions for blob and object storage services such as S3, GCS, and Azure Blob.",
       "examples": [
@@ -2716,6 +2954,39 @@
         "interoperability",
         "specification",
         "oracle"
+      ]
+    },
+    {
+      "name": "random-number-generation",
+      "description": "Providing pseudorandom generators, random sampling, or access to operating-system entropy. Cryptographic suitability depends on the particular generator and its intended use.",
+      "examples": [
+        "rand",
+        "getrandom",
+        "haskell-random",
+        "randombytes"
+      ],
+      "related": [
+        "numerical-computing",
+        "simulation",
+        "encryption"
+      ],
+      "aliases": [
+        "rng",
+        "random-generation",
+        "random-sampling"
+      ],
+      "ecosystems": [
+        "cargo",
+        "hackage",
+        "npm",
+        "pypi",
+        "julia"
+      ],
+      "tags": [
+        "randomness",
+        "pseudorandom",
+        "entropy",
+        "sampling"
       ]
     },
     {
@@ -4438,6 +4709,36 @@
       ]
     },
     {
+      "name": "reference-data",
+      "description": "Packages or projects primarily distributing curated reference datasets such as time-zone rules, trust stores, or compatibility tables, sometimes with small access APIs.",
+      "examples": [
+        "tzdata",
+        "certifi",
+        "caniuse-lite",
+        "aria-query"
+      ],
+      "related": [
+        "library",
+        "date-time",
+        "validation"
+      ],
+      "aliases": [
+        "reference-dataset",
+        "lookup-data"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "conda"
+      ],
+      "tags": [
+        "data",
+        "reference",
+        "lookup-tables",
+        "metadata"
+      ]
+    },
+    {
       "name": "registry",
       "description": "Services that index and provide software artifacts, datasets, models, or workflows for discovery and distribution.",
       "examples": [
@@ -4609,9 +4910,62 @@
         "automation",
         "tdd"
       ]
+    },
+    {
+      "name": "type-definitions",
+      "description": "Packages or projects whose primary purpose is to supply API type declarations or typing stubs for other software, rather than its runtime implementation or a type checker.",
+      "examples": [
+        "definitelytyped",
+        "typeshed",
+        "types-requests"
+      ],
+      "related": [
+        "type-checking",
+        "library",
+        "developer"
+      ],
+      "aliases": [
+        "type-stubs",
+        "typing-stubs",
+        "type-declarations"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi"
+      ],
+      "tags": [
+        "types",
+        "declarations",
+        "stubs",
+        "static-analysis"
+      ]
     }
   ],
   "technology": [
+    {
+      "name": "ada",
+      "description": "A statically typed compiled programming language used for systems, embedded, and high-integrity software.",
+      "examples": [
+        "gnat",
+        "gprbuild",
+        "gnatcoll-core"
+      ],
+      "related": [
+        "language",
+        "compiler",
+        "embedded-systems",
+        "build-tool"
+      ],
+      "aliases": [
+        "ada-lang"
+      ],
+      "tags": [
+        "programming-language",
+        "compiled",
+        "static-typing",
+        "high-integrity"
+      ]
+    },
     {
       "name": "angular",
       "description": "A TypeScript-based web application framework developed by Google for building dynamic single-page applications.",
@@ -4819,6 +5173,35 @@
       ]
     },
     {
+      "name": "clojure",
+      "description": "A Lisp dialect with immutable data structures and functional programming facilities, commonly running on the JVM.",
+      "examples": [
+        "clojure",
+        "compojure",
+        "ring",
+        "leiningen"
+      ],
+      "related": [
+        "language",
+        "java",
+        "library"
+      ],
+      "aliases": [
+        "clj",
+        "clojure-lang"
+      ],
+      "ecosystems": [
+        "clojars",
+        "maven"
+      ],
+      "tags": [
+        "programming-language",
+        "lisp",
+        "functional",
+        "jvm"
+      ]
+    },
+    {
       "name": "cmake",
       "description": "A cross-platform build system generator widely used for C and C++ projects.",
       "examples": [
@@ -4921,6 +5304,53 @@
         "web",
         "frontend",
         "design"
+      ]
+    },
+    {
+      "name": "csv",
+      "description": "Comma-separated values, a text format for tabular records and fields, including implementations that support other delimiter conventions.",
+      "examples": [
+        "rust-csv",
+        "clojure-csv",
+        "python-csv"
+      ],
+      "related": [
+        "parsing",
+        "serialization",
+        "data-analysis"
+      ],
+      "aliases": [
+        "comma-separated-values"
+      ],
+      "tags": [
+        "data-format",
+        "tabular-data",
+        "delimited-text"
+      ]
+    },
+    {
+      "name": "d",
+      "description": "A compiled systems programming language combining static typing, metaprogramming, and high-level programming facilities.",
+      "examples": [
+        "dmd",
+        "ldc",
+        "dub"
+      ],
+      "related": [
+        "language",
+        "compiler",
+        "build-tool",
+        "package-manager"
+      ],
+      "aliases": [
+        "dlang",
+        "d-language"
+      ],
+      "tags": [
+        "programming-language",
+        "compiled",
+        "systems",
+        "metaprogramming"
       ]
     },
     {
@@ -5038,6 +5468,34 @@
       ]
     },
     {
+      "name": "dotnet",
+      "description": "An application development platform with runtimes, libraries, and tooling for languages including C#, F#, and Visual Basic.",
+      "examples": [
+        "dotnet-runtime",
+        "aspnet-core",
+        "avalonia",
+        "nuget"
+      ],
+      "related": [
+        "csharp",
+        "runtime",
+        "framework"
+      ],
+      "aliases": [
+        ".net",
+        "dot-net"
+      ],
+      "ecosystems": [
+        "nuget"
+      ],
+      "tags": [
+        "platform",
+        "runtime",
+        "managed-code",
+        "clr"
+      ]
+    },
+    {
       "name": "elasticsearch",
       "description": "A distributed search and analytics engine built on Apache Lucene for full-text search and logging.",
       "examples": [
@@ -5090,6 +5548,35 @@
         "functional",
         "concurrent",
         "erlang-vm"
+      ]
+    },
+    {
+      "name": "erlang",
+      "description": "A concurrent functional programming language and runtime ecosystem for distributed, fault-tolerant applications.",
+      "examples": [
+        "erlang-otp",
+        "rebar3",
+        "cowboy",
+        "rabbitmq"
+      ],
+      "related": [
+        "language",
+        "elixir",
+        "runtime",
+        "messaging"
+      ],
+      "aliases": [
+        "erlang-lang"
+      ],
+      "ecosystems": [
+        "hex",
+        "homebrew"
+      ],
+      "tags": [
+        "programming-language",
+        "functional",
+        "concurrency",
+        "fault-tolerance"
       ]
     },
     {
@@ -5373,6 +5860,33 @@
         "data-format",
         "compression",
         "file-format"
+      ]
+    },
+    {
+      "name": "haskell",
+      "description": "A statically typed, lazy functional programming language used for libraries, applications, and language tooling.",
+      "examples": [
+        "ghc",
+        "cabal",
+        "aeson",
+        "lens"
+      ],
+      "related": [
+        "language",
+        "compiler",
+        "library"
+      ],
+      "aliases": [
+        "haskell-lang"
+      ],
+      "ecosystems": [
+        "hackage"
+      ],
+      "tags": [
+        "programming-language",
+        "functional",
+        "lazy-evaluation",
+        "static-typing"
       ]
     },
     {
@@ -5737,6 +6251,33 @@
       ]
     },
     {
+      "name": "lua",
+      "description": "A lightweight scripting language designed for embedding in applications and extending software with scripts.",
+      "examples": [
+        "lua",
+        "luajit",
+        "hslua",
+        "luarocks"
+      ],
+      "related": [
+        "language",
+        "runtime",
+        "ffi"
+      ],
+      "aliases": [
+        "lua-lang"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "conda"
+      ],
+      "tags": [
+        "programming-language",
+        "scripting",
+        "embedding"
+      ]
+    },
+    {
       "name": "mongodb",
       "description": "A document-oriented NoSQL database designed for scalability and flexibility with JSON-like documents.",
       "examples": [
@@ -5957,6 +6498,61 @@
       ]
     },
     {
+      "name": "octave",
+      "description": "GNU Octave, a programming language and computing environment for numerical computation with syntax largely compatible with MATLAB.",
+      "examples": [
+        "gnu-octave",
+        "octave-control",
+        "octave-signal"
+      ],
+      "related": [
+        "language",
+        "numerical-computing",
+        "scientific-computing",
+        "visualization"
+      ],
+      "aliases": [
+        "gnu-octave"
+      ],
+      "ecosystems": [
+        "homebrew",
+        "conda"
+      ],
+      "tags": [
+        "programming-language",
+        "numerical-computing",
+        "matrices",
+        "scientific-computing"
+      ]
+    },
+    {
+      "name": "perl",
+      "description": "A dynamic programming language used for text processing, scripting, system administration, and reusable modules.",
+      "examples": [
+        "perl5",
+        "mojolicious",
+        "dancer2",
+        "dbi"
+      ],
+      "related": [
+        "language",
+        "text-processing",
+        "sysadmin"
+      ],
+      "aliases": [
+        "perl5",
+        "perl-5"
+      ],
+      "ecosystems": [
+        "cpan"
+      ],
+      "tags": [
+        "programming-language",
+        "scripting",
+        "text-processing"
+      ]
+    },
+    {
       "name": "php",
       "description": "A server-side scripting language designed for web development and general-purpose programming.",
       "examples": [
@@ -6007,6 +6603,29 @@
         "sql",
         "relational",
         "rdbms"
+      ]
+    },
+    {
+      "name": "protobuf",
+      "description": "Protocol Buffers, a schema-based serialization format and toolchain for generating code to exchange structured data. Protocol Buffers can be used independently of RPC.",
+      "examples": [
+        "protobuf",
+        "protobuf-go",
+        "prost"
+      ],
+      "related": [
+        "serialization",
+        "code-generation",
+        "rpc"
+      ],
+      "aliases": [
+        "protocol-buffers"
+      ],
+      "tags": [
+        "data-format",
+        "binary",
+        "schema",
+        "code-generation"
       ]
     },
     {
@@ -6543,6 +7162,25 @@
       ]
     },
     {
+      "name": "toml",
+      "description": "TOML, a text format for configuration data organized around keys, values, and tables.",
+      "examples": [
+        "tomli",
+        "toml-rs",
+        "go-toml"
+      ],
+      "related": [
+        "configuration",
+        "parsing",
+        "serialization"
+      ],
+      "tags": [
+        "data-format",
+        "configuration",
+        "tables"
+      ]
+    },
+    {
       "name": "typescript",
       "description": "A typed superset of JavaScript that compiles to plain JavaScript, adding static type checking.",
       "examples": [
@@ -6720,6 +7358,51 @@
         "protocol",
         "framing",
         "bidirectional"
+      ]
+    },
+    {
+      "name": "xml",
+      "description": "Extensible Markup Language, a markup format for structured documents and data with named elements and attributes.",
+      "examples": [
+        "libxml2",
+        "xml2js",
+        "jackson-dataformat-xml"
+      ],
+      "related": [
+        "parsing",
+        "serialization",
+        "validation"
+      ],
+      "aliases": [
+        "extensible-markup-language"
+      ],
+      "tags": [
+        "data-format",
+        "markup",
+        "structured-data"
+      ]
+    },
+    {
+      "name": "yaml",
+      "description": "YAML, a structured text serialization format commonly used for configuration and data exchange.",
+      "examples": [
+        "pyyaml",
+        "js-yaml",
+        "symfony-yaml"
+      ],
+      "related": [
+        "parsing",
+        "serialization",
+        "configuration",
+        "json"
+      ],
+      "aliases": [
+        "yml"
+      ],
+      "tags": [
+        "data-format",
+        "configuration",
+        "structured-data"
       ]
     },
     {

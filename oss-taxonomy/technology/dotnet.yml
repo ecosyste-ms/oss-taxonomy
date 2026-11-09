@@ -1,0 +1,21 @@
+name: "dotnet"
+description: "An application development platform with runtimes, libraries, and tooling for languages including C#, F#, and Visual Basic."
+examples:
+  - "dotnet-runtime"
+  - "aspnet-core"
+  - "avalonia"
+  - "nuget"
+related:
+  - "csharp"
+  - "runtime"
+  - "framework"
+aliases:
+  - ".net"
+  - "dot-net"
+ecosystems:
+  - "nuget"
+tags:
+  - "platform"
+  - "runtime"
+  - "managed-code"
+  - "clr"

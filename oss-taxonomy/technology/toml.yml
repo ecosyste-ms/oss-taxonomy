@@ -1,0 +1,14 @@
+name: "toml"
+description: "TOML, a text format for configuration data organized around keys, values, and tables."
+examples:
+  - "tomli"
+  - "toml-rs"
+  - "go-toml"
+related:
+  - "configuration"
+  - "parsing"
+  - "serialization"
+tags:
+  - "data-format"
+  - "configuration"
+  - "tables"

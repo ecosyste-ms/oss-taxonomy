@@ -1,0 +1,28 @@
+name: "date-time"
+description: "Manipulating dates, times, durations, calendars, and time zones. Does not imply scheduling the execution of tasks."
+examples:
+  - "date-fns"
+  - "chrono"
+  - "timex"
+  - "joda-time"
+related:
+  - "internationalization"
+  - "scheduling"
+  - "library"
+aliases:
+  - "date-and-time"
+  - "datetime"
+  - "time-zone-handling"
+ecosystems:
+  - "npm"
+  - "cargo"
+  - "hex"
+  - "maven"
+  - "pypi"
+  - "hackage"
+tags:
+  - "dates"
+  - "time"
+  - "duration"
+  - "calendar"
+  - "time-zone"
