@@ -1,0 +1,17 @@
+name: "hdf5"
+description: "Hierarchical Data Format 5, a data model, file format, and library ecosystem for storing and accessing structured scientific datasets."
+examples:
+  - "hdf5"
+  - "h5py"
+  - "hdf5.jl"
+related:
+  - "serialization"
+  - "scientific-computing"
+  - "numerical-computing"
+aliases:
+  - "hierarchical-data-format-5"
+tags:
+  - "data-format"
+  - "scientific-data"
+  - "hierarchical"
+  - "arrays"

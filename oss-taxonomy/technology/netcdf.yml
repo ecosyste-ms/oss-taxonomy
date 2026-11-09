@@ -1,0 +1,17 @@
+name: "netcdf"
+description: "Network Common Data Form, a family of data formats and libraries for creating, accessing, and sharing array-oriented scientific data."
+examples:
+  - "netcdf-c"
+  - "netcdf4-python"
+  - "ncdf4"
+related:
+  - "serialization"
+  - "scientific-computing"
+  - "hdf5"
+aliases:
+  - "network-common-data-form"
+tags:
+  - "data-format"
+  - "scientific-data"
+  - "arrays"
+  - "metadata"

@@ -1,0 +1,24 @@
+name: "google-cloud"
+description: "Google Cloud, a cloud platform whose service APIs and infrastructure are supported by open-source clients, SDKs, and integration tools."
+examples:
+  - "google-cloud-storage"
+  - "google-cloud-go"
+  - "pandas-gbq"
+related:
+  - "cloud-computing"
+  - "sdk"
+  - "object-storage"
+aliases:
+  - "gcp"
+  - "google-cloud-platform"
+ecosystems:
+  - "pypi"
+  - "go"
+  - "maven"
+  - "npm"
+  - "rubygems"
+tags:
+  - "cloud"
+  - "platform"
+  - "api"
+  - "google"

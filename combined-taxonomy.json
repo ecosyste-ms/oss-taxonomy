@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-11-09T11:11:53Z",
+  "generated_at": "2026-11-09T11:14:44Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1268,6 +1268,37 @@
       ]
     },
     {
+      "name": "background-jobs",
+      "description": "Enqueuing and executing deferred application tasks with worker processes, including job retries and queue management.",
+      "examples": [
+        "sidekiq",
+        "resque"
+      ],
+      "related": [
+        "scheduling",
+        "messaging",
+        "workflow-orchestration"
+      ],
+      "aliases": [
+        "background-processing",
+        "job-queues",
+        "task-queues"
+      ],
+      "ecosystems": [
+        "rubygems",
+        "nuget",
+        "pypi",
+        "npm",
+        "packagist"
+      ],
+      "tags": [
+        "jobs",
+        "workers",
+        "queues",
+        "deferred-tasks"
+      ]
+    },
+    {
       "name": "benchmarking",
       "description": "Measuring execution time, throughput, or resource usage of code under controlled conditions.",
       "examples": [
@@ -1300,6 +1331,67 @@
         "latency",
         "throughput",
         "profiling"
+      ]
+    },
+    {
+      "name": "binary-data",
+      "description": "Working with byte buffers, binary layouts, bit fields, and binary input/output primitives.",
+      "examples": [
+        "buffer",
+        "bytestring",
+        "bitflags"
+      ],
+      "related": [
+        "data-structures",
+        "serialization",
+        "parsing"
+      ],
+      "aliases": [
+        "byte-processing",
+        "binary-io",
+        "bit-manipulation"
+      ],
+      "ecosystems": [
+        "npm",
+        "hackage",
+        "cargo",
+        "nuget"
+      ],
+      "tags": [
+        "bytes",
+        "buffers",
+        "bits",
+        "binary"
+      ]
+    },
+    {
+      "name": "browser-automation",
+      "description": "Programmatically controlling web browsers for tasks such as testing, scraping, navigation, and document capture.",
+      "examples": [
+        "playwright",
+        "puppeteer",
+        "selenium"
+      ],
+      "related": [
+        "testing",
+        "scraping",
+        "chromium"
+      ],
+      "aliases": [
+        "browser-control",
+        "headless-browser-automation"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "maven",
+        "nuget"
+      ],
+      "tags": [
+        "browser",
+        "automation",
+        "webdriver",
+        "headless"
       ]
     },
     {
@@ -1488,6 +1580,37 @@
         "sequences",
         "filtering",
         "transformation"
+      ]
+    },
+    {
+      "name": "compatibility",
+      "description": "Providing missing APIs, backporting behavior, or adapting interfaces so software can run in otherwise incompatible environments.",
+      "examples": [
+        "core-js",
+        "object.assign",
+        "buffer"
+      ],
+      "related": [
+        "runtime",
+        "library",
+        "ffi"
+      ],
+      "aliases": [
+        "polyfills",
+        "backports",
+        "api-compatibility"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "hackage",
+        "nuget"
+      ],
+      "tags": [
+        "compatibility",
+        "polyfill",
+        "backport",
+        "shim"
       ]
     },
     {
@@ -2150,6 +2273,36 @@
       ]
     },
     {
+      "name": "event-handling",
+      "description": "Dispatching and subscribing to in-process events, callbacks, and signals to connect components within an application.",
+      "examples": [
+        "eventemitter3",
+        "blinker",
+        "mitt"
+      ],
+      "related": [
+        "messaging",
+        "async-runtime",
+        "library"
+      ],
+      "aliases": [
+        "event-dispatch",
+        "event-emitter",
+        "application-signals"
+      ],
+      "ecosystems": [
+        "npm",
+        "pypi",
+        "packagist"
+      ],
+      "tags": [
+        "events",
+        "callbacks",
+        "signals",
+        "subscriptions"
+      ]
+    },
+    {
       "name": "feature-flags",
       "description": "Runtime feature toggling for gradual rollouts, experiments, and kill switches.",
       "examples": [
@@ -2279,6 +2432,35 @@
         "inotify",
         "reload",
         "filesystem"
+      ]
+    },
+    {
+      "name": "graph-algorithms",
+      "description": "Constructing, traversing, and analyzing graphs and networks with algorithms for connectivity, paths, and related graph properties.",
+      "examples": [
+        "networkx",
+        "petgraph",
+        "igraph"
+      ],
+      "related": [
+        "data-structures",
+        "data-analysis",
+        "graph-database"
+      ],
+      "aliases": [
+        "graph-analysis",
+        "network-analysis"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cargo",
+        "cran"
+      ],
+      "tags": [
+        "graphs",
+        "networks",
+        "traversal",
+        "paths"
       ]
     },
     {
@@ -2612,6 +2794,36 @@
       ]
     },
     {
+      "name": "memory-management",
+      "description": "Allocating, mapping, retaining, and releasing memory, including arenas, reference management, and memory-mapped access.",
+      "examples": [
+        "bumpalo",
+        "memmap2",
+        "mmap-go"
+      ],
+      "related": [
+        "data-structures",
+        "ffi",
+        "library"
+      ],
+      "aliases": [
+        "memory-allocation",
+        "memory-mapping"
+      ],
+      "ecosystems": [
+        "cargo",
+        "go",
+        "hackage",
+        "nuget"
+      ],
+      "tags": [
+        "allocation",
+        "arenas",
+        "mmap",
+        "memory"
+      ]
+    },
+    {
       "name": "messaging",
       "description": "Message queues, pub-sub systems, and asynchronous communication platforms.",
       "examples": [
@@ -2638,6 +2850,33 @@
         "queue",
         "pub-sub",
         "async"
+      ]
+    },
+    {
+      "name": "minification",
+      "description": "Reducing source code or asset size through syntax-aware removal, rewriting, and name shortening.",
+      "examples": [
+        "terser",
+        "cssnano",
+        "clean-css"
+      ],
+      "related": [
+        "bundling",
+        "compiler",
+        "styling"
+      ],
+      "aliases": [
+        "code-minification",
+        "asset-minification"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "minify",
+        "javascript",
+        "css",
+        "assets"
       ]
     },
     {
@@ -2671,6 +2910,33 @@
         "fakes",
         "testing",
         "isolation"
+      ]
+    },
+    {
+      "name": "module-resolution",
+      "description": "Locating modules and resolving imports, exports, and package entry points following the lookup rules of a language or toolchain.",
+      "examples": [
+        "resolve",
+        "enhanced-resolve",
+        "resolve-exports"
+      ],
+      "related": [
+        "bundling",
+        "package-manager",
+        "build-tool"
+      ],
+      "aliases": [
+        "import-resolution",
+        "module-lookup"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "modules",
+        "imports",
+        "exports",
+        "resolution"
       ]
     },
     {
@@ -3441,6 +3707,32 @@
       ]
     },
     {
+      "name": "source-maps",
+      "description": "Generating, consuming, or tracing mappings between transformed source code and its original locations.",
+      "examples": [
+        "source-map",
+        "jridgewell-trace-mapping",
+        "source-map-support"
+      ],
+      "related": [
+        "compiler",
+        "debugger",
+        "bundling"
+      ],
+      "aliases": [
+        "source-mapping",
+        "sourcemaps"
+      ],
+      "ecosystems": [
+        "npm"
+      ],
+      "tags": [
+        "source-maps",
+        "transformation",
+        "debugging"
+      ]
+    },
+    {
       "name": "static-analysis",
       "description": "Tools that analyse source code without executing it to find bugs, security issues, or data-flow problems, including SAST and taint analysis.",
       "examples": [
@@ -3474,6 +3766,37 @@
         "dataflow",
         "taint",
         "code-quality"
+      ]
+    },
+    {
+      "name": "statistical-modeling",
+      "description": "Estimating statistical models, performing statistical inference, and evaluating model assumptions and diagnostics.",
+      "examples": [
+        "statsmodels",
+        "lme4",
+        "survival",
+        "glmnet"
+      ],
+      "related": [
+        "data-analysis",
+        "numerical-computing",
+        "data-science"
+      ],
+      "aliases": [
+        "statistical-inference",
+        "statistical-estimation"
+      ],
+      "ecosystems": [
+        "pypi",
+        "cran",
+        "julia",
+        "conda"
+      ],
+      "tags": [
+        "statistics",
+        "regression",
+        "inference",
+        "estimation"
       ]
     },
     {
@@ -3622,6 +3945,34 @@
         "regex",
         "diff",
         "strings"
+      ]
+    },
+    {
+      "name": "time-series-analysis",
+      "description": "Representing and analyzing time-indexed observations, including forecasting and models of changes over time.",
+      "examples": [
+        "forecast",
+        "xts",
+        "zoo"
+      ],
+      "related": [
+        "date-time",
+        "statistical-modeling",
+        "data-analysis"
+      ],
+      "aliases": [
+        "time-series",
+        "forecasting"
+      ],
+      "ecosystems": [
+        "cran",
+        "pypi",
+        "julia"
+      ],
+      "tags": [
+        "time-series",
+        "forecasting",
+        "temporal-data"
       ]
     },
     {
@@ -5019,6 +5370,29 @@
       ]
     },
     {
+      "name": "apache-arrow",
+      "description": "Apache Arrow, a language-independent columnar memory format and software ecosystem for efficient analytical data processing and interchange.",
+      "examples": [
+        "pyarrow",
+        "arrow-r",
+        "arrow-rs"
+      ],
+      "related": [
+        "serialization",
+        "data-analysis",
+        "numerical-computing"
+      ],
+      "aliases": [
+        "arrow-format"
+      ],
+      "tags": [
+        "columnar",
+        "data-format",
+        "interoperability",
+        "analytics"
+      ]
+    },
+    {
       "name": "aws",
       "description": "Amazon Web Services, a comprehensive cloud computing platform offering compute, storage, and services.",
       "examples": [
@@ -5794,6 +6168,37 @@
       ]
     },
     {
+      "name": "google-cloud",
+      "description": "Google Cloud, a cloud platform whose service APIs and infrastructure are supported by open-source clients, SDKs, and integration tools.",
+      "examples": [
+        "google-cloud-storage",
+        "google-cloud-go",
+        "pandas-gbq"
+      ],
+      "related": [
+        "cloud-computing",
+        "sdk",
+        "object-storage"
+      ],
+      "aliases": [
+        "gcp",
+        "google-cloud-platform"
+      ],
+      "ecosystems": [
+        "pypi",
+        "go",
+        "maven",
+        "npm",
+        "rubygems"
+      ],
+      "tags": [
+        "cloud",
+        "platform",
+        "api",
+        "google"
+      ]
+    },
+    {
       "name": "graphql",
       "description": "A query language for APIs and runtime for executing queries with existing data.",
       "examples": [
@@ -5846,6 +6251,27 @@
       ]
     },
     {
+      "name": "grpc",
+      "description": "An RPC framework and protocol ecosystem for defining and calling remote services, commonly using Protocol Buffers for service definitions and messages.",
+      "examples": [
+        "grpc",
+        "grpc-java",
+        "grpc-go"
+      ],
+      "related": [
+        "rpc",
+        "protobuf",
+        "http",
+        "code-generation"
+      ],
+      "tags": [
+        "rpc",
+        "protocol",
+        "services",
+        "code-generation"
+      ]
+    },
+    {
       "name": "gzip",
       "description": "The gzip file format for DEFLATE-compressed members with header metadata, a checksum, and an uncompressed-size trailer.",
       "examples": [
@@ -5887,6 +6313,29 @@
         "functional",
         "lazy-evaluation",
         "static-typing"
+      ]
+    },
+    {
+      "name": "hdf5",
+      "description": "Hierarchical Data Format 5, a data model, file format, and library ecosystem for storing and accessing structured scientific datasets.",
+      "examples": [
+        "hdf5",
+        "h5py",
+        "hdf5.jl"
+      ],
+      "related": [
+        "serialization",
+        "scientific-computing",
+        "numerical-computing"
+      ],
+      "aliases": [
+        "hierarchical-data-format-5"
+      ],
+      "tags": [
+        "data-format",
+        "scientific-data",
+        "hierarchical",
+        "arrays"
       ]
     },
     {
@@ -6039,6 +6488,29 @@
         "javascript",
         "dom",
         "frontend"
+      ]
+    },
+    {
+      "name": "json-schema",
+      "description": "A declarative language for describing the structure and constraints of JSON data, used by validators and schema-aware tooling.",
+      "examples": [
+        "ajv",
+        "python-jsonschema",
+        "gojsonschema"
+      ],
+      "related": [
+        "json",
+        "validation",
+        "code-generation"
+      ],
+      "aliases": [
+        "jsonschema"
+      ],
+      "tags": [
+        "schema",
+        "json",
+        "validation",
+        "specification"
       ]
     },
     {
@@ -6278,6 +6750,25 @@
       ]
     },
     {
+      "name": "markdown",
+      "description": "A lightweight markup language and family of dialects for representing formatted documents in plain text.",
+      "examples": [
+        "markdown-it",
+        "marked",
+        "python-markdown"
+      ],
+      "related": [
+        "parsing",
+        "documentation",
+        "site-generation"
+      ],
+      "tags": [
+        "markup",
+        "plain-text",
+        "documents"
+      ]
+    },
+    {
       "name": "mongodb",
       "description": "A document-oriented NoSQL database designed for scalability and flexibility with JSON-like documents.",
       "examples": [
@@ -6306,6 +6797,29 @@
       ]
     },
     {
+      "name": "msgpack",
+      "description": "MessagePack, a binary serialization format for structured data with compact representations of common data types.",
+      "examples": [
+        "msgpack-python",
+        "msgpack-java",
+        "clojure-msgpack"
+      ],
+      "related": [
+        "serialization",
+        "parsing",
+        "json"
+      ],
+      "aliases": [
+        "messagepack",
+        "message-pack"
+      ],
+      "tags": [
+        "data-format",
+        "binary",
+        "serialization"
+      ]
+    },
+    {
       "name": "mysql",
       "description": "An open-source relational database management system known for reliability and ease of use.",
       "examples": [
@@ -6330,6 +6844,29 @@
         "sql",
         "relational",
         "rdbms"
+      ]
+    },
+    {
+      "name": "netcdf",
+      "description": "Network Common Data Form, a family of data formats and libraries for creating, accessing, and sharing array-oriented scientific data.",
+      "examples": [
+        "netcdf-c",
+        "netcdf4-python",
+        "ncdf4"
+      ],
+      "related": [
+        "serialization",
+        "scientific-computing",
+        "hdf5"
+      ],
+      "aliases": [
+        "network-common-data-form"
+      ],
+      "tags": [
+        "data-format",
+        "scientific-data",
+        "arrays",
+        "metadata"
       ]
     },
     {
@@ -6523,6 +7060,31 @@
         "numerical-computing",
         "matrices",
         "scientific-computing"
+      ]
+    },
+    {
+      "name": "openapi",
+      "description": "A language-independent specification for describing HTTP APIs and their operations, parameters, and data schemas.",
+      "examples": [
+        "swagger-core",
+        "swagger-ui",
+        "openapi-generator"
+      ],
+      "related": [
+        "http",
+        "api-development",
+        "documentation",
+        "json-schema"
+      ],
+      "aliases": [
+        "openapi-specification",
+        "oas"
+      ],
+      "tags": [
+        "api",
+        "specification",
+        "http",
+        "schema"
       ]
     },
     {
@@ -6984,6 +7546,29 @@
         "framework",
         "java",
         "enterprise"
+      ]
+    },
+    {
+      "name": "sql",
+      "description": "Structured Query Language and its dialects for defining, querying, and modifying data in relational database systems.",
+      "examples": [
+        "sqlparse",
+        "sqlglot",
+        "postgresql",
+        "sqlite"
+      ],
+      "related": [
+        "database",
+        "database-access",
+        "data-mapping"
+      ],
+      "aliases": [
+        "structured-query-language"
+      ],
+      "tags": [
+        "query-language",
+        "relational",
+        "database"
       ]
     },
     {

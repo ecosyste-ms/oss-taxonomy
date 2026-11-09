@@ -1,0 +1,19 @@
+name: "openapi"
+description: "A language-independent specification for describing HTTP APIs and their operations, parameters, and data schemas."
+examples:
+  - "swagger-core"
+  - "swagger-ui"
+  - "openapi-generator"
+related:
+  - "http"
+  - "api-development"
+  - "documentation"
+  - "json-schema"
+aliases:
+  - "openapi-specification"
+  - "oas"
+tags:
+  - "api"
+  - "specification"
+  - "http"
+  - "schema"

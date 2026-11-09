@@ -1,0 +1,24 @@
+name: "compatibility"
+description: "Providing missing APIs, backporting behavior, or adapting interfaces so software can run in otherwise incompatible environments."
+examples:
+  - "core-js"
+  - "object.assign"
+  - "buffer"
+related:
+  - "runtime"
+  - "library"
+  - "ffi"
+aliases:
+  - "polyfills"
+  - "backports"
+  - "api-compatibility"
+ecosystems:
+  - "npm"
+  - "pypi"
+  - "hackage"
+  - "nuget"
+tags:
+  - "compatibility"
+  - "polyfill"
+  - "backport"
+  - "shim"

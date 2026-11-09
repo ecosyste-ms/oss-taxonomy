@@ -1,0 +1,23 @@
+name: "event-handling"
+description: "Dispatching and subscribing to in-process events, callbacks, and signals to connect components within an application."
+examples:
+  - "eventemitter3"
+  - "blinker"
+  - "mitt"
+related:
+  - "messaging"
+  - "async-runtime"
+  - "library"
+aliases:
+  - "event-dispatch"
+  - "event-emitter"
+  - "application-signals"
+ecosystems:
+  - "npm"
+  - "pypi"
+  - "packagist"
+tags:
+  - "events"
+  - "callbacks"
+  - "signals"
+  - "subscriptions"

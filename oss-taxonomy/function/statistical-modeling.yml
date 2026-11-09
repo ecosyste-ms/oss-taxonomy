@@ -1,0 +1,24 @@
+name: "statistical-modeling"
+description: "Estimating statistical models, performing statistical inference, and evaluating model assumptions and diagnostics."
+examples:
+  - "statsmodels"
+  - "lme4"
+  - "survival"
+  - "glmnet"
+related:
+  - "data-analysis"
+  - "numerical-computing"
+  - "data-science"
+aliases:
+  - "statistical-inference"
+  - "statistical-estimation"
+ecosystems:
+  - "pypi"
+  - "cran"
+  - "julia"
+  - "conda"
+tags:
+  - "statistics"
+  - "regression"
+  - "inference"
+  - "estimation"

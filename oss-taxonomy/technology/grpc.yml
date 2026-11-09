@@ -1,0 +1,16 @@
+name: "grpc"
+description: "An RPC framework and protocol ecosystem for defining and calling remote services, commonly using Protocol Buffers for service definitions and messages."
+examples:
+  - "grpc"
+  - "grpc-java"
+  - "grpc-go"
+related:
+  - "rpc"
+  - "protobuf"
+  - "http"
+  - "code-generation"
+tags:
+  - "rpc"
+  - "protocol"
+  - "services"
+  - "code-generation"

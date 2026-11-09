@@ -1,0 +1,22 @@
+name: "graph-algorithms"
+description: "Constructing, traversing, and analyzing graphs and networks with algorithms for connectivity, paths, and related graph properties."
+examples:
+  - "networkx"
+  - "petgraph"
+  - "igraph"
+related:
+  - "data-structures"
+  - "data-analysis"
+  - "graph-database"
+aliases:
+  - "graph-analysis"
+  - "network-analysis"
+ecosystems:
+  - "pypi"
+  - "cargo"
+  - "cran"
+tags:
+  - "graphs"
+  - "networks"
+  - "traversal"
+  - "paths"

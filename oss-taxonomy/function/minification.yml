@@ -1,0 +1,20 @@
+name: "minification"
+description: "Reducing source code or asset size through syntax-aware removal, rewriting, and name shortening."
+examples:
+  - "terser"
+  - "cssnano"
+  - "clean-css"
+related:
+  - "bundling"
+  - "compiler"
+  - "styling"
+aliases:
+  - "code-minification"
+  - "asset-minification"
+ecosystems:
+  - "npm"
+tags:
+  - "minify"
+  - "javascript"
+  - "css"
+  - "assets"

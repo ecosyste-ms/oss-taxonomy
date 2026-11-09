@@ -1,0 +1,23 @@
+name: "browser-automation"
+description: "Programmatically controlling web browsers for tasks such as testing, scraping, navigation, and document capture."
+examples:
+  - "playwright"
+  - "puppeteer"
+  - "selenium"
+related:
+  - "testing"
+  - "scraping"
+  - "chromium"
+aliases:
+  - "browser-control"
+  - "headless-browser-automation"
+ecosystems:
+  - "npm"
+  - "pypi"
+  - "maven"
+  - "nuget"
+tags:
+  - "browser"
+  - "automation"
+  - "webdriver"
+  - "headless"

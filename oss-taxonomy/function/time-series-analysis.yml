@@ -1,0 +1,21 @@
+name: "time-series-analysis"
+description: "Representing and analyzing time-indexed observations, including forecasting and models of changes over time."
+examples:
+  - "forecast"
+  - "xts"
+  - "zoo"
+related:
+  - "date-time"
+  - "statistical-modeling"
+  - "data-analysis"
+aliases:
+  - "time-series"
+  - "forecasting"
+ecosystems:
+  - "cran"
+  - "pypi"
+  - "julia"
+tags:
+  - "time-series"
+  - "forecasting"
+  - "temporal-data"

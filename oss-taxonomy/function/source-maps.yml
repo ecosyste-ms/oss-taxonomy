@@ -1,0 +1,19 @@
+name: "source-maps"
+description: "Generating, consuming, or tracing mappings between transformed source code and its original locations."
+examples:
+  - "source-map"
+  - "jridgewell-trace-mapping"
+  - "source-map-support"
+related:
+  - "compiler"
+  - "debugger"
+  - "bundling"
+aliases:
+  - "source-mapping"
+  - "sourcemaps"
+ecosystems:
+  - "npm"
+tags:
+  - "source-maps"
+  - "transformation"
+  - "debugging"

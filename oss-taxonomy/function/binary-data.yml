@@ -1,0 +1,24 @@
+name: "binary-data"
+description: "Working with byte buffers, binary layouts, bit fields, and binary input/output primitives."
+examples:
+  - "buffer"
+  - "bytestring"
+  - "bitflags"
+related:
+  - "data-structures"
+  - "serialization"
+  - "parsing"
+aliases:
+  - "byte-processing"
+  - "binary-io"
+  - "bit-manipulation"
+ecosystems:
+  - "npm"
+  - "hackage"
+  - "cargo"
+  - "nuget"
+tags:
+  - "bytes"
+  - "buffers"
+  - "bits"
+  - "binary"
