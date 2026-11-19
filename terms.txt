@@ -105,6 +105,7 @@ function:protocol-conformance
 function:random-number-generation
 function:release-management
 function:report-generation
+function:retry
 function:routing
 function:rpc
 function:runtime-management
@@ -123,6 +124,7 @@ function:statistical-modeling
 function:styling
 function:syntax-highlighting
 function:templating
+function:terminal-styling
 function:testing
 function:text-processing
 function:time-series-analysis
@@ -160,6 +162,7 @@ role:language
 role:library
 role:linter
 role:native-extension
+role:operating-system
 role:orchestrator
 role:package-manager
 role:plugin

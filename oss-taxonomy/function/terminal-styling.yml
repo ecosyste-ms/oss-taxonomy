@@ -1,0 +1,19 @@
+name: terminal-styling
+description: Applying colors and text attributes such as bold or underline to terminal output through a reusable API or a dedicated styling tool.
+examples:
+  - bunt
+  - colors.js
+related:
+  - styling
+  - tui
+aliases:
+  - terminal-coloring
+  - terminal-colors
+  - ansi-styling
+ecosystems:
+  - hex
+  - npm
+tags:
+  - terminal
+  - ansi
+  - color

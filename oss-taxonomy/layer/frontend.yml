@@ -1,9 +1,14 @@
 name: frontend
-description: Software that runs in the browser or handles the user interface layer.
+description: >-
+  Software whose delivered purpose is the presentation layer of a larger product, or reusable
+  components and tools specifically for building that layer. A complete end-user application
+  with its own interface is an application. Running in a browser or connecting to a service
+  alone does not establish a frontend layer.
 examples:
   - react
   - vue
   - angular
+  - home-assistant-frontend
 related:
   - backend
   - full-stack

@@ -1,0 +1,15 @@
+name: operating-system
+description: >-
+  An operating system or its kernel, including embedded real-time operating systems and unikernels.
+  The project supplies the system that manages hardware resources and runs application code.
+  Language runtimes, system utilities, drivers, and tools for building another operating system have their own roles.
+examples:
+  - freebsd
+  - linux-kernel
+  - freertos-kernel
+  - hermit-os
+aliases:
+  - os
+  - os-kernel
+  - rtos
+  - unikernel
