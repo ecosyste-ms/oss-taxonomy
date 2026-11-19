@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-11-09T11:36:02Z",
+  "generated_at": "2026-11-19T18:26:19Z",
   "audience": [
     {
       "name": "content-creator",
@@ -3324,6 +3324,32 @@
       ]
     },
     {
+      "name": "retry",
+      "description": "Providing retry policies or reusable operations that reattempt failed work, including configurable delays, exponential backoff, and jitter between attempts.",
+      "examples": [
+        "backoff",
+        "go-resiliency"
+      ],
+      "related": [
+        "error-handling",
+        "background-jobs"
+      ],
+      "aliases": [
+        "retry-policy",
+        "retry-backoff",
+        "exponential-backoff"
+      ],
+      "ecosystems": [
+        "cargo",
+        "go"
+      ],
+      "tags": [
+        "retry",
+        "backoff",
+        "jitter"
+      ]
+    },
+    {
       "name": "routing",
       "description": "HTTP request routers and URL dispatchers that map incoming requests to handlers.",
       "examples": [
@@ -3890,6 +3916,32 @@
       ]
     },
     {
+      "name": "terminal-styling",
+      "description": "Applying colors and text attributes such as bold or underline to terminal output through a reusable API or a dedicated styling tool.",
+      "examples": [
+        "bunt",
+        "colors.js"
+      ],
+      "related": [
+        "styling",
+        "tui"
+      ],
+      "aliases": [
+        "terminal-coloring",
+        "terminal-colors",
+        "ansi-styling"
+      ],
+      "ecosystems": [
+        "hex",
+        "npm"
+      ],
+      "tags": [
+        "terminal",
+        "ansi",
+        "color"
+      ]
+    },
+    {
       "name": "testing",
       "description": "Software for writing, running, and managing automated tests and quality assurance.",
       "examples": [
@@ -4348,11 +4400,12 @@
     },
     {
       "name": "frontend",
-      "description": "Software that runs in the browser or handles the user interface layer.",
+      "description": "Software whose delivered purpose is the presentation layer of a larger product, or reusable components and tools specifically for building that layer. A complete end-user application with its own interface is an application. Running in a browser or connecting to a service alone does not establish a frontend layer.",
       "examples": [
         "react",
         "vue",
-        "angular"
+        "angular",
+        "home-assistant-frontend"
       ],
       "related": [
         "backend",
@@ -4961,6 +5014,22 @@
         "native",
         "compiled",
         "binding"
+      ]
+    },
+    {
+      "name": "operating-system",
+      "description": "An operating system or its kernel, including embedded real-time operating systems and unikernels. The project supplies the system that manages hardware resources and runs application code. Language runtimes, system utilities, drivers, and tools for building another operating system have their own roles.",
+      "examples": [
+        "freebsd",
+        "linux-kernel",
+        "freertos-kernel",
+        "hermit-os"
+      ],
+      "aliases": [
+        "os",
+        "os-kernel",
+        "rtos",
+        "unikernel"
       ]
     },
     {

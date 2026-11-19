@@ -35,6 +35,7 @@ This facet describes **what the software does** — its primary capabilities or 
 - `numerical-computing`: Performing numerical computation with arrays, matrices, arithmetic, and numerical algorithms. Includes general computation libraries that are not primarily tools for interpreting datasets.
 - `parsing`: Libraries and tools for parsing and processing structured data formats like JSON, XML, CSV, and YAML
 - `random-number-generation`: Providing pseudorandom generators, random sampling, or access to operating-system entropy. Cryptographic suitability depends on the particular generator and its intended use.
+- `retry`: Providing retry policies or reusable operations that reattempt failed work, including configurable delays, exponential backoff, and jitter between attempts.
 - `scheduling`: Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals
 - `scraping`: Extracting data from websites or online sources
 - `search`: Search engines, full-text search, and indexing solutions
@@ -42,6 +43,7 @@ This facet describes **what the software does** — its primary capabilities or 
 - `source-maps`: Generating, consuming, or tracing mappings between transformed source code and its original locations.
 - `statistical-modeling`: Estimating statistical models, performing statistical inference, and evaluating model assumptions and diagnostics.
 - `templating`: Template engines for generating dynamic content by combining templates with data
+- `terminal-styling`: Reusable APIs and tools for applying colors and text attributes to terminal output
 - `testing`: Software for writing, running, and managing automated tests and quality assurance
 - `time-series-analysis`: Representing and analyzing time-indexed observations, including forecasting and models of changes over time.
 - `visualization`: Creating charts, graphs, or interactive data displays

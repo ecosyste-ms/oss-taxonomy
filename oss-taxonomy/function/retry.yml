@@ -1,0 +1,19 @@
+name: "retry"
+description: "Providing retry policies or reusable operations that reattempt failed work, including configurable delays, exponential backoff, and jitter between attempts."
+examples:
+  - "backoff"
+  - "go-resiliency"
+related:
+  - "error-handling"
+  - "background-jobs"
+aliases:
+  - "retry-policy"
+  - "retry-backoff"
+  - "exponential-backoff"
+ecosystems:
+  - "cargo"
+  - "go"
+tags:
+  - "retry"
+  - "backoff"
+  - "jitter"

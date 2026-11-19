@@ -13,6 +13,7 @@ This facet describes the **function or responsibility** the software has in a sy
 - `editor`: Text editors and integrated development environments for writing and editing code
 - `framework`: A structured foundation to build applications on
 - `library`: Reusable code modules, packages, and utilities that provide specific functionality
+- `operating-system`: A project that supplies an operating system or its kernel, including real-time operating systems and unikernels
 - `orchestrator`: Container orchestration and service management platforms for distributed systems
 - `package-manager`: Tools for managing software dependencies, packages, and library installations
 - `plugin`: Extensions and add-ons that enhance or modify existing software functionality

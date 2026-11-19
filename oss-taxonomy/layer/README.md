@@ -7,7 +7,7 @@ This facet describes **where in the software stack** the project sits or operate
 
 - `backend`: Server-side logic or APIs
 - `data-layer`: Database systems, caching, storage engines, and data persistence solutions
-- `frontend`: Code that runs in the browser or UI layer
+- `frontend`: The presentation layer of a larger product, or reusable components and tools for building that layer
 - `full-stack`: Frameworks and applications that span multiple layers from frontend to backend
 - `hardware`: Software that interfaces directly with hardware devices and peripherals
 - `infrastructure`: Provisioning, orchestration, or underlying platform
