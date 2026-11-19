@@ -1,0 +1,14 @@
+name: symbolic-computation
+description: >-
+  Representing and manipulating mathematical expressions symbolically, including
+  algebraic simplification, exact equation solving and symbolic differentiation or
+  integration.
+examples:
+  - sympy
+  - symengine
+related:
+  - numerical-computing
+  - scientific-computing
+aliases:
+  - computer-algebra
+  - symbolic-mathematics

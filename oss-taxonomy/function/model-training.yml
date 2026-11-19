@@ -1,0 +1,17 @@
+name: model-training
+description: >-
+  Fitting or fine-tuning machine learning models on training data. The software
+  exposes an estimator, training API or training command that updates model
+  parameters.
+examples:
+  - keras
+  - xgboost
+  - pytorch
+related:
+  - machine-learning
+  - statistical-modeling
+  - numerical-computing
+aliases:
+  - machine-learning-training
+  - model-fitting
+  - fine-tuning

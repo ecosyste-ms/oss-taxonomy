@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-11-19T18:45:18Z",
+  "generated_at": "2026-11-19T18:45:54Z",
   "audience": [
     {
       "name": "content-creator",
@@ -1518,6 +1518,39 @@
       ]
     },
     {
+      "name": "code-editing",
+      "description": "Providing an interactive editor or embeddable editing component for writing and modifying source code.",
+      "examples": [
+        "intellij-idea",
+        "codemirror"
+      ],
+      "related": [
+        "editor",
+        "language-server",
+        "syntax-highlighting"
+      ],
+      "aliases": [
+        "source-code-editing"
+      ]
+    },
+    {
+      "name": "code-formatting",
+      "description": "Rewriting source text to follow layout and style rules while preserving program behavior. Includes standalone formatters and formatting operations exposed by other tools.",
+      "examples": [
+        "black",
+        "ruff",
+        "prettier"
+      ],
+      "related": [
+        "static-analysis",
+        "code-generation"
+      ],
+      "aliases": [
+        "source-formatting",
+        "code-formatter"
+      ]
+    },
+    {
       "name": "code-generation",
       "description": "Tools that generate source code from schemas, interface definitions, or annotations.",
       "examples": [
@@ -2051,6 +2084,22 @@
       ]
     },
     {
+      "name": "dataset-loading",
+      "description": "Providing a collection of named datasets or dataset builders that load records into a consistent form for analysis or training. Operations may include fetching, caching, streaming or selecting predefined splits.",
+      "examples": [
+        "datasets",
+        "tensorflow-datasets"
+      ],
+      "related": [
+        "data-analysis",
+        "machine-learning"
+      ],
+      "aliases": [
+        "dataset-ingestion",
+        "dataset-loaders"
+      ]
+    },
+    {
       "name": "date-time",
       "description": "Manipulating dates, times, durations, calendars, and time zones. Does not imply scheduling the execution of tasks.",
       "examples": [
@@ -2303,6 +2352,23 @@
       ]
     },
     {
+      "name": "experiment-tracking",
+      "description": "Recording and comparing research or machine learning runs, including their parameters, metrics and output artifacts. Users can retrieve an earlier run and inspect its results.",
+      "examples": [
+        "mlflow",
+        "sacred"
+      ],
+      "related": [
+        "machine-learning",
+        "data-provenance",
+        "logging"
+      ],
+      "aliases": [
+        "experiment-logging",
+        "run-tracking"
+      ]
+    },
+    {
       "name": "feature-flags",
       "description": "Runtime feature toggling for gradual rollouts, experiments, and kill switches.",
       "examples": [
@@ -2432,6 +2498,23 @@
         "inotify",
         "reload",
         "filesystem"
+      ]
+    },
+    {
+      "name": "font-processing",
+      "description": "Reading, creating or transforming font files, shaping text into positioned glyphs, or rasterizing glyphs from font data. The project exposes these operations to callers.",
+      "examples": [
+        "fonttools",
+        "harfbuzz",
+        "freetype"
+      ],
+      "related": [
+        "text-processing",
+        "image-processing"
+      ],
+      "aliases": [
+        "font-shaping",
+        "glyph-processing"
       ]
     },
     {
@@ -2765,6 +2848,22 @@
       ]
     },
     {
+      "name": "llm-orchestration",
+      "description": "Building applications that coordinate language model calls with tools, retrieved context, conversation state or other steps in an agent or workflow.",
+      "examples": [
+        "langchain",
+        "llama-index"
+      ],
+      "related": [
+        "workflow-orchestration",
+        "machine-learning"
+      ],
+      "aliases": [
+        "llm-application-development",
+        "agent-orchestration"
+      ]
+    },
+    {
       "name": "logging",
       "description": "Log collection, aggregation, parsing, and management systems.",
       "examples": [
@@ -2791,6 +2890,22 @@
         "logs",
         "aggregation",
         "observability"
+      ]
+    },
+    {
+      "name": "map-rendering",
+      "description": "Rendering geographic data as maps with spatially positioned layers, features or tiles. Includes libraries for displaying interactive maps.",
+      "examples": [
+        "leaflet",
+        "openlayers"
+      ],
+      "related": [
+        "geospatial",
+        "visualization"
+      ],
+      "aliases": [
+        "geographic-map-rendering",
+        "cartographic-rendering"
       ]
     },
     {
@@ -2913,6 +3028,43 @@
       ]
     },
     {
+      "name": "model-inference",
+      "description": "Running a trained machine learning model to produce predictions, scores, embeddings or generated outputs. Includes prediction APIs and runtimes that execute model weights.",
+      "examples": [
+        "vllm",
+        "transformers",
+        "scikit-learn"
+      ],
+      "related": [
+        "machine-learning",
+        "model-training",
+        "numerical-computing"
+      ],
+      "aliases": [
+        "machine-learning-inference",
+        "model-prediction"
+      ]
+    },
+    {
+      "name": "model-training",
+      "description": "Fitting or fine-tuning machine learning models on training data. The software exposes an estimator, training API or training command that updates model parameters.",
+      "examples": [
+        "keras",
+        "xgboost",
+        "pytorch"
+      ],
+      "related": [
+        "machine-learning",
+        "statistical-modeling",
+        "numerical-computing"
+      ],
+      "aliases": [
+        "machine-learning-training",
+        "model-fitting",
+        "fine-tuning"
+      ]
+    },
+    {
       "name": "module-resolution",
       "description": "Locating modules and resolving imports, exports, and package entry points following the lookup rules of a language or toolchain.",
       "examples": [
@@ -3002,6 +3154,22 @@
         "workspaces",
         "polyrepo",
         "build-orchestration"
+      ]
+    },
+    {
+      "name": "natural-language-processing",
+      "description": "Analyzing human language using operations such as tokenization into linguistic units, part-of-speech tagging, syntactic analysis or named entity recognition.",
+      "examples": [
+        "nltk",
+        "spacy"
+      ],
+      "related": [
+        "text-processing",
+        "machine-learning"
+      ],
+      "aliases": [
+        "linguistic-analysis",
+        "language-processing"
       ]
     },
     {
@@ -3103,6 +3271,41 @@
       ]
     },
     {
+      "name": "package-management",
+      "description": "Resolving software package dependencies, selecting compatible versions, or installing and updating packages in a project or environment. Includes libraries that expose a package resolver.",
+      "examples": [
+        "uv",
+        "poetry",
+        "conda"
+      ],
+      "related": [
+        "package-manager",
+        "module-resolution"
+      ],
+      "aliases": [
+        "dependency-resolution",
+        "package-installation"
+      ]
+    },
+    {
+      "name": "parallel-computing",
+      "description": "Distributing computation across multiple workers, processor cores or machines through a task or data-parallel execution API. Callers can submit work or operate on collections in parallel.",
+      "examples": [
+        "dask",
+        "ray",
+        "joblib"
+      ],
+      "related": [
+        "high-performance-computing",
+        "scheduling",
+        "workflow-orchestration"
+      ],
+      "aliases": [
+        "parallel-execution",
+        "distributed-computation"
+      ]
+    },
+    {
       "name": "parsing",
       "description": "Libraries and tools for parsing and processing structured data formats like JSON, XML, CSV, and YAML.",
       "examples": [
@@ -3197,6 +3400,37 @@
         "exec",
         "spawn",
         "command"
+      ]
+    },
+    {
+      "name": "programming-language-detection",
+      "description": "Identifying the programming or markup language of source files or snippets using filenames, file contents or other signals.",
+      "examples": [
+        "linguist",
+        "go-enry"
+      ],
+      "related": [
+        "syntax-highlighting",
+        "parsing"
+      ],
+      "aliases": [
+        "source-language-detection"
+      ]
+    },
+    {
+      "name": "progress-reporting",
+      "description": "Displaying or emitting updates about how much of a running task has finished. Includes progress bars and reusable indicators for completed work, throughput or estimated time remaining.",
+      "examples": [
+        "tqdm",
+        "ruby-progressbar"
+      ],
+      "related": [
+        "monitoring",
+        "tui"
+      ],
+      "aliases": [
+        "progress-indicators",
+        "progress-bars"
       ]
     },
     {
@@ -3856,6 +4090,22 @@
       ]
     },
     {
+      "name": "symbolic-computation",
+      "description": "Representing and manipulating mathematical expressions symbolically, including algebraic simplification, exact equation solving and symbolic differentiation or integration.",
+      "examples": [
+        "sympy",
+        "symengine"
+      ],
+      "related": [
+        "numerical-computing",
+        "scientific-computing"
+      ],
+      "aliases": [
+        "computer-algebra",
+        "symbolic-mathematics"
+      ]
+    },
+    {
       "name": "syntax-highlighting",
       "description": "Libraries that tokenise and colourise source code for display in editors, terminals, and documentation.",
       "examples": [
@@ -3885,6 +4135,22 @@
         "tokenizer",
         "syntax",
         "display"
+      ]
+    },
+    {
+      "name": "synthetic-data-generation",
+      "description": "Generating artificial records or datasets with specified types, distributions or relationships for testing, development or analysis. Includes generators for realistic names, addresses and other fields.",
+      "examples": [
+        "faker-ruby",
+        "faker"
+      ],
+      "related": [
+        "testing",
+        "random-number-generation"
+      ],
+      "aliases": [
+        "fake-data-generation",
+        "mock-data-generation"
       ]
     },
     {
@@ -4089,6 +4355,22 @@
         "static-analysis",
         "type-safety",
         "inference"
+      ]
+    },
+    {
+      "name": "typesetting",
+      "description": "Composing document content into laid-out pages using rules for spacing, line breaking, positioning and pagination. Includes typesetting engines and document compilers.",
+      "examples": [
+        "typst",
+        "tectonic"
+      ],
+      "related": [
+        "font-processing",
+        "report-generation"
+      ],
+      "aliases": [
+        "document-typesetting",
+        "page-composition"
       ]
     },
     {

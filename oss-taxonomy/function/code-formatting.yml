@@ -1,0 +1,15 @@
+name: code-formatting
+description: >-
+  Rewriting source text to follow layout and style rules while preserving program
+  behavior. Includes standalone formatters and formatting operations exposed by other
+  tools.
+examples:
+  - black
+  - ruff
+  - prettier
+related:
+  - static-analysis
+  - code-generation
+aliases:
+  - source-formatting
+  - code-formatter

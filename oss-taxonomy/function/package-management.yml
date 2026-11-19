@@ -1,0 +1,15 @@
+name: package-management
+description: >-
+  Resolving software package dependencies, selecting compatible versions, or
+  installing and updating packages in a project or environment. Includes libraries
+  that expose a package resolver.
+examples:
+  - uv
+  - poetry
+  - conda
+related:
+  - package-manager
+  - module-resolution
+aliases:
+  - dependency-resolution
+  - package-installation
