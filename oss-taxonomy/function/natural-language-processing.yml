@@ -1,0 +1,13 @@
+name: natural-language-processing
+description: >-
+  Analyzing human language using operations such as tokenization into linguistic
+  units, part-of-speech tagging, syntactic analysis or named entity recognition.
+examples:
+  - nltk
+  - spacy
+related:
+  - text-processing
+  - machine-learning
+aliases:
+  - linguistic-analysis
+  - language-processing

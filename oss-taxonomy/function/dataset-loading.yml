@@ -1,0 +1,14 @@
+name: dataset-loading
+description: >-
+  Providing a collection of named datasets or dataset builders that load records into
+  a consistent form for analysis or training. Operations may include fetching,
+  caching, streaming or selecting predefined splits.
+examples:
+  - datasets
+  - tensorflow-datasets
+related:
+  - data-analysis
+  - machine-learning
+aliases:
+  - dataset-ingestion
+  - dataset-loaders

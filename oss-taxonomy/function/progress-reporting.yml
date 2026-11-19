@@ -1,0 +1,14 @@
+name: progress-reporting
+description: >-
+  Displaying or emitting updates about how much of a running task has finished.
+  Includes progress bars and reusable indicators for completed work, throughput or
+  estimated time remaining.
+examples:
+  - tqdm
+  - ruby-progressbar
+related:
+  - monitoring
+  - tui
+aliases:
+  - progress-indicators
+  - progress-bars

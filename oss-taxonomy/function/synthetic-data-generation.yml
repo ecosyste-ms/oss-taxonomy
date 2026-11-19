@@ -1,0 +1,14 @@
+name: synthetic-data-generation
+description: >-
+  Generating artificial records or datasets with specified types, distributions or
+  relationships for testing, development or analysis. Includes generators for
+  realistic names, addresses and other fields.
+examples:
+  - faker-ruby
+  - faker
+related:
+  - testing
+  - random-number-generation
+aliases:
+  - fake-data-generation
+  - mock-data-generation

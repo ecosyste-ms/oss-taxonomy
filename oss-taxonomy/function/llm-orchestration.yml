@@ -1,0 +1,13 @@
+name: llm-orchestration
+description: >-
+  Building applications that coordinate language model calls with tools, retrieved
+  context, conversation state or other steps in an agent or workflow.
+examples:
+  - langchain
+  - llama-index
+related:
+  - workflow-orchestration
+  - machine-learning
+aliases:
+  - llm-application-development
+  - agent-orchestration

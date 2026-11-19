@@ -1,0 +1,16 @@
+name: parallel-computing
+description: >-
+  Distributing computation across multiple workers, processor cores or machines
+  through a task or data-parallel execution API. Callers can submit work or operate on
+  collections in parallel.
+examples:
+  - dask
+  - ray
+  - joblib
+related:
+  - high-performance-computing
+  - scheduling
+  - workflow-orchestration
+aliases:
+  - parallel-execution
+  - distributed-computation

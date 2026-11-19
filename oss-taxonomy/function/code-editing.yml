@@ -1,0 +1,13 @@
+name: code-editing
+description: >-
+  Providing an interactive editor or embeddable editing component for writing and
+  modifying source code.
+examples:
+  - intellij-idea
+  - codemirror
+related:
+  - editor
+  - language-server
+  - syntax-highlighting
+aliases:
+  - source-code-editing

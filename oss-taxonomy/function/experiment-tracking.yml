@@ -1,0 +1,15 @@
+name: experiment-tracking
+description: >-
+  Recording and comparing research or machine learning runs, including their
+  parameters, metrics and output artifacts. Users can retrieve an earlier run and
+  inspect its results.
+examples:
+  - mlflow
+  - sacred
+related:
+  - machine-learning
+  - data-provenance
+  - logging
+aliases:
+  - experiment-logging
+  - run-tracking

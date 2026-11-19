@@ -1,0 +1,12 @@
+name: programming-language-detection
+description: >-
+  Identifying the programming or markup language of source files or snippets using
+  filenames, file contents or other signals.
+examples:
+  - linguist
+  - go-enry
+related:
+  - syntax-highlighting
+  - parsing
+aliases:
+  - source-language-detection

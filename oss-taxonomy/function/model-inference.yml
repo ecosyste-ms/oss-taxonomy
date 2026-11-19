@@ -1,0 +1,16 @@
+name: model-inference
+description: >-
+  Running a trained machine learning model to produce predictions, scores, embeddings
+  or generated outputs. Includes prediction APIs and runtimes that execute model
+  weights.
+examples:
+  - vllm
+  - transformers
+  - scikit-learn
+related:
+  - machine-learning
+  - model-training
+  - numerical-computing
+aliases:
+  - machine-learning-inference
+  - model-prediction

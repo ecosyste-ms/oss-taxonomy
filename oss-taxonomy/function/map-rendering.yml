@@ -1,0 +1,13 @@
+name: map-rendering
+description: >-
+  Rendering geographic data as maps with spatially positioned layers, features or
+  tiles. Includes libraries for displaying interactive maps.
+examples:
+  - leaflet
+  - openlayers
+related:
+  - geospatial
+  - visualization
+aliases:
+  - geographic-map-rendering
+  - cartographic-rendering

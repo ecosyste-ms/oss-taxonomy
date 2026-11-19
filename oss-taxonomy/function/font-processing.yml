@@ -1,0 +1,15 @@
+name: font-processing
+description: >-
+  Reading, creating or transforming font files, shaping text into positioned glyphs,
+  or rasterizing glyphs from font data. The project exposes these operations to
+  callers.
+examples:
+  - fonttools
+  - harfbuzz
+  - freetype
+related:
+  - text-processing
+  - image-processing
+aliases:
+  - font-shaping
+  - glyph-processing

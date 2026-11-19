@@ -1,0 +1,14 @@
+name: typesetting
+description: >-
+  Composing document content into laid-out pages using rules for spacing, line
+  breaking, positioning and pagination. Includes typesetting engines and document
+  compilers.
+examples:
+  - typst
+  - tectonic
+related:
+  - font-processing
+  - report-generation
+aliases:
+  - document-typesetting
+  - page-composition
