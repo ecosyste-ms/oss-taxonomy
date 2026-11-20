@@ -130,6 +130,7 @@ function:search
 function:secrets-management
 function:security-scanning
 function:serialization
+function:service-api-client
 function:simulation
 function:site-generation
 function:source-maps

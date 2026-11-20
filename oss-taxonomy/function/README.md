@@ -53,6 +53,7 @@ This facet describes **what the software does** — its primary capabilities or 
 - `scheduling`: Task scheduling, cron jobs, and time-based automation for running tasks at specified intervals
 - `scraping`: Extracting data from websites or online sources
 - `search`: Search engines, full-text search, and indexing solutions
+- `service-api-client`: Libraries, CLIs and automation actions that call a named remote service's API for the user. A project can also have `http-client` if it exposes low-level HTTP requests.
 - `simulation`: Software for modeling systems, processes, and phenomena over time for analysis and prediction
 - `source-maps`: Generating, consuming, or tracing mappings between transformed source code and its original locations.
 - `statistical-modeling`: Estimating statistical models, performing statistical inference, and evaluating model assumptions and diagnostics.

@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated_at": "2026-11-19T18:48:02Z",
+  "generated_at": "2026-11-20T11:49:57Z",
   "audience": [
     {
       "name": "content-creator",
@@ -3902,6 +3902,31 @@
         "binary",
         "json",
         "protocol-buffers"
+      ]
+    },
+    {
+      "name": "service-api-client",
+      "description": "Providing callers with operations for a named remote service or product API, such as querying its resources or submitting records. This includes libraries, CLIs and automation actions that expose these operations to users and excludes packages that only install other clients.",
+      "examples": [
+        "twilio-python",
+        "go-github",
+        "codecov/uploader"
+      ],
+      "related": [
+        "http-client",
+        "sdk"
+      ],
+      "aliases": [
+        "service-specific-api-client"
+      ],
+      "ecosystems": [
+        "pypi",
+        "go",
+        "npm"
+      ],
+      "tags": [
+        "api",
+        "client"
       ]
     },
     {
